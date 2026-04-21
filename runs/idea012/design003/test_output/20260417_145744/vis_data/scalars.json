@@ -1,0 +1,4 @@
+{"base_lr": 4.680537190082641e-05, "lr": 4.680537190082647e-06, "data_time": 0.023870878219604492, "loss": 2.6509719371795653, "loss/joints/train": 0.19420210838317872, "loss/depth/train": 1.5575878953933715, "loss/uv/train": 0.11146140582859516, "loss/dist_matrix/train": 0.7877205324172973, "time": 1.8525464582443236, "grad_norm": 8.466361999511719, "epoch": 1, "iter": 50, "memory": 10611, "step": 50}
+{"mpjpe/rel/train": 459.5825274432147, "step": 0}
+{"mpjpe/abs/train": 1511.4331017011477, "step": 0}
+{"mpjpe/rel/val": 523.2135057449341, "mpjpe/body/val": 445.7612931728363, "mpjpe/hand/val": 493.3258593082428, "mpjpe/abs/val": 819.512128829956, "mpjpe/pelvis/val": 609.8393095019845, "composite/val": 499.90703856145524, "data_time": 0.008127262717799136, "time": 0.48756101256922674, "step": 1}

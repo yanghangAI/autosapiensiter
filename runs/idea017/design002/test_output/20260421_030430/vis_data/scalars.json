@@ -1,0 +1,3 @@
+{"base_lr": 4.8501395348837207e-05, "lr": 4.8501395348837205e-06, "data_time": 0.013481683731079101, "loss": 2.84013240814209, "loss/joints/train": 0.223975228369236, "loss/depth/train": 2.2909384250640867, "loss/uv/train": 0.16989173606038094, "loss/joints_aux_0/train": 0.08528910279273987, "loss/hand_aux/train": 0.07003789149224758, "time": 0.4054538726806641, "grad_norm": 16.03679656982422, "epoch": 1, "iter": 50, "memory": 8647, "step": 50}
+{"mpjpe/rel/train": 508.08640162150067, "step": 0}
+{"mpjpe/abs/train": 2377.564478556315, "step": 0}

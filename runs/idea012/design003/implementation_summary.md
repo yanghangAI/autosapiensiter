@@ -1,0 +1,8 @@
+**Files changed:**
+- `code/pose3d_transformer_head.py`
+- `code/config.py`
+
+**Changes:**
+
+- `code/pose3d_transformer_head.py`: Added three new keyword-only kwargs to `Pose3dTransformerHead.__init__` (`dist_loss_weight: float = 0.0`, `dist_loss_mode: str = 'abs'`, `dist_loss_eps: float = 1e-3`), stored them as attributes, and asserted that `dist_loss_mode in ('abs', 'bone_weighted', 'log')`. Set `self.bone_weights = None` as a sentinel (Design 003 uses mode `'log'`, not `'bone_weighted'`, so no buffer is created; the `elif 'bone_weighted'` branch in `loss()` is unreachable and never dereferences `None.to(...)`). In `loss()`, after the existing three loss-dict assignments and before the `with torch.no_grad():` MPJPE block, added the same `if self.dist_loss_weight > 0.0:` guarded three-branch block as Designs 001/002; the `'log'` branch does `L_dist = (torch.log(d_pred + eps) - torch.log(d_gt + eps)).abs().mean()` with `eps = self.dist_loss_eps = 1e-3`, and stores `losses['loss/dist_matrix/train'] = self.dist_loss_weight * L_dist`. Distances are computed via `torch.cdist(..., p=2)` on the 22 body joints and gathered with `torch.triu_indices(22, 22, offset=1, device=pred_body.device)` (231 pairs). `forward()`, `predict()`, `_init_head_weights`, and the rest of the file are unchanged. No new learnable parameters or buffers.
+- `code/config.py`: Added three literal kwargs at the end of the `head=dict(...)` block — `dist_loss_weight=0.5`, `dist_loss_mode='log'`, `dist_loss_eps=1e-3` — enabling the scale-invariant log-distance variant of the auxiliary pairwise loss. All other config values are byte-identical to the baseline.

@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Model checkpoints
+*.pth
+*.ckpt
+
+# Large outputs
+*.out
+slurm_*.out
+
+# Conda
+*.conda
+
+# Secrets
+.env
