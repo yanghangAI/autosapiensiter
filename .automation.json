@@ -1,0 +1,46 @@
+{
+  "results": {
+    "metric_fields": [
+      "composite_val",
+      "mpjpe_body_val",
+      "mpjpe_pelvis_val",
+      "mpjpe_rel_val",
+      "mpjpe_hand_val",
+      "mpjpe_abs_val"
+    ],
+    "primary_metric": "composite_val",
+    "metrics_glob": "**/metrics.csv",
+    "exclude_path_parts": [
+      "test_output",
+      "output_prev_",
+      "output_timeout_"
+    ]
+  },
+  "status": {
+    "progress_field": "epoch",
+    "done_value": 20,
+    "approved_token": "APPROVED"
+  },
+  "setup_design": {
+    "source_globs": [
+      "*.py"
+    ],
+    "destination_subdir": "code",
+    "output_patch": {
+      "enabled": true,
+      "target_file": "config.py",
+      "regex": "(output_dir\\s*=\\s*)[\"\\'].*?[\"\\']",
+      "replacement_template": "\\g<1>\"{dst}\""
+    }
+  },
+  "submit": {
+    "max_jobs_default": 30,
+    "job_count_command": "squeue -u \"$USER\" -h | wc -l",
+    "submit_train_command_template": "{root}/scripts/slurm/submit_train.sh {train_script} {job_name}",
+    "submit_test_command_template": "sbatch -o {test_output}/slurm_test_%j.out --export=ALL,ROOT_DIR={root},TARGET_DIR={target_dir} {root}/scripts/slurm/slurm_test.sh {target_dir}"
+  },
+  "dashboard": {
+    "github_repo_url": "https://github.com/yanghangAI/autosapiensiter",
+    "baseline_results": [["baseline", "baseline"]]
+  }
+}
