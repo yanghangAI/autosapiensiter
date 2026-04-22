@@ -1,0 +1,3 @@
+epoch,composite_val,mpjpe_body_val,mpjpe_pelvis_val,mpjpe_rel_val,mpjpe_hand_val,mpjpe_abs_val
+5,274.5923,186.6095,453.2239,438.0493,479.2826,678.7829
+10,244.7447,178.7431,378.7479,434.6683,477.8217,626.7671

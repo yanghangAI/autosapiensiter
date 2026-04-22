@@ -1,4 +1,4 @@
 Design_ID,Design_Description,Status,created_at,updated_at
-design001,Add per-token depth gate to cross-attention logits via two zero-init linear probes (global depth + per-token depth); fixed sigma=1.0; gate is additive in log-space.,Done,2026-04-21T14:58:52,2026-04-21T14:58:52
-design002,Depth-gated cross-attention with learnable log-sigma (init=0 → sigma=1) and auxiliary smooth-L1 loss (weight 0.1) on the global depth probe output.,Done,2026-04-21T14:58:52,2026-04-21T14:58:52
-design003,22 body-only joint queries + linear hand recovery (aux weight 0.1) + fixed-sigma Gaussian depth gate (sigma=1.0) on cross-attention logits; both mechanisms combined.,Done,2026-04-21T14:58:52,2026-04-21T14:58:52
+design001,Add per-token depth gate to cross-attention logits via two zero-init linear probes (global depth + per-token depth); fixed sigma=1.0; gate is additive in log-space.,Done,2026-04-22T13:21:27,2026-04-22T13:21:27
+design002,Depth-gated cross-attention with learnable log-sigma (init=0 → sigma=1) and auxiliary smooth-L1 loss (weight 0.1) on the global depth probe output.,Done,2026-04-22T13:21:27,2026-04-22T13:21:27
+design003,22 body-only joint queries + linear hand recovery (aux weight 0.1) + fixed-sigma Gaussian depth gate (sigma=1.0) on cross-attention logits; both mechanisms combined.,Done,2026-04-22T13:21:27,2026-04-22T13:21:27
