@@ -1,33 +1,35 @@
 Idea_ID,Idea_Name,Status,created_at,updated_at
-idea001,Multi-Layer Decoder with Intermediate Supervision,Done,2026-04-22T16:43:46,2026-04-22T16:43:46
-idea002,Dedicated Pelvis Query with Decoupled Head,Done,2026-04-22T16:43:46,2026-04-22T16:43:46
-idea003,Content-Adaptive Query Initialization,Done,2026-04-22T16:43:46,2026-04-22T16:43:46
-idea004,Depth-Aware Spatial Positional Encoding,Training,2026-04-22T16:43:46,2026-04-22T16:43:46
-idea005,Uncertainty-Weighted Multi-Task Loss Balancing,Done,2026-04-22T16:43:46,2026-04-22T16:43:46
-idea006,Skeleton-Guided Self-Attention via Learnable Query Bias,Done,2026-04-22T16:43:46,2026-04-22T16:43:46
-idea007,Joint-Group Spatial Routing via Learned Cross-Attention Gating,Done,2026-04-22T16:43:46,2026-04-22T16:43:46
-idea008,Body-Focused Decoder with Lightweight Hand Upsampling,Done,2026-04-22T16:43:46,2026-04-22T16:43:46
-idea009,Spatial Token Dropout for Cross-Attention Regularization,Done,2026-04-22T16:43:46,2026-04-22T16:43:46
-idea010,Auxiliary 2D Reprojection Consistency Loss,Done,2026-04-22T16:43:46,2026-04-22T16:43:46
-idea011,Iterative Pose Refinement via Coordinate-Conditioned Decoder,Done,2026-04-22T16:43:46,2026-04-22T16:43:46
-idea012,Pairwise Joint Distance-Matrix Structural Prior Loss,Done,2026-04-22T16:43:46,2026-04-22T16:43:46
-idea013,Kinematic Chain Bone-Vector Output Parameterization,Done,2026-04-22T16:43:46,2026-04-22T16:43:46
-idea014,Anchor-Based Pelvis Depth via Discretized Classification Head,Done,2026-04-22T16:43:46,2026-04-22T16:43:46
-idea015,Spatial Super-Token Aggregation via Learned Pooling,Done,2026-04-22T16:43:46,2026-04-22T16:43:46
-idea016,Depth-Conditional Feature Modulation for Scale-Aware Joint Regression,Done,2026-04-22T16:43:46,2026-04-22T16:43:46
-idea017,Body-Focused Multi-Layer Decoder with Linear Hand Recovery,Done,2026-04-22T16:43:46,2026-04-22T16:43:46
-idea018,Depth-Gated Cross-Attention for Depth-Plane-Consistent Joint Regression,Done,2026-04-22T16:43:46,2026-04-22T16:43:46
-idea019,Per-Query Deformable Spatial Sampling for Joint-Specific Cross-Attention,Done,2026-04-22T16:43:46,2026-04-22T16:43:46
-idea020,Focal Cross-Attention via Learnable Per-Query Temperature Scaling,Done,2026-04-22T16:43:46,2026-04-22T16:43:46
-idea021,Learnable Cross-Attention Spatial Bias for Anatomically-Grounded Joint Localization,Done,2026-04-22T16:43:46,2026-04-22T16:43:46
-idea022,Geometry-Guided Cascaded Decoder with Reprojection-Conditioned Inter-Layer Attention,Done,2026-04-22T16:43:46,2026-04-22T16:43:46
-idea023,Heatmap-Guided Spatial Token Pooling for Query Initialization,Done,2026-04-22T16:43:46,2026-04-22T16:43:46
-idea024,Per-Joint Online Difficulty Weighting for Body Joint Loss,Done,2026-04-22T16:43:46,2026-04-22T16:43:46
-idea025,Bilateral Symmetry Consistency Loss for Body Joint Pairs,Done,2026-04-22T16:43:46,2026-04-22T16:43:46
-idea026,Per-Joint Laplace NLL Uncertainty Regression for Body Joint Loss,Done,2026-04-22T16:43:46,2026-04-22T16:43:46
-idea027,Spatial Token Context Enrichment via Depthwise Separable Convolution,Done,2026-04-22T16:43:46,2026-04-22T16:43:46
-idea028,Decoupled Pelvis Coordinate Queries with Axis-Specific Cross-Attention,Done,2026-04-22T16:43:46,2026-04-22T16:43:46
-idea029,End-to-End Absolute Body Joint Supervision via 3D Absolute Consistency Loss,Done,2026-04-22T16:43:46,2026-04-22T16:43:46
-idea030,Lightweight Spatial Encoder via Single-Layer Self-Attention over Spatial Tokens,Done,2026-04-22T16:43:46,2026-04-22T16:43:46
-idea031,2D Spatial Heatmap Classification Head for Pelvis UV Localization,Implemented,2026-04-22T16:43:46,2026-04-22T16:43:46
-idea032,Auxiliary Dense Depth-Map Reconstruction from Spatial Tokens,Not Designed,2026-04-22T16:43:46,2026-04-22T16:43:46
+idea001,Multi-Layer Decoder with Intermediate Supervision,Done,2026-04-22T18:45:00,2026-04-22T18:45:00
+idea002,Dedicated Pelvis Query with Decoupled Head,Done,2026-04-22T18:45:00,2026-04-22T18:45:00
+idea003,Content-Adaptive Query Initialization,Done,2026-04-22T18:45:00,2026-04-22T18:45:00
+idea004,Depth-Aware Spatial Positional Encoding,Training,2026-04-22T18:45:00,2026-04-22T18:45:00
+idea005,Uncertainty-Weighted Multi-Task Loss Balancing,Done,2026-04-22T18:45:00,2026-04-22T18:45:00
+idea006,Skeleton-Guided Self-Attention via Learnable Query Bias,Done,2026-04-22T18:45:00,2026-04-22T18:45:00
+idea007,Joint-Group Spatial Routing via Learned Cross-Attention Gating,Done,2026-04-22T18:45:00,2026-04-22T18:45:00
+idea008,Body-Focused Decoder with Lightweight Hand Upsampling,Done,2026-04-22T18:45:00,2026-04-22T18:45:00
+idea009,Spatial Token Dropout for Cross-Attention Regularization,Done,2026-04-22T18:45:00,2026-04-22T18:45:00
+idea010,Auxiliary 2D Reprojection Consistency Loss,Done,2026-04-22T18:45:00,2026-04-22T18:45:00
+idea011,Iterative Pose Refinement via Coordinate-Conditioned Decoder,Done,2026-04-22T18:45:00,2026-04-22T18:45:00
+idea012,Pairwise Joint Distance-Matrix Structural Prior Loss,Done,2026-04-22T18:45:00,2026-04-22T18:45:00
+idea013,Kinematic Chain Bone-Vector Output Parameterization,Done,2026-04-22T18:45:00,2026-04-22T18:45:00
+idea014,Anchor-Based Pelvis Depth via Discretized Classification Head,Done,2026-04-22T18:45:00,2026-04-22T18:45:00
+idea015,Spatial Super-Token Aggregation via Learned Pooling,Done,2026-04-22T18:45:00,2026-04-22T18:45:00
+idea016,Depth-Conditional Feature Modulation for Scale-Aware Joint Regression,Done,2026-04-22T18:45:00,2026-04-22T18:45:00
+idea017,Body-Focused Multi-Layer Decoder with Linear Hand Recovery,Done,2026-04-22T18:45:00,2026-04-22T18:45:00
+idea018,Depth-Gated Cross-Attention for Depth-Plane-Consistent Joint Regression,Done,2026-04-22T18:45:00,2026-04-22T18:45:00
+idea019,Per-Query Deformable Spatial Sampling for Joint-Specific Cross-Attention,Done,2026-04-22T18:45:00,2026-04-22T18:45:00
+idea020,Focal Cross-Attention via Learnable Per-Query Temperature Scaling,Done,2026-04-22T18:45:00,2026-04-22T18:45:00
+idea021,Learnable Cross-Attention Spatial Bias for Anatomically-Grounded Joint Localization,Done,2026-04-22T18:45:00,2026-04-22T18:45:00
+idea022,Geometry-Guided Cascaded Decoder with Reprojection-Conditioned Inter-Layer Attention,Done,2026-04-22T18:45:00,2026-04-22T18:45:00
+idea023,Heatmap-Guided Spatial Token Pooling for Query Initialization,Done,2026-04-22T18:45:00,2026-04-22T18:45:00
+idea024,Per-Joint Online Difficulty Weighting for Body Joint Loss,Done,2026-04-22T18:45:00,2026-04-22T18:45:00
+idea025,Bilateral Symmetry Consistency Loss for Body Joint Pairs,Done,2026-04-22T18:45:00,2026-04-22T18:45:00
+idea026,Per-Joint Laplace NLL Uncertainty Regression for Body Joint Loss,Done,2026-04-22T18:45:00,2026-04-22T18:45:00
+idea027,Spatial Token Context Enrichment via Depthwise Separable Convolution,Done,2026-04-22T18:45:00,2026-04-22T18:45:00
+idea028,Decoupled Pelvis Coordinate Queries with Axis-Specific Cross-Attention,Done,2026-04-22T18:45:00,2026-04-22T18:45:00
+idea029,End-to-End Absolute Body Joint Supervision via 3D Absolute Consistency Loss,Done,2026-04-22T18:45:00,2026-04-22T18:45:00
+idea030,Lightweight Spatial Encoder via Single-Layer Self-Attention over Spatial Tokens,Done,2026-04-22T18:45:00,2026-04-22T18:45:00
+idea031,2D Spatial Heatmap Classification Head for Pelvis UV Localization,Training,2026-04-22T18:45:00,2026-04-22T18:45:00
+idea032,Auxiliary Dense Depth-Map Reconstruction from Spatial Tokens,Training,2026-04-22T18:45:00,2026-04-22T18:45:00
+idea033,Camera-Intrinsic Conditioning of Decoder via FiLM on Normalized K,Implemented,2026-04-22T18:45:00,2026-04-22T18:45:00
+idea034,Metric 3D Positional Encoding via Depth Unprojection for Spatial Tokens,Implemented,2026-04-22T18:45:00,2026-04-22T18:45:00

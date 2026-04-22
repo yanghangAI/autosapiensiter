@@ -1,0 +1,1 @@
+- 2026-04-22T17:30:19Z — APPROVED (code review). Implementation matches design.md §1a–§1g; query-FiLM block is the executing branch via `k_film_variant='query'`. Zero-init verified; test run completed 1 epoch without errors.

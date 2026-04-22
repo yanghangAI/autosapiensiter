@@ -1,0 +1,1 @@
+- 2026-04-22T17:30:19Z — APPROVED (code review). Pelvis-only FiLM applied after `joints_out` on unmodulated `decoded`; body joints untouched as specified. Test run clean.

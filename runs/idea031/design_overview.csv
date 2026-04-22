@@ -1,4 +1,4 @@
 Design_ID,Design_Description,Status,created_at,updated_at
-design001,2D spatial heatmap classification head for pelvis UV; soft Gaussian target (sigma=2 cells); KL heatmap loss weight 0.5; no learnable temperature.,Submitted,2026-04-22T16:43:46,2026-04-22T16:43:46
-design002,2D spatial heatmap classification head for pelvis UV; tight Gaussian target (sigma=1 cell); KL heatmap loss weight 1.0; no learnable temperature.,Submitted,2026-04-22T16:43:46,2026-04-22T16:43:46
-design003,2D spatial heatmap classification head for pelvis UV; soft Gaussian target (sigma=2 cells); KL heatmap loss weight 0.5; learnable scalar softmax temperature via softplus.,Submitted,2026-04-22T16:43:46,2026-04-22T16:43:46
+design001,2D spatial heatmap classification head for pelvis UV; soft Gaussian target (sigma=2 cells); KL heatmap loss weight 0.5; no learnable temperature.,Training,2026-04-22T18:45:00,2026-04-22T18:45:00
+design002,2D spatial heatmap classification head for pelvis UV; tight Gaussian target (sigma=1 cell); KL heatmap loss weight 1.0; no learnable temperature.,Training,2026-04-22T18:45:00,2026-04-22T18:45:00
+design003,2D spatial heatmap classification head for pelvis UV; soft Gaussian target (sigma=2 cells); KL heatmap loss weight 0.5; learnable scalar softmax temperature via softplus.,Training,2026-04-22T18:45:00,2026-04-22T18:45:00

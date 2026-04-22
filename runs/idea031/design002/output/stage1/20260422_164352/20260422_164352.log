@@ -2083,3 +2083,1334 @@ after_run:
 2026/04/22 16:43:59 - mmengine - INFO - paramwise_options -- backbone.vit.ln1.bias:weight_decay=0.03
 2026/04/22 16:43:59 - mmengine - INFO - paramwise_options -- backbone.vit.ln1.bias:lr_mult=0.1
 2026/04/22 16:44:01 - mmengine - INFO - [Bedlam2Dataset] dropped 886 frames with pelvis X outside [0.5, 12.0] m; kept 14378 samples.
+2026/04/22 16:44:02 - mmengine - INFO - [96mInitializing model weights![0m
+Name of parameter - Initialization information
+
+backbone.vit.pos_embed - torch.Size([1, 960, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.patch_embed.projection.weight - torch.Size([1024, 4, 16, 16]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.patch_embed.projection.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.0.ln1.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.0.ln1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.0.attn.qkv.weight - torch.Size([3072, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.0.attn.qkv.bias - torch.Size([3072]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.0.attn.proj.weight - torch.Size([1024, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.0.attn.proj.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.0.ln2.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.0.ln2.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.0.ffn.layers.0.0.weight - torch.Size([4096, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.0.ffn.layers.0.0.bias - torch.Size([4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.0.ffn.layers.1.weight - torch.Size([1024, 4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.0.ffn.layers.1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.1.ln1.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.1.ln1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.1.attn.qkv.weight - torch.Size([3072, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.1.attn.qkv.bias - torch.Size([3072]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.1.attn.proj.weight - torch.Size([1024, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.1.attn.proj.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.1.ln2.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.1.ln2.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.1.ffn.layers.0.0.weight - torch.Size([4096, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.1.ffn.layers.0.0.bias - torch.Size([4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.1.ffn.layers.1.weight - torch.Size([1024, 4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.1.ffn.layers.1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.2.ln1.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.2.ln1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.2.attn.qkv.weight - torch.Size([3072, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.2.attn.qkv.bias - torch.Size([3072]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.2.attn.proj.weight - torch.Size([1024, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.2.attn.proj.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.2.ln2.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.2.ln2.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.2.ffn.layers.0.0.weight - torch.Size([4096, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.2.ffn.layers.0.0.bias - torch.Size([4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.2.ffn.layers.1.weight - torch.Size([1024, 4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.2.ffn.layers.1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.3.ln1.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.3.ln1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.3.attn.qkv.weight - torch.Size([3072, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.3.attn.qkv.bias - torch.Size([3072]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.3.attn.proj.weight - torch.Size([1024, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.3.attn.proj.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.3.ln2.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.3.ln2.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.3.ffn.layers.0.0.weight - torch.Size([4096, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.3.ffn.layers.0.0.bias - torch.Size([4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.3.ffn.layers.1.weight - torch.Size([1024, 4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.3.ffn.layers.1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.4.ln1.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.4.ln1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.4.attn.qkv.weight - torch.Size([3072, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.4.attn.qkv.bias - torch.Size([3072]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.4.attn.proj.weight - torch.Size([1024, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.4.attn.proj.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.4.ln2.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.4.ln2.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.4.ffn.layers.0.0.weight - torch.Size([4096, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.4.ffn.layers.0.0.bias - torch.Size([4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.4.ffn.layers.1.weight - torch.Size([1024, 4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.4.ffn.layers.1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.5.ln1.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.5.ln1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.5.attn.qkv.weight - torch.Size([3072, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.5.attn.qkv.bias - torch.Size([3072]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.5.attn.proj.weight - torch.Size([1024, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.5.attn.proj.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.5.ln2.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.5.ln2.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.5.ffn.layers.0.0.weight - torch.Size([4096, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.5.ffn.layers.0.0.bias - torch.Size([4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.5.ffn.layers.1.weight - torch.Size([1024, 4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.5.ffn.layers.1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.6.ln1.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.6.ln1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.6.attn.qkv.weight - torch.Size([3072, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.6.attn.qkv.bias - torch.Size([3072]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.6.attn.proj.weight - torch.Size([1024, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.6.attn.proj.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.6.ln2.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.6.ln2.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.6.ffn.layers.0.0.weight - torch.Size([4096, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.6.ffn.layers.0.0.bias - torch.Size([4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.6.ffn.layers.1.weight - torch.Size([1024, 4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.6.ffn.layers.1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.7.ln1.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.7.ln1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.7.attn.qkv.weight - torch.Size([3072, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.7.attn.qkv.bias - torch.Size([3072]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.7.attn.proj.weight - torch.Size([1024, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.7.attn.proj.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.7.ln2.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.7.ln2.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.7.ffn.layers.0.0.weight - torch.Size([4096, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.7.ffn.layers.0.0.bias - torch.Size([4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.7.ffn.layers.1.weight - torch.Size([1024, 4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.7.ffn.layers.1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.8.ln1.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.8.ln1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.8.attn.qkv.weight - torch.Size([3072, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.8.attn.qkv.bias - torch.Size([3072]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.8.attn.proj.weight - torch.Size([1024, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.8.attn.proj.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.8.ln2.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.8.ln2.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.8.ffn.layers.0.0.weight - torch.Size([4096, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.8.ffn.layers.0.0.bias - torch.Size([4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.8.ffn.layers.1.weight - torch.Size([1024, 4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.8.ffn.layers.1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.9.ln1.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.9.ln1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.9.attn.qkv.weight - torch.Size([3072, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.9.attn.qkv.bias - torch.Size([3072]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.9.attn.proj.weight - torch.Size([1024, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.9.attn.proj.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.9.ln2.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.9.ln2.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.9.ffn.layers.0.0.weight - torch.Size([4096, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.9.ffn.layers.0.0.bias - torch.Size([4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.9.ffn.layers.1.weight - torch.Size([1024, 4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.9.ffn.layers.1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.10.ln1.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.10.ln1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.10.attn.qkv.weight - torch.Size([3072, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.10.attn.qkv.bias - torch.Size([3072]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.10.attn.proj.weight - torch.Size([1024, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.10.attn.proj.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.10.ln2.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.10.ln2.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.10.ffn.layers.0.0.weight - torch.Size([4096, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.10.ffn.layers.0.0.bias - torch.Size([4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.10.ffn.layers.1.weight - torch.Size([1024, 4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.10.ffn.layers.1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.11.ln1.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.11.ln1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.11.attn.qkv.weight - torch.Size([3072, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.11.attn.qkv.bias - torch.Size([3072]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.11.attn.proj.weight - torch.Size([1024, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.11.attn.proj.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.11.ln2.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.11.ln2.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.11.ffn.layers.0.0.weight - torch.Size([4096, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.11.ffn.layers.0.0.bias - torch.Size([4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.11.ffn.layers.1.weight - torch.Size([1024, 4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.11.ffn.layers.1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.12.ln1.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.12.ln1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.12.attn.qkv.weight - torch.Size([3072, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.12.attn.qkv.bias - torch.Size([3072]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.12.attn.proj.weight - torch.Size([1024, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.12.attn.proj.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.12.ln2.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.12.ln2.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.12.ffn.layers.0.0.weight - torch.Size([4096, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.12.ffn.layers.0.0.bias - torch.Size([4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.12.ffn.layers.1.weight - torch.Size([1024, 4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.12.ffn.layers.1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.13.ln1.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.13.ln1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.13.attn.qkv.weight - torch.Size([3072, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.13.attn.qkv.bias - torch.Size([3072]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.13.attn.proj.weight - torch.Size([1024, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.13.attn.proj.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.13.ln2.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.13.ln2.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.13.ffn.layers.0.0.weight - torch.Size([4096, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.13.ffn.layers.0.0.bias - torch.Size([4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.13.ffn.layers.1.weight - torch.Size([1024, 4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.13.ffn.layers.1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.14.ln1.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.14.ln1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.14.attn.qkv.weight - torch.Size([3072, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.14.attn.qkv.bias - torch.Size([3072]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.14.attn.proj.weight - torch.Size([1024, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.14.attn.proj.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.14.ln2.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.14.ln2.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.14.ffn.layers.0.0.weight - torch.Size([4096, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.14.ffn.layers.0.0.bias - torch.Size([4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.14.ffn.layers.1.weight - torch.Size([1024, 4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.14.ffn.layers.1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.15.ln1.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.15.ln1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.15.attn.qkv.weight - torch.Size([3072, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.15.attn.qkv.bias - torch.Size([3072]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.15.attn.proj.weight - torch.Size([1024, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.15.attn.proj.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.15.ln2.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.15.ln2.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.15.ffn.layers.0.0.weight - torch.Size([4096, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.15.ffn.layers.0.0.bias - torch.Size([4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.15.ffn.layers.1.weight - torch.Size([1024, 4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.15.ffn.layers.1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.16.ln1.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.16.ln1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.16.attn.qkv.weight - torch.Size([3072, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.16.attn.qkv.bias - torch.Size([3072]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.16.attn.proj.weight - torch.Size([1024, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.16.attn.proj.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.16.ln2.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.16.ln2.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.16.ffn.layers.0.0.weight - torch.Size([4096, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.16.ffn.layers.0.0.bias - torch.Size([4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.16.ffn.layers.1.weight - torch.Size([1024, 4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.16.ffn.layers.1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.17.ln1.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.17.ln1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.17.attn.qkv.weight - torch.Size([3072, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.17.attn.qkv.bias - torch.Size([3072]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.17.attn.proj.weight - torch.Size([1024, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.17.attn.proj.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.17.ln2.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.17.ln2.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.17.ffn.layers.0.0.weight - torch.Size([4096, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.17.ffn.layers.0.0.bias - torch.Size([4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.17.ffn.layers.1.weight - torch.Size([1024, 4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.17.ffn.layers.1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.18.ln1.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.18.ln1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.18.attn.qkv.weight - torch.Size([3072, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.18.attn.qkv.bias - torch.Size([3072]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.18.attn.proj.weight - torch.Size([1024, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.18.attn.proj.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.18.ln2.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.18.ln2.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.18.ffn.layers.0.0.weight - torch.Size([4096, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.18.ffn.layers.0.0.bias - torch.Size([4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.18.ffn.layers.1.weight - torch.Size([1024, 4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.18.ffn.layers.1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.19.ln1.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.19.ln1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.19.attn.qkv.weight - torch.Size([3072, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.19.attn.qkv.bias - torch.Size([3072]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.19.attn.proj.weight - torch.Size([1024, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.19.attn.proj.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.19.ln2.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.19.ln2.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.19.ffn.layers.0.0.weight - torch.Size([4096, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.19.ffn.layers.0.0.bias - torch.Size([4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.19.ffn.layers.1.weight - torch.Size([1024, 4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.19.ffn.layers.1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.20.ln1.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.20.ln1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.20.attn.qkv.weight - torch.Size([3072, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.20.attn.qkv.bias - torch.Size([3072]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.20.attn.proj.weight - torch.Size([1024, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.20.attn.proj.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.20.ln2.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.20.ln2.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.20.ffn.layers.0.0.weight - torch.Size([4096, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.20.ffn.layers.0.0.bias - torch.Size([4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.20.ffn.layers.1.weight - torch.Size([1024, 4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.20.ffn.layers.1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.21.ln1.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.21.ln1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.21.attn.qkv.weight - torch.Size([3072, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.21.attn.qkv.bias - torch.Size([3072]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.21.attn.proj.weight - torch.Size([1024, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.21.attn.proj.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.21.ln2.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.21.ln2.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.21.ffn.layers.0.0.weight - torch.Size([4096, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.21.ffn.layers.0.0.bias - torch.Size([4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.21.ffn.layers.1.weight - torch.Size([1024, 4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.21.ffn.layers.1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.22.ln1.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.22.ln1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.22.attn.qkv.weight - torch.Size([3072, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.22.attn.qkv.bias - torch.Size([3072]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.22.attn.proj.weight - torch.Size([1024, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.22.attn.proj.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.22.ln2.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.22.ln2.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.22.ffn.layers.0.0.weight - torch.Size([4096, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.22.ffn.layers.0.0.bias - torch.Size([4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.22.ffn.layers.1.weight - torch.Size([1024, 4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.22.ffn.layers.1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.23.ln1.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.23.ln1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.23.attn.qkv.weight - torch.Size([3072, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.23.attn.qkv.bias - torch.Size([3072]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.23.attn.proj.weight - torch.Size([1024, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.23.attn.proj.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.23.ln2.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.23.ln2.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.23.ffn.layers.0.0.weight - torch.Size([4096, 1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.23.ffn.layers.0.0.bias - torch.Size([4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.23.ffn.layers.1.weight - torch.Size([1024, 4096]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.layers.23.ffn.layers.1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.ln1.weight - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+backbone.vit.ln1.bias - torch.Size([1024]): 
+Initialized by user-defined `init_weights` in SapiensBackboneRGBD  
+
+head.input_proj.weight - torch.Size([256, 1024]): 
+The value is the same before and after calling `init_weights` of RGBDPose3dEstimator  
+
+head.input_proj.bias - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of RGBDPose3dEstimator  
+
+head.joint_queries.weight - torch.Size([70, 256]): 
+The value is the same before and after calling `init_weights` of RGBDPose3dEstimator  
+
+head.decoder_layer.self_attn.in_proj_weight - torch.Size([768, 256]): 
+The value is the same before and after calling `init_weights` of RGBDPose3dEstimator  
+
+head.decoder_layer.self_attn.in_proj_bias - torch.Size([768]): 
+The value is the same before and after calling `init_weights` of RGBDPose3dEstimator  
+
+head.decoder_layer.self_attn.out_proj.weight - torch.Size([256, 256]): 
+The value is the same before and after calling `init_weights` of RGBDPose3dEstimator  
+
+head.decoder_layer.self_attn.out_proj.bias - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of RGBDPose3dEstimator  
+
+head.decoder_layer.cross_attn.in_proj_weight - torch.Size([768, 256]): 
+The value is the same before and after calling `init_weights` of RGBDPose3dEstimator  
+
+head.decoder_layer.cross_attn.in_proj_bias - torch.Size([768]): 
+The value is the same before and after calling `init_weights` of RGBDPose3dEstimator  
+
+head.decoder_layer.cross_attn.out_proj.weight - torch.Size([256, 256]): 
+The value is the same before and after calling `init_weights` of RGBDPose3dEstimator  
+
+head.decoder_layer.cross_attn.out_proj.bias - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of RGBDPose3dEstimator  
+
+head.decoder_layer.ffn.0.weight - torch.Size([1024, 256]): 
+The value is the same before and after calling `init_weights` of RGBDPose3dEstimator  
+
+head.decoder_layer.ffn.0.bias - torch.Size([1024]): 
+The value is the same before and after calling `init_weights` of RGBDPose3dEstimator  
+
+head.decoder_layer.ffn.3.weight - torch.Size([256, 1024]): 
+The value is the same before and after calling `init_weights` of RGBDPose3dEstimator  
+
+head.decoder_layer.ffn.3.bias - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of RGBDPose3dEstimator  
+
+head.decoder_layer.norm1.weight - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of RGBDPose3dEstimator  
+
+head.decoder_layer.norm1.bias - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of RGBDPose3dEstimator  
+
+head.decoder_layer.norm2.weight - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of RGBDPose3dEstimator  
+
+head.decoder_layer.norm2.bias - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of RGBDPose3dEstimator  
+
+head.decoder_layer.norm3.weight - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of RGBDPose3dEstimator  
+
+head.decoder_layer.norm3.bias - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of RGBDPose3dEstimator  
+
+head.joints_out.weight - torch.Size([3, 256]): 
+The value is the same before and after calling `init_weights` of RGBDPose3dEstimator  
+
+head.joints_out.bias - torch.Size([3]): 
+The value is the same before and after calling `init_weights` of RGBDPose3dEstimator  
+
+head.depth_out.weight - torch.Size([1, 256]): 
+The value is the same before and after calling `init_weights` of RGBDPose3dEstimator  
+
+head.depth_out.bias - torch.Size([1]): 
+The value is the same before and after calling `init_weights` of RGBDPose3dEstimator  
+
+head.uv_heatmap_proj.weight - torch.Size([1, 256]): 
+The value is the same before and after calling `init_weights` of RGBDPose3dEstimator  
+
+head.uv_heatmap_proj.bias - torch.Size([1]): 
+The value is the same before and after calling `init_weights` of RGBDPose3dEstimator  
+2026/04/22 16:44:08 - mmengine - INFO - [96mDone initializing model weights![0m
+2026/04/22 16:44:08 - mmengine - INFO - [96mTrying to load or resume![0m
+2026/04/22 16:44:08 - mmengine - INFO - Auto resumed from the latest checkpoint None.
+2026/04/22 16:44:08 - mmengine - INFO - [96mCompleted load or resume![0m
+2026/04/22 16:44:08 - mmengine - INFO - [96mStarting training![0m
+2026/04/22 16:44:08 - mmengine - INFO - Checkpoints will be saved to /work/pi_nwycoff_umass_edu/hang/autosapiens_iter/runs/idea031/design002/output/stage1.
+2026/04/22 16:44:28 - mmengine - INFO - Epoch(train)  [1][  50/2269]  base_lr: 3.378021e-05 lr: 3.378021e-06  eta: 5:04:59  time: 0.403691  data_time: 0.040472  memory: 8619  loss: 12.401232  loss/joints/train: 0.190632  loss/depth/train: 5.212069  loss/uv/train: 0.133854  loss/uv_heatmap/train: 6.864678  grad_norm: 8.387568
+2026/04/22 16:44:47 - mmengine - INFO - Epoch(train)  [1][ 100/2269]  base_lr: 3.427022e-05 lr: 3.427022e-06  eta: 4:55:49  time: 0.380304  data_time: 0.034210  memory: 8619  loss: 11.744989  loss/joints/train: 0.184354  loss/depth/train: 4.594141  loss/uv/train: 0.141491  loss/uv_heatmap/train: 6.825003  grad_norm: 8.779954
+2026/04/22 16:45:07 - mmengine - INFO - Epoch(train)  [1][ 150/2269]  base_lr: 3.476023e-05 lr: 3.476023e-06  eta: 4:54:30  time: 0.388073  data_time: 0.039254  memory: 8619  loss: 11.246648  loss/joints/train: 0.186310  loss/depth/train: 4.081210  loss/uv/train: 0.159145  loss/uv_heatmap/train: 6.819983  grad_norm: 8.755128
+2026/04/22 16:45:26 - mmengine - INFO - Epoch(train)  [1][ 200/2269]  base_lr: 3.525024e-05 lr: 3.525024e-06  eta: 4:52:12  time: 0.380149  data_time: 0.027121  memory: 8619  loss: 10.571446  loss/joints/train: 0.187811  loss/depth/train: 3.387711  loss/uv/train: 0.147254  loss/uv_heatmap/train: 6.848670  grad_norm: 8.489762
+2026/04/22 16:45:45 - mmengine - INFO - Epoch(train)  [1][ 250/2269]  base_lr: 3.574024e-05 lr: 3.574024e-06  eta: 4:51:01  time: 0.382355  data_time: 0.031303  memory: 8619  loss: 10.012315  loss/joints/train: 0.186651  loss/depth/train: 2.854549  loss/uv/train: 0.161962  loss/uv_heatmap/train: 6.809153  grad_norm: inf
+2026/04/22 16:46:04 - mmengine - INFO - Epoch(train)  [1][ 300/2269]  base_lr: 3.623025e-05 lr: 3.623025e-06  eta: 4:49:39  time: 0.378584  data_time: 0.026385  memory: 8619  loss: 10.062857  loss/joints/train: 0.191916  loss/depth/train: 2.912157  loss/uv/train: 0.155463  loss/uv_heatmap/train: 6.803322  grad_norm: inf
+2026/04/22 16:46:23 - mmengine - INFO - Epoch(train)  [1][ 350/2269]  base_lr: 3.672026e-05 lr: 3.672026e-06  eta: 4:48:46  time: 0.380256  data_time: 0.028050  memory: 8619  loss: 9.823092  loss/joints/train: 0.193106  loss/depth/train: 2.659227  loss/uv/train: 0.140064  loss/uv_heatmap/train: 6.830696  grad_norm: inf
+2026/04/22 16:46:43 - mmengine - INFO - Epoch(train)  [1][ 400/2269]  base_lr: 3.721027e-05 lr: 3.721027e-06  eta: 4:49:35  time: 0.396917  data_time: 0.041313  memory: 8619  loss: 9.699979  loss/joints/train: 0.194830  loss/depth/train: 2.521209  loss/uv/train: 0.157116  loss/uv_heatmap/train: 6.826824  grad_norm: inf
+2026/04/22 16:47:02 - mmengine - INFO - Epoch(train)  [1][ 450/2269]  base_lr: 3.770028e-05 lr: 3.770028e-06  eta: 4:48:50  time: 0.381109  data_time: 0.029523  memory: 8619  loss: 9.535044  loss/joints/train: 0.197203  loss/depth/train: 2.371205  loss/uv/train: 0.146203  loss/uv_heatmap/train: 6.820433  grad_norm: inf
+2026/04/22 16:47:21 - mmengine - INFO - Epoch(train)  [1][ 500/2269]  base_lr: 3.819029e-05 lr: 3.819029e-06  eta: 4:48:28  time: 0.385127  data_time: 0.032298  memory: 8619  loss: 9.115795  loss/joints/train: 0.194685  loss/depth/train: 1.965261  loss/uv/train: 0.146087  loss/uv_heatmap/train: 6.809762  grad_norm: inf
+2026/04/22 16:47:40 - mmengine - INFO - Epoch(train)  [1][ 550/2269]  base_lr: 3.868030e-05 lr: 3.868030e-06  eta: 4:47:56  time: 0.382707  data_time: 0.029086  memory: 8619  loss: 9.412133  loss/joints/train: 0.193061  loss/depth/train: 2.260297  loss/uv/train: 0.152035  loss/uv_heatmap/train: 6.806740  grad_norm: inf
+2026/04/22 16:47:59 - mmengine - INFO - Epoch(train)  [1][ 600/2269]  base_lr: 3.917031e-05 lr: 3.917031e-06  eta: 4:47:21  time: 0.381035  data_time: 0.025661  memory: 8619  loss: 9.432949  loss/joints/train: 0.192973  loss/depth/train: 2.285083  loss/uv/train: 0.153791  loss/uv_heatmap/train: 6.801102  grad_norm: inf
+2026/04/22 16:48:19 - mmengine - INFO - Epoch(train)  [1][ 650/2269]  base_lr: 3.966031e-05 lr: 3.966031e-06  eta: 4:47:11  time: 0.387633  data_time: 0.033607  memory: 8619  loss: 9.152303  loss/joints/train: 0.187872  loss/depth/train: 2.022557  loss/uv/train: 0.154101  loss/uv_heatmap/train: 6.787773  grad_norm: inf
+2026/04/22 16:48:38 - mmengine - INFO - Epoch(train)  [1][ 700/2269]  base_lr: 4.015032e-05 lr: 4.015032e-06  eta: 4:46:44  time: 0.382755  data_time: 0.029584  memory: 8619  loss: 9.321801  loss/joints/train: 0.186478  loss/depth/train: 2.193226  loss/uv/train: 0.160321  loss/uv_heatmap/train: 6.781777  grad_norm: inf
+2026/04/22 16:48:57 - mmengine - INFO - Epoch(train)  [1][ 750/2269]  base_lr: 4.064033e-05 lr: 4.064033e-06  eta: 4:46:00  time: 0.376794  data_time: 0.023411  memory: 8619  loss: 9.277565  loss/joints/train: 0.181655  loss/depth/train: 2.173417  loss/uv/train: 0.155864  loss/uv_heatmap/train: 6.766629  grad_norm: inf
+2026/04/22 16:49:16 - mmengine - INFO - Epoch(train)  [1][ 800/2269]  base_lr: 4.113034e-05 lr: 4.113034e-06  eta: 4:45:43  time: 0.385237  data_time: 0.030581  memory: 8619  loss: 9.444655  loss/joints/train: 0.181846  loss/depth/train: 2.364031  loss/uv/train: 0.156490  loss/uv_heatmap/train: 6.742288  grad_norm: inf
+2026/04/22 16:49:35 - mmengine - INFO - Epoch(train)  [1][ 850/2269]  base_lr: 4.162035e-05 lr: 4.162035e-06  eta: 4:45:11  time: 0.379758  data_time: 0.025692  memory: 8619  loss: 9.133353  loss/joints/train: 0.178088  loss/depth/train: 2.062744  loss/uv/train: 0.139092  loss/uv_heatmap/train: 6.753429  grad_norm: 6.961222
+2026/04/22 16:49:54 - mmengine - INFO - Epoch(train)  [1][ 900/2269]  base_lr: 4.211036e-05 lr: 4.211036e-06  eta: 4:45:07  time: 0.390343  data_time: 0.036001  memory: 8619  loss: 9.032997  loss/joints/train: 0.176766  loss/depth/train: 1.994014  loss/uv/train: 0.148808  loss/uv_heatmap/train: 6.713408  grad_norm: 7.737749
+2026/04/22 16:50:13 - mmengine - INFO - Epoch(train)  [1][ 950/2269]  base_lr: 4.260037e-05 lr: 4.260037e-06  eta: 4:44:30  time: 0.377377  data_time: 0.023424  memory: 8619  loss: 9.221447  loss/joints/train: 0.173375  loss/depth/train: 2.166116  loss/uv/train: 0.146810  loss/uv_heatmap/train: 6.735146  grad_norm: 8.298772
+2026/04/22 16:50:32 - mmengine - INFO - Exp name: config_20260422_164352
+2026/04/22 16:50:32 - mmengine - INFO - Epoch(train)  [1][1000/2269]  base_lr: 4.309038e-05 lr: 4.309038e-06  eta: 4:44:02  time: 0.380076  data_time: 0.024150  memory: 8619  loss: 8.896166  loss/joints/train: 0.167405  loss/depth/train: 1.837130  loss/uv/train: 0.154699  loss/uv_heatmap/train: 6.736932  grad_norm: 8.959951
+2026/04/22 16:50:52 - mmengine - INFO - Epoch(train)  [1][1050/2269]  base_lr: 4.358038e-05 lr: 4.358038e-06  eta: 4:44:03  time: 0.393586  data_time: 0.040055  memory: 8619  loss: 8.833279  loss/joints/train: 0.165650  loss/depth/train: 1.795335  loss/uv/train: 0.149442  loss/uv_heatmap/train: 6.722852  grad_norm: 10.037626
+2026/04/22 16:51:11 - mmengine - INFO - Epoch(train)  [1][1100/2269]  base_lr: 4.407039e-05 lr: 4.407039e-06  eta: 4:43:46  time: 0.385799  data_time: 0.031255  memory: 8619  loss: 9.047098  loss/joints/train: 0.165345  loss/depth/train: 2.059559  loss/uv/train: 0.142327  loss/uv_heatmap/train: 6.679867  grad_norm: 11.877677
+2026/04/22 16:51:31 - mmengine - INFO - Epoch(train)  [1][1150/2269]  base_lr: 4.456040e-05 lr: 4.456040e-06  eta: 4:43:33  time: 0.387294  data_time: 0.033794  memory: 8619  loss: 8.931557  loss/joints/train: 0.162565  loss/depth/train: 1.912081  loss/uv/train: 0.145738  loss/uv_heatmap/train: 6.711174  grad_norm: 12.956528
+2026/04/22 16:51:50 - mmengine - INFO - Epoch(train)  [1][1200/2269]  base_lr: 4.505041e-05 lr: 4.505041e-06  eta: 4:43:28  time: 0.392857  data_time: 0.035894  memory: 8619  loss: 8.733896  loss/joints/train: 0.156577  loss/depth/train: 1.741610  loss/uv/train: 0.143132  loss/uv_heatmap/train: 6.692577  grad_norm: 13.225370
+2026/04/22 16:52:10 - mmengine - INFO - Epoch(train)  [1][1250/2269]  base_lr: 4.554042e-05 lr: 4.554042e-06  eta: 4:43:28  time: 0.395859  data_time: 0.041037  memory: 8619  loss: 8.609376  loss/joints/train: 0.151438  loss/depth/train: 1.592775  loss/uv/train: 0.159496  loss/uv_heatmap/train: 6.705668  grad_norm: 14.482430
+2026/04/22 16:52:29 - mmengine - INFO - Epoch(train)  [1][1300/2269]  base_lr: 4.603043e-05 lr: 4.603043e-06  eta: 4:43:15  time: 0.388671  data_time: 0.034660  memory: 8619  loss: 8.808547  loss/joints/train: 0.159067  loss/depth/train: 1.868989  loss/uv/train: 0.141098  loss/uv_heatmap/train: 6.639393  grad_norm: 15.565430
+2026/04/22 16:52:48 - mmengine - INFO - Epoch(train)  [1][1350/2269]  base_lr: 4.652044e-05 lr: 4.652044e-06  eta: 4:42:44  time: 0.378704  data_time: 0.024799  memory: 8619  loss: 8.571938  loss/joints/train: 0.154628  loss/depth/train: 1.587197  loss/uv/train: 0.152243  loss/uv_heatmap/train: 6.677870  grad_norm: 16.726368
+2026/04/22 16:53:08 - mmengine - INFO - Epoch(train)  [1][1400/2269]  base_lr: 4.701045e-05 lr: 4.701045e-06  eta: 4:42:25  time: 0.385342  data_time: 0.029119  memory: 8619  loss: 8.458912  loss/joints/train: 0.146134  loss/depth/train: 1.510591  loss/uv/train: 0.162937  loss/uv_heatmap/train: 6.639249  grad_norm: 18.176629
+2026/04/22 16:53:27 - mmengine - INFO - Epoch(train)  [1][1450/2269]  base_lr: 4.750046e-05 lr: 4.750046e-06  eta: 4:41:55  time: 0.378481  data_time: 0.024714  memory: 8619  loss: 8.522797  loss/joints/train: 0.146169  loss/depth/train: 1.544733  loss/uv/train: 0.146980  loss/uv_heatmap/train: 6.684914  grad_norm: inf
+2026/04/22 16:53:46 - mmengine - INFO - Epoch(train)  [1][1500/2269]  base_lr: 4.799046e-05 lr: 4.799046e-06  eta: 4:41:41  time: 0.388105  data_time: 0.033592  memory: 8619  loss: 8.436793  loss/joints/train: 0.137275  loss/depth/train: 1.485253  loss/uv/train: 0.148492  loss/uv_heatmap/train: 6.665772  grad_norm: inf
+2026/04/22 16:54:05 - mmengine - INFO - Epoch(train)  [1][1550/2269]  base_lr: 4.848047e-05 lr: 4.848047e-06  eta: 4:41:23  time: 0.386423  data_time: 0.032518  memory: 8619  loss: 8.472931  loss/joints/train: 0.136932  loss/depth/train: 1.532494  loss/uv/train: 0.142722  loss/uv_heatmap/train: 6.660783  grad_norm: inf
+2026/04/22 16:54:25 - mmengine - INFO - Epoch(train)  [1][1600/2269]  base_lr: 4.897048e-05 lr: 4.897048e-06  eta: 4:41:11  time: 0.390592  data_time: 0.034258  memory: 8619  loss: 8.230641  loss/joints/train: 0.135310  loss/depth/train: 1.330596  loss/uv/train: 0.139495  loss/uv_heatmap/train: 6.625240  grad_norm: inf
+2026/04/22 16:54:44 - mmengine - INFO - Epoch(train)  [1][1650/2269]  base_lr: 4.946049e-05 lr: 4.946049e-06  eta: 4:40:45  time: 0.380133  data_time: 0.027685  memory: 8619  loss: 8.246143  loss/joints/train: 0.125501  loss/depth/train: 1.353356  loss/uv/train: 0.130131  loss/uv_heatmap/train: 6.637154  grad_norm: nan
+2026/04/22 16:55:03 - mmengine - INFO - Epoch(train)  [1][1700/2269]  base_lr: 4.995050e-05 lr: 4.995050e-06  eta: 4:40:34  time: 0.391984  data_time: 0.036598  memory: 8619  loss: 8.065041  loss/joints/train: 0.119354  loss/depth/train: 1.201300  loss/uv/train: 0.150721  loss/uv_heatmap/train: 6.593666  grad_norm: nan
+2026/04/22 16:55:23 - mmengine - INFO - Epoch(train)  [1][1750/2269]  base_lr: 5.044051e-05 lr: 5.044051e-06  eta: 4:40:13  time: 0.383819  data_time: 0.029528  memory: 8619  loss: 8.419826  loss/joints/train: 0.128782  loss/depth/train: 1.520001  loss/uv/train: 0.151811  loss/uv_heatmap/train: 6.619232  grad_norm: nan
+2026/04/22 16:55:42 - mmengine - INFO - Epoch(train)  [1][1800/2269]  base_lr: 5.093052e-05 lr: 5.093052e-06  eta: 4:39:59  time: 0.389595  data_time: 0.032847  memory: 8619  loss: 8.093938  loss/joints/train: 0.132855  loss/depth/train: 1.212125  loss/uv/train: 0.138683  loss/uv_heatmap/train: 6.610275  grad_norm: nan
+2026/04/22 16:56:02 - mmengine - INFO - Epoch(train)  [1][1850/2269]  base_lr: 5.142053e-05 lr: 5.142053e-06  eta: 4:39:47  time: 0.391554  data_time: 0.036629  memory: 8619  loss: 8.240941  loss/joints/train: 0.116253  loss/depth/train: 1.369259  loss/uv/train: 0.145115  loss/uv_heatmap/train: 6.610315  grad_norm: nan
+2026/04/22 16:56:21 - mmengine - INFO - Epoch(train)  [1][1900/2269]  base_lr: 5.191053e-05 lr: 5.191053e-06  eta: 4:39:27  time: 0.385307  data_time: 0.029929  memory: 8619  loss: 8.317230  loss/joints/train: 0.122763  loss/depth/train: 1.436665  loss/uv/train: 0.147583  loss/uv_heatmap/train: 6.610219  grad_norm: nan
+2026/04/22 16:56:40 - mmengine - INFO - Epoch(train)  [1][1950/2269]  base_lr: 5.240054e-05 lr: 5.240054e-06  eta: 4:39:06  time: 0.383854  data_time: 0.029459  memory: 8619  loss: 8.222556  loss/joints/train: 0.131003  loss/depth/train: 1.363224  loss/uv/train: 0.151853  loss/uv_heatmap/train: 6.576477  grad_norm: nan
+2026/04/22 16:56:59 - mmengine - INFO - Exp name: config_20260422_164352
+2026/04/22 16:56:59 - mmengine - INFO - Epoch(train)  [1][2000/2269]  base_lr: 5.289055e-05 lr: 5.289055e-06  eta: 4:38:40  time: 0.379448  data_time: 0.022980  memory: 8619  loss: 8.069394  loss/joints/train: 0.115700  loss/depth/train: 1.248786  loss/uv/train: 0.138598  loss/uv_heatmap/train: 6.566310  grad_norm: nan
+2026/04/22 16:57:19 - mmengine - INFO - Epoch(train)  [1][2050/2269]  base_lr: 5.338056e-05 lr: 5.338056e-06  eta: 4:38:35  time: 0.399161  data_time: 0.045079  memory: 8619  loss: 8.040695  loss/joints/train: 0.119343  loss/depth/train: 1.203969  loss/uv/train: 0.148952  loss/uv_heatmap/train: 6.568431  grad_norm: 34.308839
+2026/04/22 16:57:38 - mmengine - INFO - Epoch(train)  [1][2100/2269]  base_lr: 5.387057e-05 lr: 5.387057e-06  eta: 4:38:08  time: 0.377763  data_time: 0.023009  memory: 8619  loss: 7.960499  loss/joints/train: 0.113096  loss/depth/train: 1.161324  loss/uv/train: 0.140048  loss/uv_heatmap/train: 6.546031  grad_norm: 32.022813
+2026/04/22 16:57:57 - mmengine - INFO - Epoch(train)  [1][2150/2269]  base_lr: 5.436058e-05 lr: 5.436058e-06  eta: 4:37:44  time: 0.380941  data_time: 0.027966  memory: 8619  loss: 8.038603  loss/joints/train: 0.122782  loss/depth/train: 1.233180  loss/uv/train: 0.155825  loss/uv_heatmap/train: 6.526816  grad_norm: 37.625475
+2026/04/22 16:58:17 - mmengine - INFO - Epoch(train)  [1][2200/2269]  base_lr: 5.485059e-05 lr: 5.485059e-06  eta: 4:37:37  time: 0.398325  data_time: 0.046067  memory: 8619  loss: 7.970198  loss/joints/train: 0.109125  loss/depth/train: 1.213196  loss/uv/train: 0.145557  loss/uv_heatmap/train: 6.502319  grad_norm: inf
+2026/04/22 16:58:36 - mmengine - INFO - Epoch(train)  [1][2250/2269]  base_lr: 5.534060e-05 lr: 5.534060e-06  eta: 4:37:12  time: 0.379511  data_time: 0.026386  memory: 8619  loss: 7.975157  loss/joints/train: 0.114560  loss/depth/train: 1.199124  loss/uv/train: 0.142826  loss/uv_heatmap/train: 6.518647  grad_norm: inf
+2026/04/22 16:58:43 - mmengine - INFO - Exp name: config_20260422_164352
+2026/04/22 16:58:43 - mmengine - INFO - Saving checkpoint at 1 epochs
+2026/04/22 16:59:14 - mmengine - INFO - Epoch(train)  [2][  50/2269]  base_lr: 5.601681e-05 lr: 5.601681e-06  eta: 4:36:39  time: 0.384502  data_time: 0.033538  memory: 8619  loss: 7.737806  loss/joints/train: 0.106751  loss/depth/train: 1.070759  loss/uv/train: 0.137425  loss/uv_heatmap/train: 6.422871  grad_norm: inf
+2026/04/22 16:59:35 - mmengine - INFO - Epoch(train)  [2][ 100/2269]  base_lr: 5.650682e-05 lr: 5.650682e-06  eta: 4:36:37  time: 0.404919  data_time: 0.051241  memory: 8619  loss: 7.930087  loss/joints/train: 0.118992  loss/depth/train: 1.207990  loss/uv/train: 0.138361  loss/uv_heatmap/train: 6.464745  grad_norm: inf
+2026/04/22 16:59:55 - mmengine - INFO - Epoch(train)  [2][ 150/2269]  base_lr: 5.699683e-05 lr: 5.699683e-06  eta: 4:36:42  time: 0.413069  data_time: 0.058733  memory: 8619  loss: 7.799761  loss/joints/train: 0.116112  loss/depth/train: 1.147192  loss/uv/train: 0.148896  loss/uv_heatmap/train: 6.387561  grad_norm: inf
+2026/04/22 17:00:15 - mmengine - INFO - Epoch(train)  [2][ 200/2269]  base_lr: 5.748684e-05 lr: 5.748684e-06  eta: 4:36:25  time: 0.389791  data_time: 0.035588  memory: 8619  loss: 7.710770  loss/joints/train: 0.111050  loss/depth/train: 1.095258  loss/uv/train: 0.132384  loss/uv_heatmap/train: 6.372078  grad_norm: inf
+2026/04/22 17:00:35 - mmengine - INFO - Epoch(train)  [2][ 250/2269]  base_lr: 5.797684e-05 lr: 5.797684e-06  eta: 4:36:14  time: 0.395980  data_time: 0.041999  memory: 8619  loss: 7.774867  loss/joints/train: 0.118166  loss/depth/train: 1.118258  loss/uv/train: 0.139281  loss/uv_heatmap/train: 6.399163  grad_norm: inf
+2026/04/22 17:00:54 - mmengine - INFO - Epoch(train)  [2][ 300/2269]  base_lr: 5.846685e-05 lr: 5.846685e-06  eta: 4:35:54  time: 0.385885  data_time: 0.030514  memory: 8619  loss: 7.569905  loss/joints/train: 0.121940  loss/depth/train: 1.041812  loss/uv/train: 0.122387  loss/uv_heatmap/train: 6.283766  grad_norm: 25.266161
+2026/04/22 17:01:14 - mmengine - INFO - Epoch(train)  [2][ 350/2269]  base_lr: 5.895686e-05 lr: 5.895686e-06  eta: 4:35:43  time: 0.396943  data_time: 0.042767  memory: 8619  loss: 7.438418  loss/joints/train: 0.120149  loss/depth/train: 0.986357  loss/uv/train: 0.123848  loss/uv_heatmap/train: 6.208064  grad_norm: 24.870508
+2026/04/22 17:01:34 - mmengine - INFO - Epoch(train)  [2][ 400/2269]  base_lr: 5.944687e-05 lr: 5.944687e-06  eta: 4:35:39  time: 0.406212  data_time: 0.051257  memory: 8619  loss: 7.454203  loss/joints/train: 0.116149  loss/depth/train: 1.053512  loss/uv/train: 0.142524  loss/uv_heatmap/train: 6.142017  grad_norm: 21.553782
+2026/04/22 17:01:53 - mmengine - INFO - Epoch(train)  [2][ 450/2269]  base_lr: 5.993688e-05 lr: 5.993688e-06  eta: 4:35:12  time: 0.376509  data_time: 0.021689  memory: 8619  loss: 7.285078  loss/joints/train: 0.110600  loss/depth/train: 0.990924  loss/uv/train: 0.117935  loss/uv_heatmap/train: 6.065618  grad_norm: 23.117542
+2026/04/22 17:02:12 - mmengine - INFO - Epoch(train)  [2][ 500/2269]  base_lr: 6.042689e-05 lr: 6.042689e-06  eta: 4:34:49  time: 0.382756  data_time: 0.027470  memory: 8619  loss: 7.087948  loss/joints/train: 0.115434  loss/depth/train: 0.913924  loss/uv/train: 0.113743  loss/uv_heatmap/train: 5.944847  grad_norm: 25.136150
+2026/04/22 17:02:31 - mmengine - INFO - Epoch(train)  [2][ 550/2269]  base_lr: 6.091690e-05 lr: 6.091690e-06  eta: 4:34:23  time: 0.378709  data_time: 0.023998  memory: 8619  loss: 7.111584  loss/joints/train: 0.110404  loss/depth/train: 0.953472  loss/uv/train: 0.119207  loss/uv_heatmap/train: 5.928501  grad_norm: 26.147519
+2026/04/22 17:02:51 - mmengine - INFO - Epoch(train)  [2][ 600/2269]  base_lr: 6.140691e-05 lr: 6.140691e-06  eta: 4:34:16  time: 0.403706  data_time: 0.049054  memory: 8619  loss: 7.017324  loss/joints/train: 0.110467  loss/depth/train: 0.946331  loss/uv/train: 0.124066  loss/uv_heatmap/train: 5.836460  grad_norm: 29.338045
+2026/04/22 17:03:11 - mmengine - INFO - Epoch(train)  [2][ 650/2269]  base_lr: 6.189691e-05 lr: 6.189691e-06  eta: 4:33:59  time: 0.389144  data_time: 0.034612  memory: 8619  loss: 6.919835  loss/joints/train: 0.109688  loss/depth/train: 0.959997  loss/uv/train: 0.114667  loss/uv_heatmap/train: 5.735483  grad_norm: 30.054348
+2026/04/22 17:03:30 - mmengine - INFO - Epoch(train)  [2][ 700/2269]  base_lr: 6.238692e-05 lr: 6.238692e-06  eta: 4:33:37  time: 0.384682  data_time: 0.028250  memory: 8619  loss: 6.663668  loss/joints/train: 0.098487  loss/depth/train: 0.857765  loss/uv/train: 0.110824  loss/uv_heatmap/train: 5.596591  grad_norm: 30.981687
+2026/04/22 17:03:42 - mmengine - INFO - Exp name: config_20260422_164352
+2026/04/22 17:03:49 - mmengine - INFO - Epoch(train)  [2][ 750/2269]  base_lr: 6.287693e-05 lr: 6.287693e-06  eta: 4:33:19  time: 0.388559  data_time: 0.033425  memory: 8619  loss: 6.644780  loss/joints/train: 0.111022  loss/depth/train: 0.947684  loss/uv/train: 0.102685  loss/uv_heatmap/train: 5.483390  grad_norm: 33.290767
+2026/04/22 17:04:08 - mmengine - INFO - Epoch(train)  [2][ 800/2269]  base_lr: 6.336694e-05 lr: 6.336694e-06  eta: 4:32:56  time: 0.381490  data_time: 0.026832  memory: 8619  loss: 6.537905  loss/joints/train: 0.111012  loss/depth/train: 1.007836  loss/uv/train: 0.094753  loss/uv_heatmap/train: 5.324304  grad_norm: 43.207760
+2026/04/22 17:04:27 - mmengine - INFO - Epoch(train)  [2][ 850/2269]  base_lr: 6.385695e-05 lr: 6.385695e-06  eta: 4:32:31  time: 0.378943  data_time: 0.024270  memory: 8619  loss: 6.450549  loss/joints/train: 0.111867  loss/depth/train: 0.930319  loss/uv/train: 0.097273  loss/uv_heatmap/train: 5.311091  grad_norm: 44.550678
+2026/04/22 17:04:47 - mmengine - INFO - Epoch(train)  [2][ 900/2269]  base_lr: 6.434696e-05 lr: 6.434696e-06  eta: 4:32:10  time: 0.384563  data_time: 0.028100  memory: 8619  loss: 6.387066  loss/joints/train: 0.115466  loss/depth/train: 0.909092  loss/uv/train: 0.092809  loss/uv_heatmap/train: 5.269699  grad_norm: 42.314133
+2026/04/22 17:05:06 - mmengine - INFO - Epoch(train)  [2][ 950/2269]  base_lr: 6.483697e-05 lr: 6.483697e-06  eta: 4:31:48  time: 0.382035  data_time: 0.027609  memory: 8619  loss: 6.245215  loss/joints/train: 0.110413  loss/depth/train: 0.975036  loss/uv/train: 0.090114  loss/uv_heatmap/train: 5.069652  grad_norm: 43.095387
+2026/04/22 17:05:25 - mmengine - INFO - Epoch(train)  [2][1000/2269]  base_lr: 6.532698e-05 lr: 6.532698e-06  eta: 4:31:27  time: 0.384779  data_time: 0.029925  memory: 8619  loss: 6.290585  loss/joints/train: 0.106992  loss/depth/train: 0.960955  loss/uv/train: 0.102325  loss/uv_heatmap/train: 5.120313  grad_norm: 40.739808
+2026/04/22 17:05:44 - mmengine - INFO - Epoch(train)  [2][1050/2269]  base_lr: 6.581699e-05 lr: 6.581699e-06  eta: 4:31:03  time: 0.379781  data_time: 0.024983  memory: 8619  loss: 6.237650  loss/joints/train: 0.113122  loss/depth/train: 0.901399  loss/uv/train: 0.107445  loss/uv_heatmap/train: 5.115684  grad_norm: 42.251063
+2026/04/22 17:06:03 - mmengine - INFO - Epoch(train)  [2][1100/2269]  base_lr: 6.630699e-05 lr: 6.630699e-06  eta: 4:30:41  time: 0.382106  data_time: 0.025829  memory: 8619  loss: 6.173279  loss/joints/train: 0.105002  loss/depth/train: 0.854287  loss/uv/train: 0.097982  loss/uv_heatmap/train: 5.116008  grad_norm: 42.486103
+2026/04/22 17:06:23 - mmengine - INFO - Epoch(train)  [2][1150/2269]  base_lr: 6.679700e-05 lr: 6.679700e-06  eta: 4:30:25  time: 0.392219  data_time: 0.037710  memory: 8619  loss: 5.871236  loss/joints/train: 0.112016  loss/depth/train: 0.861524  loss/uv/train: 0.088250  loss/uv_heatmap/train: 4.809447  grad_norm: 40.843553
+2026/04/22 17:06:42 - mmengine - INFO - Epoch(train)  [2][1200/2269]  base_lr: 6.728701e-05 lr: 6.728701e-06  eta: 4:30:03  time: 0.382085  data_time: 0.027170  memory: 8619  loss: 6.137332  loss/joints/train: 0.106647  loss/depth/train: 1.011626  loss/uv/train: 0.083588  loss/uv_heatmap/train: 4.935471  grad_norm: 32.478880
+2026/04/22 17:07:01 - mmengine - INFO - Epoch(train)  [2][1250/2269]  base_lr: 6.777702e-05 lr: 6.777702e-06  eta: 4:29:41  time: 0.381942  data_time: 0.028147  memory: 8619  loss: 6.006495  loss/joints/train: 0.108253  loss/depth/train: 0.956446  loss/uv/train: 0.090929  loss/uv_heatmap/train: 4.850867  grad_norm: 32.310826
+2026/04/22 17:07:21 - mmengine - INFO - Epoch(train)  [2][1300/2269]  base_lr: 6.826703e-05 lr: 6.826703e-06  eta: 4:29:26  time: 0.393706  data_time: 0.037618  memory: 8619  loss: 5.843890  loss/joints/train: 0.110088  loss/depth/train: 0.777432  loss/uv/train: 0.091532  loss/uv_heatmap/train: 4.864837  grad_norm: 32.775962
+2026/04/22 17:07:40 - mmengine - INFO - Epoch(train)  [2][1350/2269]  base_lr: 6.875704e-05 lr: 6.875704e-06  eta: 4:29:03  time: 0.380232  data_time: 0.026146  memory: 8619  loss: 5.924927  loss/joints/train: 0.104827  loss/depth/train: 0.853764  loss/uv/train: 0.097295  loss/uv_heatmap/train: 4.869040  grad_norm: 32.302406
+2026/04/22 17:08:00 - mmengine - INFO - Epoch(train)  [2][1400/2269]  base_lr: 6.924705e-05 lr: 6.924705e-06  eta: 4:28:51  time: 0.400681  data_time: 0.045324  memory: 8619  loss: 5.859771  loss/joints/train: 0.103991  loss/depth/train: 0.846732  loss/uv/train: 0.088996  loss/uv_heatmap/train: 4.820052  grad_norm: 32.295034
+2026/04/22 17:08:19 - mmengine - INFO - Epoch(train)  [2][1450/2269]  base_lr: 6.973706e-05 lr: 6.973706e-06  eta: 4:28:30  time: 0.383894  data_time: 0.029468  memory: 8619  loss: 5.646267  loss/joints/train: 0.104205  loss/depth/train: 0.780396  loss/uv/train: 0.072860  loss/uv_heatmap/train: 4.688806  grad_norm: 32.352612
+2026/04/22 17:08:38 - mmengine - INFO - Epoch(train)  [2][1500/2269]  base_lr: 7.022706e-05 lr: 7.022706e-06  eta: 4:28:11  time: 0.387207  data_time: 0.030846  memory: 8619  loss: 5.904045  loss/joints/train: 0.113994  loss/depth/train: 0.913820  loss/uv/train: 0.091066  loss/uv_heatmap/train: 4.785164  grad_norm: 33.629247
+2026/04/22 17:08:58 - mmengine - INFO - Epoch(train)  [2][1550/2269]  base_lr: 7.071707e-05 lr: 7.071707e-06  eta: 4:27:52  time: 0.387411  data_time: 0.032921  memory: 8619  loss: 5.669754  loss/joints/train: 0.103532  loss/depth/train: 0.864279  loss/uv/train: 0.075704  loss/uv_heatmap/train: 4.626238  grad_norm: 34.276413
+2026/04/22 17:09:17 - mmengine - INFO - Epoch(train)  [2][1600/2269]  base_lr: 7.120708e-05 lr: 7.120708e-06  eta: 4:27:39  time: 0.398618  data_time: 0.042675  memory: 8619  loss: 5.554113  loss/joints/train: 0.111073  loss/depth/train: 0.760309  loss/uv/train: 0.080287  loss/uv_heatmap/train: 4.602444  grad_norm: 34.862948
+2026/04/22 17:09:38 - mmengine - INFO - Epoch(train)  [2][1650/2269]  base_lr: 7.169709e-05 lr: 7.169709e-06  eta: 4:27:31  time: 0.407675  data_time: 0.052805  memory: 8619  loss: 5.676195  loss/joints/train: 0.106932  loss/depth/train: 0.783987  loss/uv/train: 0.085299  loss/uv_heatmap/train: 4.699978  grad_norm: 32.509653
+2026/04/22 17:09:57 - mmengine - INFO - Epoch(train)  [2][1700/2269]  base_lr: 7.218710e-05 lr: 7.218710e-06  eta: 4:27:08  time: 0.379445  data_time: 0.024864  memory: 8619  loss: 5.652959  loss/joints/train: 0.106475  loss/depth/train: 0.772122  loss/uv/train: 0.078214  loss/uv_heatmap/train: 4.696147  grad_norm: 32.322432
+2026/04/22 17:10:09 - mmengine - INFO - Exp name: config_20260422_164352
+2026/04/22 17:10:17 - mmengine - INFO - Epoch(train)  [2][1750/2269]  base_lr: 7.267711e-05 lr: 7.267711e-06  eta: 4:26:52  time: 0.394046  data_time: 0.040077  memory: 8619  loss: 5.566048  loss/joints/train: 0.099828  loss/depth/train: 0.783990  loss/uv/train: 0.078933  loss/uv_heatmap/train: 4.603297  grad_norm: 31.862284
+2026/04/22 17:10:36 - mmengine - INFO - Epoch(train)  [2][1800/2269]  base_lr: 7.316712e-05 lr: 7.316712e-06  eta: 4:26:34  time: 0.389130  data_time: 0.034866  memory: 8619  loss: 5.492788  loss/joints/train: 0.109533  loss/depth/train: 0.871271  loss/uv/train: 0.070113  loss/uv_heatmap/train: 4.441870  grad_norm: 31.979973
+2026/04/22 17:10:55 - mmengine - INFO - Epoch(train)  [2][1850/2269]  base_lr: 7.365713e-05 lr: 7.365713e-06  eta: 4:26:11  time: 0.381445  data_time: 0.026960  memory: 8619  loss: 5.532829  loss/joints/train: 0.110973  loss/depth/train: 0.830289  loss/uv/train: 0.081474  loss/uv_heatmap/train: 4.510094  grad_norm: 30.411376
+2026/04/22 17:11:15 - mmengine - INFO - Epoch(train)  [2][1900/2269]  base_lr: 7.414713e-05 lr: 7.414713e-06  eta: 4:25:56  time: 0.395616  data_time: 0.039413  memory: 8619  loss: 5.614127  loss/joints/train: 0.106010  loss/depth/train: 0.811437  loss/uv/train: 0.091766  loss/uv_heatmap/train: 4.604915  grad_norm: 29.385080
+2026/04/22 17:11:34 - mmengine - INFO - Epoch(train)  [2][1950/2269]  base_lr: 7.463714e-05 lr: 7.463714e-06  eta: 4:25:36  time: 0.385602  data_time: 0.032024  memory: 8619  loss: 5.386757  loss/joints/train: 0.098565  loss/depth/train: 0.741202  loss/uv/train: 0.073802  loss/uv_heatmap/train: 4.473188  grad_norm: 29.202682
+2026/04/22 17:11:53 - mmengine - INFO - Epoch(train)  [2][2000/2269]  base_lr: 7.512715e-05 lr: 7.512715e-06  eta: 4:25:16  time: 0.386184  data_time: 0.031562  memory: 8619  loss: 5.383047  loss/joints/train: 0.106692  loss/depth/train: 0.811903  loss/uv/train: 0.064270  loss/uv_heatmap/train: 4.400182  grad_norm: 27.444839
+2026/04/22 17:12:12 - mmengine - INFO - Epoch(train)  [2][2050/2269]  base_lr: 7.561716e-05 lr: 7.561716e-06  eta: 4:24:53  time: 0.378636  data_time: 0.024061  memory: 8619  loss: 5.253711  loss/joints/train: 0.108113  loss/depth/train: 0.734590  loss/uv/train: 0.064006  loss/uv_heatmap/train: 4.347003  grad_norm: 27.830450
+2026/04/22 17:12:32 - mmengine - INFO - Epoch(train)  [2][2100/2269]  base_lr: 7.610717e-05 lr: 7.610717e-06  eta: 4:24:39  time: 0.398009  data_time: 0.043336  memory: 8619  loss: 5.476900  loss/joints/train: 0.111363  loss/depth/train: 0.756328  loss/uv/train: 0.077457  loss/uv_heatmap/train: 4.531752  grad_norm: 28.667740
+2026/04/22 17:12:52 - mmengine - INFO - Epoch(train)  [2][2150/2269]  base_lr: 7.659718e-05 lr: 7.659718e-06  eta: 4:24:27  time: 0.404758  data_time: 0.050921  memory: 8619  loss: 5.388608  loss/joints/train: 0.103812  loss/depth/train: 0.766643  loss/uv/train: 0.066951  loss/uv_heatmap/train: 4.451202  grad_norm: 29.255481
+2026/04/22 17:13:12 - mmengine - INFO - Epoch(train)  [2][2200/2269]  base_lr: 7.708719e-05 lr: 7.708719e-06  eta: 4:24:08  time: 0.386730  data_time: 0.033002  memory: 8619  loss: 5.329929  loss/joints/train: 0.107320  loss/depth/train: 0.766329  loss/uv/train: 0.074626  loss/uv_heatmap/train: 4.381655  grad_norm: 29.037647
+2026/04/22 17:13:31 - mmengine - INFO - Epoch(train)  [2][2250/2269]  base_lr: 7.757720e-05 lr: 7.757720e-06  eta: 4:23:47  time: 0.383494  data_time: 0.029183  memory: 8619  loss: 5.359881  loss/joints/train: 0.103150  loss/depth/train: 0.765456  loss/uv/train: 0.075281  loss/uv_heatmap/train: 4.415994  grad_norm: 29.249172
+2026/04/22 17:13:38 - mmengine - INFO - Exp name: config_20260422_164352
+2026/04/22 17:13:39 - mmengine - INFO - Saving checkpoint at 2 epochs
+2026/04/22 17:14:10 - mmengine - INFO - Epoch(train)  [3][  50/2269]  base_lr: 7.825341e-05 lr: 7.825341e-06  eta: 4:23:23  time: 0.394935  data_time: 0.043793  memory: 8619  loss: 5.187721  loss/joints/train: 0.104018  loss/depth/train: 0.730625  loss/uv/train: 0.058196  loss/uv_heatmap/train: 4.294883  grad_norm: 29.009173
+2026/04/22 17:14:29 - mmengine - INFO - Epoch(train)  [3][ 100/2269]  base_lr: 7.874342e-05 lr: 7.874342e-06  eta: 4:22:59  time: 0.376179  data_time: 0.025871  memory: 8619  loss: 5.303869  loss/joints/train: 0.104142  loss/depth/train: 0.748550  loss/uv/train: 0.066574  loss/uv_heatmap/train: 4.384604  grad_norm: 30.730136
+2026/04/22 17:14:49 - mmengine - INFO - Epoch(train)  [3][ 150/2269]  base_lr: 7.923343e-05 lr: 7.923343e-06  eta: 4:22:41  time: 0.390903  data_time: 0.036203  memory: 8619  loss: 5.323000  loss/joints/train: 0.108355  loss/depth/train: 0.763554  loss/uv/train: 0.070522  loss/uv_heatmap/train: 4.380569  grad_norm: 31.447881
+2026/04/22 17:15:08 - mmengine - INFO - Epoch(train)  [3][ 200/2269]  base_lr: 7.972344e-05 lr: 7.972344e-06  eta: 4:22:19  time: 0.382026  data_time: 0.029273  memory: 8619  loss: 5.157387  loss/joints/train: 0.103991  loss/depth/train: 0.760057  loss/uv/train: 0.063832  loss/uv_heatmap/train: 4.229507  grad_norm: 30.575223
+2026/04/22 17:15:27 - mmengine - INFO - Epoch(train)  [3][ 250/2269]  base_lr: 8.021344e-05 lr: 8.021344e-06  eta: 4:22:00  time: 0.388008  data_time: 0.033338  memory: 8619  loss: 5.076583  loss/joints/train: 0.096911  loss/depth/train: 0.705075  loss/uv/train: 0.063721  loss/uv_heatmap/train: 4.210876  grad_norm: 32.268162
+2026/04/22 17:15:46 - mmengine - INFO - Epoch(train)  [3][ 300/2269]  base_lr: 8.070345e-05 lr: 8.070345e-06  eta: 4:21:39  time: 0.383465  data_time: 0.029325  memory: 8619  loss: 5.308996  loss/joints/train: 0.100393  loss/depth/train: 0.789435  loss/uv/train: 0.068999  loss/uv_heatmap/train: 4.350170  grad_norm: 32.220781
+2026/04/22 17:16:06 - mmengine - INFO - Epoch(train)  [3][ 350/2269]  base_lr: 8.119346e-05 lr: 8.119346e-06  eta: 4:21:21  time: 0.389875  data_time: 0.033591  memory: 8619  loss: 5.041054  loss/joints/train: 0.107575  loss/depth/train: 0.638369  loss/uv/train: 0.070947  loss/uv_heatmap/train: 4.224163  grad_norm: 32.557867
+2026/04/22 17:16:25 - mmengine - INFO - Epoch(train)  [3][ 400/2269]  base_lr: 8.168347e-05 lr: 8.168347e-06  eta: 4:21:02  time: 0.387080  data_time: 0.032370  memory: 8619  loss: 5.082509  loss/joints/train: 0.104988  loss/depth/train: 0.818766  loss/uv/train: 0.057038  loss/uv_heatmap/train: 4.101717  grad_norm: 32.990848
+2026/04/22 17:16:44 - mmengine - INFO - Epoch(train)  [3][ 450/2269]  base_lr: 8.217348e-05 lr: 8.217348e-06  eta: 4:20:40  time: 0.381008  data_time: 0.027057  memory: 8619  loss: 4.960299  loss/joints/train: 0.106655  loss/depth/train: 0.708161  loss/uv/train: 0.052812  loss/uv_heatmap/train: 4.092672  grad_norm: 33.605284
+2026/04/22 17:16:49 - mmengine - INFO - Exp name: config_20260422_164352
+2026/04/22 17:17:03 - mmengine - INFO - Epoch(train)  [3][ 500/2269]  base_lr: 8.266349e-05 lr: 8.266349e-06  eta: 4:20:18  time: 0.380576  data_time: 0.025489  memory: 8619  loss: 5.052377  loss/joints/train: 0.103480  loss/depth/train: 0.656803  loss/uv/train: 0.062287  loss/uv_heatmap/train: 4.229806  grad_norm: 31.109935
+2026/04/22 17:17:22 - mmengine - INFO - Epoch(train)  [3][ 550/2269]  base_lr: 8.315350e-05 lr: 8.315350e-06  eta: 4:19:56  time: 0.380131  data_time: 0.024201  memory: 8619  loss: 5.123375  loss/joints/train: 0.106021  loss/depth/train: 0.780932  loss/uv/train: 0.060776  loss/uv_heatmap/train: 4.175646  grad_norm: 30.840379
+2026/04/22 17:17:41 - mmengine - INFO - Epoch(train)  [3][ 600/2269]  base_lr: 8.364351e-05 lr: 8.364351e-06  eta: 4:19:34  time: 0.382853  data_time: 0.029034  memory: 8619  loss: 4.973455  loss/joints/train: 0.109941  loss/depth/train: 0.734939  loss/uv/train: 0.052545  loss/uv_heatmap/train: 4.076030  grad_norm: 30.773008
+2026/04/22 17:18:01 - mmengine - INFO - Epoch(train)  [3][ 650/2269]  base_lr: 8.413351e-05 lr: 8.413351e-06  eta: 4:19:13  time: 0.382438  data_time: 0.028229  memory: 8619  loss: 4.985965  loss/joints/train: 0.098926  loss/depth/train: 0.709969  loss/uv/train: 0.065955  loss/uv_heatmap/train: 4.111116  grad_norm: 28.942843
+2026/04/22 17:18:20 - mmengine - INFO - Epoch(train)  [3][ 700/2269]  base_lr: 8.462352e-05 lr: 8.462352e-06  eta: 4:18:53  time: 0.383872  data_time: 0.029160  memory: 8619  loss: 5.052129  loss/joints/train: 0.103313  loss/depth/train: 0.697562  loss/uv/train: 0.058744  loss/uv_heatmap/train: 4.192510  grad_norm: 29.390139
+2026/04/22 17:18:39 - mmengine - INFO - Epoch(train)  [3][ 750/2269]  base_lr: 8.511353e-05 lr: 8.511353e-06  eta: 4:18:33  time: 0.385925  data_time: 0.030467  memory: 8619  loss: 4.974801  loss/joints/train: 0.106283  loss/depth/train: 0.684971  loss/uv/train: 0.061968  loss/uv_heatmap/train: 4.121580  grad_norm: 29.101447
+2026/04/22 17:18:58 - mmengine - INFO - Epoch(train)  [3][ 800/2269]  base_lr: 8.560354e-05 lr: 8.560354e-06  eta: 4:18:11  time: 0.379932  data_time: 0.025057  memory: 8619  loss: 4.781867  loss/joints/train: 0.098837  loss/depth/train: 0.584098  loss/uv/train: 0.055937  loss/uv_heatmap/train: 4.042996  grad_norm: 28.749907
+2026/04/22 17:19:17 - mmengine - INFO - Epoch(train)  [3][ 850/2269]  base_lr: 8.609355e-05 lr: 8.609355e-06  eta: 4:17:51  time: 0.385808  data_time: 0.030523  memory: 8619  loss: 5.058133  loss/joints/train: 0.112036  loss/depth/train: 0.648428  loss/uv/train: 0.065663  loss/uv_heatmap/train: 4.232007  grad_norm: 28.191577
+2026/04/22 17:19:36 - mmengine - INFO - Epoch(train)  [3][ 900/2269]  base_lr: 8.658356e-05 lr: 8.658356e-06  eta: 4:17:30  time: 0.381734  data_time: 0.027328  memory: 8619  loss: 5.067946  loss/joints/train: 0.102837  loss/depth/train: 0.785911  loss/uv/train: 0.057293  loss/uv_heatmap/train: 4.121905  grad_norm: 28.500919
+2026/04/22 17:19:56 - mmengine - INFO - Epoch(train)  [3][ 950/2269]  base_lr: 8.707357e-05 lr: 8.707357e-06  eta: 4:17:11  time: 0.387697  data_time: 0.031151  memory: 8619  loss: 4.800925  loss/joints/train: 0.098167  loss/depth/train: 0.696824  loss/uv/train: 0.044755  loss/uv_heatmap/train: 3.961180  grad_norm: 28.441595
+2026/04/22 17:20:15 - mmengine - INFO - Epoch(train)  [3][1000/2269]  base_lr: 8.756358e-05 lr: 8.756358e-06  eta: 4:16:48  time: 0.377177  data_time: 0.022889  memory: 8619  loss: 4.823332  loss/joints/train: 0.103331  loss/depth/train: 0.629714  loss/uv/train: 0.048601  loss/uv_heatmap/train: 4.041686  grad_norm: 28.353674
+2026/04/22 17:20:34 - mmengine - INFO - Epoch(train)  [3][1050/2269]  base_lr: 8.805359e-05 lr: 8.805359e-06  eta: 4:16:29  time: 0.386523  data_time: 0.031478  memory: 8619  loss: 5.005889  loss/joints/train: 0.101892  loss/depth/train: 0.777891  loss/uv/train: 0.057472  loss/uv_heatmap/train: 4.068634  grad_norm: 28.117327
+2026/04/22 17:20:54 - mmengine - INFO - Epoch(train)  [3][1100/2269]  base_lr: 8.854359e-05 lr: 8.854359e-06  eta: 4:16:13  time: 0.396363  data_time: 0.039252  memory: 8619  loss: 5.006439  loss/joints/train: 0.101602  loss/depth/train: 0.718681  loss/uv/train: 0.078046  loss/uv_heatmap/train: 4.108110  grad_norm: 27.777804
+2026/04/22 17:21:13 - mmengine - INFO - Epoch(train)  [3][1150/2269]  base_lr: 8.903360e-05 lr: 8.903360e-06  eta: 4:15:53  time: 0.386131  data_time: 0.028196  memory: 8619  loss: 4.831674  loss/joints/train: 0.095591  loss/depth/train: 0.659520  loss/uv/train: 0.050933  loss/uv_heatmap/train: 4.025629  grad_norm: 28.123039
+2026/04/22 17:21:32 - mmengine - INFO - Epoch(train)  [3][1200/2269]  base_lr: 8.952361e-05 lr: 8.952361e-06  eta: 4:15:33  time: 0.384343  data_time: 0.028226  memory: 8619  loss: 4.819955  loss/joints/train: 0.095354  loss/depth/train: 0.647766  loss/uv/train: 0.053514  loss/uv_heatmap/train: 4.023321  grad_norm: 28.001080
+2026/04/22 17:21:52 - mmengine - INFO - Epoch(train)  [3][1250/2269]  base_lr: 9.001362e-05 lr: 9.001362e-06  eta: 4:15:14  time: 0.388698  data_time: 0.032899  memory: 8619  loss: 4.783175  loss/joints/train: 0.094282  loss/depth/train: 0.615597  loss/uv/train: 0.057007  loss/uv_heatmap/train: 4.016289  grad_norm: 27.641231
+2026/04/22 17:22:11 - mmengine - INFO - Epoch(train)  [3][1300/2269]  base_lr: 9.050363e-05 lr: 9.050363e-06  eta: 4:14:53  time: 0.381332  data_time: 0.025919  memory: 8619  loss: 4.772694  loss/joints/train: 0.104751  loss/depth/train: 0.673325  loss/uv/train: 0.047878  loss/uv_heatmap/train: 3.946740  grad_norm: 28.167242
+2026/04/22 17:22:30 - mmengine - INFO - Epoch(train)  [3][1350/2269]  base_lr: 9.099364e-05 lr: 9.099364e-06  eta: 4:14:31  time: 0.378586  data_time: 0.021126  memory: 8619  loss: 4.894230  loss/joints/train: 0.100900  loss/depth/train: 0.668074  loss/uv/train: 0.061474  loss/uv_heatmap/train: 4.063782  grad_norm: 27.942999
+2026/04/22 17:22:49 - mmengine - INFO - Epoch(train)  [3][1400/2269]  base_lr: 9.148365e-05 lr: 9.148365e-06  eta: 4:14:09  time: 0.377185  data_time: 0.021580  memory: 8619  loss: 4.695568  loss/joints/train: 0.103828  loss/depth/train: 0.591962  loss/uv/train: 0.049063  loss/uv_heatmap/train: 3.950715  grad_norm: 27.656688
+2026/04/22 17:23:08 - mmengine - INFO - Epoch(train)  [3][1450/2269]  base_lr: 9.197366e-05 lr: 9.197366e-06  eta: 4:13:47  time: 0.380808  data_time: 0.024886  memory: 8619  loss: 4.921585  loss/joints/train: 0.105356  loss/depth/train: 0.681934  loss/uv/train: 0.055253  loss/uv_heatmap/train: 4.079042  grad_norm: 28.136832
+2026/04/22 17:23:12 - mmengine - INFO - Exp name: config_20260422_164352
+2026/04/22 17:23:27 - mmengine - INFO - Epoch(train)  [3][1500/2269]  base_lr: 9.246366e-05 lr: 9.246366e-06  eta: 4:13:26  time: 0.379521  data_time: 0.024631  memory: 8619  loss: 4.655536  loss/joints/train: 0.104083  loss/depth/train: 0.611892  loss/uv/train: 0.043822  loss/uv_heatmap/train: 3.895740  grad_norm: 28.865257
+2026/04/22 17:23:46 - mmengine - INFO - Epoch(train)  [3][1550/2269]  base_lr: 9.295367e-05 lr: 9.295367e-06  eta: 4:13:07  time: 0.387648  data_time: 0.030693  memory: 8619  loss: 4.623366  loss/joints/train: 0.096131  loss/depth/train: 0.579791  loss/uv/train: 0.041869  loss/uv_heatmap/train: 3.905575  grad_norm: 28.318665
+2026/04/22 17:24:05 - mmengine - INFO - Epoch(train)  [3][1600/2269]  base_lr: 9.344368e-05 lr: 9.344368e-06  eta: 4:12:47  time: 0.384383  data_time: 0.028690  memory: 8619  loss: 4.684395  loss/joints/train: 0.099231  loss/depth/train: 0.685599  loss/uv/train: 0.042093  loss/uv_heatmap/train: 3.857471  grad_norm: 29.071293
+2026/04/22 17:24:24 - mmengine - INFO - Epoch(train)  [3][1650/2269]  base_lr: 9.393369e-05 lr: 9.393369e-06  eta: 4:12:26  time: 0.381752  data_time: 0.026455  memory: 8619  loss: 4.809983  loss/joints/train: 0.098593  loss/depth/train: 0.668441  loss/uv/train: 0.054025  loss/uv_heatmap/train: 3.988924  grad_norm: 30.925512
+2026/04/22 17:24:44 - mmengine - INFO - Epoch(train)  [3][1700/2269]  base_lr: 9.442370e-05 lr: 9.442370e-06  eta: 4:12:06  time: 0.384519  data_time: 0.028202  memory: 8619  loss: 4.917460  loss/joints/train: 0.099311  loss/depth/train: 0.706482  loss/uv/train: 0.057535  loss/uv_heatmap/train: 4.054131  grad_norm: 30.853797
+2026/04/22 17:25:03 - mmengine - INFO - Epoch(train)  [3][1750/2269]  base_lr: 9.491371e-05 lr: 9.491371e-06  eta: 4:11:45  time: 0.380252  data_time: 0.022880  memory: 8619  loss: 4.552560  loss/joints/train: 0.101858  loss/depth/train: 0.558485  loss/uv/train: 0.046019  loss/uv_heatmap/train: 3.846197  grad_norm: 30.580278
+2026/04/22 17:25:22 - mmengine - INFO - Epoch(train)  [3][1800/2269]  base_lr: 9.540372e-05 lr: 9.540372e-06  eta: 4:11:24  time: 0.381623  data_time: 0.025932  memory: 8619  loss: 4.484727  loss/joints/train: 0.093149  loss/depth/train: 0.589338  loss/uv/train: 0.033995  loss/uv_heatmap/train: 3.768244  grad_norm: 29.897588
+2026/04/22 17:25:41 - mmengine - INFO - Epoch(train)  [3][1850/2269]  base_lr: 9.589373e-05 lr: 9.589373e-06  eta: 4:11:03  time: 0.379922  data_time: 0.024932  memory: 8619  loss: 4.715649  loss/joints/train: 0.096182  loss/depth/train: 0.567154  loss/uv/train: 0.053071  loss/uv_heatmap/train: 3.999241  grad_norm: 28.818475
+2026/04/22 17:25:59 - mmengine - INFO - Epoch(train)  [3][1900/2269]  base_lr: 9.638373e-05 lr: 9.638373e-06  eta: 4:10:40  time: 0.376634  data_time: 0.022116  memory: 8619  loss: 4.898005  loss/joints/train: 0.097960  loss/depth/train: 0.725447  loss/uv/train: 0.054842  loss/uv_heatmap/train: 4.019755  grad_norm: 28.433287
+2026/04/22 17:26:19 - mmengine - INFO - Epoch(train)  [3][1950/2269]  base_lr: 9.687374e-05 lr: 9.687374e-06  eta: 4:10:21  time: 0.386443  data_time: 0.029529  memory: 8619  loss: 4.586269  loss/joints/train: 0.096147  loss/depth/train: 0.663219  loss/uv/train: 0.046786  loss/uv_heatmap/train: 3.780117  grad_norm: 29.849495
+2026/04/22 17:26:38 - mmengine - INFO - Epoch(train)  [3][2000/2269]  base_lr: 9.736375e-05 lr: 9.736375e-06  eta: 4:10:00  time: 0.378160  data_time: 0.022634  memory: 8619  loss: 4.693180  loss/joints/train: 0.101614  loss/depth/train: 0.628971  loss/uv/train: 0.051397  loss/uv_heatmap/train: 3.911198  grad_norm: 28.756530
+2026/04/22 17:26:58 - mmengine - INFO - Epoch(train)  [3][2050/2269]  base_lr: 9.785376e-05 lr: 9.785376e-06  eta: 4:09:45  time: 0.404056  data_time: 0.048792  memory: 8619  loss: 4.515247  loss/joints/train: 0.093457  loss/depth/train: 0.605752  loss/uv/train: 0.035410  loss/uv_heatmap/train: 3.780628  grad_norm: 27.526918
+2026/04/22 17:27:17 - mmengine - INFO - Epoch(train)  [3][2100/2269]  base_lr: 9.834377e-05 lr: 9.834377e-06  eta: 4:09:23  time: 0.375397  data_time: 0.020884  memory: 8619  loss: 4.623975  loss/joints/train: 0.099827  loss/depth/train: 0.667598  loss/uv/train: 0.038102  loss/uv_heatmap/train: 3.818448  grad_norm: 28.353245
+2026/04/22 17:27:36 - mmengine - INFO - Epoch(train)  [3][2150/2269]  base_lr: 9.883378e-05 lr: 9.883378e-06  eta: 4:09:03  time: 0.383646  data_time: 0.027458  memory: 8619  loss: 4.566003  loss/joints/train: 0.100985  loss/depth/train: 0.569079  loss/uv/train: 0.044688  loss/uv_heatmap/train: 3.851251  grad_norm: 28.719228
+2026/04/22 17:27:55 - mmengine - INFO - Epoch(train)  [3][2200/2269]  base_lr: 9.932379e-05 lr: 9.932379e-06  eta: 4:08:43  time: 0.382954  data_time: 0.028549  memory: 8619  loss: 4.541033  loss/joints/train: 0.096956  loss/depth/train: 0.570954  loss/uv/train: 0.043206  loss/uv_heatmap/train: 3.829918  grad_norm: 29.668190
+2026/04/22 17:28:15 - mmengine - INFO - Epoch(train)  [3][2250/2269]  base_lr: 9.981380e-05 lr: 9.981380e-06  eta: 4:08:30  time: 0.408086  data_time: 0.052495  memory: 8619  loss: 4.532232  loss/joints/train: 0.101736  loss/depth/train: 0.590803  loss/uv/train: 0.041509  loss/uv_heatmap/train: 3.798184  grad_norm: 29.261256
+2026/04/22 17:28:23 - mmengine - INFO - Exp name: config_20260422_164352
+2026/04/22 17:28:24 - mmengine - INFO - Saving checkpoint at 3 epochs
+2026/04/22 17:28:56 - mmengine - INFO - Epoch(train)  [4][  50/2269]  base_lr: 9.999960e-05 lr: 9.999960e-06  eta: 4:08:07  time: 0.395184  data_time: 0.041167  memory: 8619  loss: 4.447565  loss/joints/train: 0.098779  loss/depth/train: 0.511842  loss/uv/train: 0.044848  loss/uv_heatmap/train: 3.792095  grad_norm: 28.108103
+2026/04/22 17:29:15 - mmengine - INFO - Epoch(train)  [4][ 100/2269]  base_lr: 9.999837e-05 lr: 9.999837e-06  eta: 4:07:44  time: 0.375358  data_time: 0.021847  memory: 8619  loss: 4.468342  loss/joints/train: 0.093209  loss/depth/train: 0.537852  loss/uv/train: 0.043391  loss/uv_heatmap/train: 3.793889  grad_norm: 28.218482
+2026/04/22 17:29:34 - mmengine - INFO - Epoch(train)  [4][ 150/2269]  base_lr: 9.999632e-05 lr: 9.999632e-06  eta: 4:07:22  time: 0.376140  data_time: 0.023127  memory: 8619  loss: 4.325657  loss/joints/train: 0.095679  loss/depth/train: 0.524351  loss/uv/train: 0.034687  loss/uv_heatmap/train: 3.670939  grad_norm: 27.853352
+2026/04/22 17:29:50 - mmengine - INFO - Exp name: config_20260422_164352
+2026/04/22 17:29:52 - mmengine - INFO - Epoch(train)  [4][ 200/2269]  base_lr: 9.999343e-05 lr: 9.999343e-06  eta: 4:07:00  time: 0.377177  data_time: 0.022078  memory: 8619  loss: 4.559818  loss/joints/train: 0.096713  loss/depth/train: 0.564592  loss/uv/train: 0.043727  loss/uv_heatmap/train: 3.854787  grad_norm: 27.354529
+2026/04/22 17:30:12 - mmengine - INFO - Epoch(train)  [4][ 250/2269]  base_lr: 9.998972e-05 lr: 9.998972e-06  eta: 4:06:43  time: 0.393165  data_time: 0.037324  memory: 8619  loss: 4.634607  loss/joints/train: 0.099310  loss/depth/train: 0.633848  loss/uv/train: 0.046260  loss/uv_heatmap/train: 3.855189  grad_norm: 28.127148
+2026/04/22 17:30:32 - mmengine - INFO - Epoch(train)  [4][ 300/2269]  base_lr: 9.998518e-05 lr: 9.998518e-06  eta: 4:06:25  time: 0.391678  data_time: 0.036306  memory: 8619  loss: 4.444914  loss/joints/train: 0.097066  loss/depth/train: 0.572830  loss/uv/train: 0.035369  loss/uv_heatmap/train: 3.739649  grad_norm: 28.610838
+2026/04/22 17:30:51 - mmengine - INFO - Epoch(train)  [4][ 350/2269]  base_lr: 9.997980e-05 lr: 9.997980e-06  eta: 4:06:05  time: 0.382436  data_time: 0.028264  memory: 8619  loss: 4.718589  loss/joints/train: 0.097693  loss/depth/train: 0.708619  loss/uv/train: 0.042688  loss/uv_heatmap/train: 3.869590  grad_norm: 29.820935
+2026/04/22 17:31:10 - mmengine - INFO - Epoch(train)  [4][ 400/2269]  base_lr: 9.997360e-05 lr: 9.997360e-06  eta: 4:05:44  time: 0.379304  data_time: 0.024316  memory: 8619  loss: 4.613162  loss/joints/train: 0.095506  loss/depth/train: 0.628179  loss/uv/train: 0.042582  loss/uv_heatmap/train: 3.846896  grad_norm: 30.917295
+2026/04/22 17:31:29 - mmengine - INFO - Epoch(train)  [4][ 450/2269]  base_lr: 9.996657e-05 lr: 9.996657e-06  eta: 4:05:23  time: 0.382894  data_time: 0.026827  memory: 8619  loss: 4.568322  loss/joints/train: 0.093783  loss/depth/train: 0.609897  loss/uv/train: 0.044970  loss/uv_heatmap/train: 3.819672  grad_norm: 32.759977
+2026/04/22 17:31:48 - mmengine - INFO - Epoch(train)  [4][ 500/2269]  base_lr: 9.995871e-05 lr: 9.995871e-06  eta: 4:05:04  time: 0.386995  data_time: 0.031378  memory: 8619  loss: 4.480562  loss/joints/train: 0.095818  loss/depth/train: 0.558201  loss/uv/train: 0.037592  loss/uv_heatmap/train: 3.788951  grad_norm: 32.246963
+2026/04/22 17:32:07 - mmengine - INFO - Epoch(train)  [4][ 550/2269]  base_lr: 9.995003e-05 lr: 9.995003e-06  eta: 4:04:44  time: 0.381835  data_time: 0.026841  memory: 8619  loss: 4.475022  loss/joints/train: 0.096831  loss/depth/train: 0.574159  loss/uv/train: 0.038596  loss/uv_heatmap/train: 3.765436  grad_norm: 32.706549
+2026/04/22 17:32:27 - mmengine - INFO - Epoch(train)  [4][ 600/2269]  base_lr: 9.994051e-05 lr: 9.994051e-06  eta: 4:04:25  time: 0.388180  data_time: 0.032080  memory: 8619  loss: 4.381949  loss/joints/train: 0.099472  loss/depth/train: 0.523707  loss/uv/train: 0.039433  loss/uv_heatmap/train: 3.719338  grad_norm: 33.760328
+2026/04/22 17:32:46 - mmengine - INFO - Epoch(train)  [4][ 650/2269]  base_lr: 9.993017e-05 lr: 9.993017e-06  eta: 4:04:04  time: 0.379199  data_time: 0.023639  memory: 8619  loss: 4.250621  loss/joints/train: 0.095747  loss/depth/train: 0.484296  loss/uv/train: 0.036585  loss/uv_heatmap/train: 3.633993  grad_norm: 31.690803
+2026/04/22 17:33:05 - mmengine - INFO - Epoch(train)  [4][ 700/2269]  base_lr: 9.991900e-05 lr: 9.991900e-06  eta: 4:03:43  time: 0.379083  data_time: 0.024213  memory: 8619  loss: 4.311178  loss/joints/train: 0.095714  loss/depth/train: 0.541460  loss/uv/train: 0.041215  loss/uv_heatmap/train: 3.632789  grad_norm: 32.170839
+2026/04/22 17:33:24 - mmengine - INFO - Epoch(train)  [4][ 750/2269]  base_lr: 9.990700e-05 lr: 9.990700e-06  eta: 4:03:24  time: 0.387867  data_time: 0.033744  memory: 8619  loss: 4.366774  loss/joints/train: 0.094238  loss/depth/train: 0.545802  loss/uv/train: 0.037979  loss/uv_heatmap/train: 3.688755  grad_norm: 31.731220
+2026/04/22 17:33:43 - mmengine - INFO - Epoch(train)  [4][ 800/2269]  base_lr: 9.989417e-05 lr: 9.989417e-06  eta: 4:03:04  time: 0.383445  data_time: 0.029521  memory: 8619  loss: 4.347148  loss/joints/train: 0.095570  loss/depth/train: 0.525332  loss/uv/train: 0.040886  loss/uv_heatmap/train: 3.685360  grad_norm: 30.395346
+2026/04/22 17:34:02 - mmengine - INFO - Epoch(train)  [4][ 850/2269]  base_lr: 9.988051e-05 lr: 9.988051e-06  eta: 4:02:42  time: 0.375732  data_time: 0.020137  memory: 8619  loss: 4.375025  loss/joints/train: 0.098111  loss/depth/train: 0.530741  loss/uv/train: 0.042963  loss/uv_heatmap/train: 3.703210  grad_norm: 29.686481
+2026/04/22 17:34:21 - mmengine - INFO - Epoch(train)  [4][ 900/2269]  base_lr: 9.986603e-05 lr: 9.986603e-06  eta: 4:02:22  time: 0.384559  data_time: 0.029699  memory: 8619  loss: 4.456542  loss/joints/train: 0.093760  loss/depth/train: 0.605712  loss/uv/train: 0.035559  loss/uv_heatmap/train: 3.721512  grad_norm: 29.138196
+2026/04/22 17:34:40 - mmengine - INFO - Epoch(train)  [4][ 950/2269]  base_lr: 9.985072e-05 lr: 9.985072e-06  eta: 4:02:03  time: 0.383267  data_time: 0.027993  memory: 8619  loss: 4.368175  loss/joints/train: 0.103198  loss/depth/train: 0.526650  loss/uv/train: 0.035011  loss/uv_heatmap/train: 3.703316  grad_norm: 28.285860
+2026/04/22 17:34:59 - mmengine - INFO - Epoch(train)  [4][1000/2269]  base_lr: 9.983459e-05 lr: 9.983459e-06  eta: 4:01:42  time: 0.379621  data_time: 0.024438  memory: 8619  loss: 4.501629  loss/joints/train: 0.094825  loss/depth/train: 0.575983  loss/uv/train: 0.043254  loss/uv_heatmap/train: 3.787567  grad_norm: 27.254406
+2026/04/22 17:35:19 - mmengine - INFO - Epoch(train)  [4][1050/2269]  base_lr: 9.981763e-05 lr: 9.981763e-06  eta: 4:01:23  time: 0.387167  data_time: 0.030952  memory: 8619  loss: 4.334835  loss/joints/train: 0.091384  loss/depth/train: 0.511364  loss/uv/train: 0.036725  loss/uv_heatmap/train: 3.695361  grad_norm: 27.636574
+2026/04/22 17:35:38 - mmengine - INFO - Epoch(train)  [4][1100/2269]  base_lr: 9.979984e-05 lr: 9.979984e-06  eta: 4:01:03  time: 0.385698  data_time: 0.030916  memory: 8619  loss: 4.171205  loss/joints/train: 0.098722  loss/depth/train: 0.464624  loss/uv/train: 0.027774  loss/uv_heatmap/train: 3.580084  grad_norm: 26.179950
+2026/04/22 17:35:57 - mmengine - INFO - Epoch(train)  [4][1150/2269]  base_lr: 9.978123e-05 lr: 9.978123e-06  eta: 4:00:42  time: 0.377156  data_time: 0.021561  memory: 8619  loss: 4.458373  loss/joints/train: 0.096154  loss/depth/train: 0.546497  loss/uv/train: 0.051284  loss/uv_heatmap/train: 3.764439  grad_norm: 25.543844
+2026/04/22 17:36:13 - mmengine - INFO - Exp name: config_20260422_164352
+2026/04/22 17:36:16 - mmengine - INFO - Epoch(train)  [4][1200/2269]  base_lr: 9.976179e-05 lr: 9.976179e-06  eta: 4:00:21  time: 0.380075  data_time: 0.025124  memory: 8619  loss: 4.392712  loss/joints/train: 0.093756  loss/depth/train: 0.535171  loss/uv/train: 0.038735  loss/uv_heatmap/train: 3.725050  grad_norm: 27.031375
+2026/04/22 17:36:35 - mmengine - INFO - Epoch(train)  [4][1250/2269]  base_lr: 9.974152e-05 lr: 9.974152e-06  eta: 4:00:02  time: 0.384338  data_time: 0.028522  memory: 8619  loss: 4.314176  loss/joints/train: 0.089380  loss/depth/train: 0.633842  loss/uv/train: 0.026909  loss/uv_heatmap/train: 3.564045  grad_norm: 27.401053
+2026/04/22 17:36:55 - mmengine - INFO - Epoch(train)  [4][1300/2269]  base_lr: 9.972043e-05 lr: 9.972043e-06  eta: 3:59:43  time: 0.390859  data_time: 0.034186  memory: 8619  loss: 4.353583  loss/joints/train: 0.092741  loss/depth/train: 0.575370  loss/uv/train: 0.034183  loss/uv_heatmap/train: 3.651288  grad_norm: 28.505503
+2026/04/22 17:37:14 - mmengine - INFO - Epoch(train)  [4][1350/2269]  base_lr: 9.969852e-05 lr: 9.969852e-06  eta: 3:59:26  time: 0.395976  data_time: 0.039357  memory: 8619  loss: 4.342753  loss/joints/train: 0.090248  loss/depth/train: 0.554286  loss/uv/train: 0.038169  loss/uv_heatmap/train: 3.660050  grad_norm: 28.882235
+2026/04/22 17:37:34 - mmengine - INFO - Epoch(train)  [4][1400/2269]  base_lr: 9.967578e-05 lr: 9.967578e-06  eta: 3:59:06  time: 0.382684  data_time: 0.027394  memory: 8619  loss: 4.343316  loss/joints/train: 0.100363  loss/depth/train: 0.548762  loss/uv/train: 0.036203  loss/uv_heatmap/train: 3.657988  grad_norm: 29.716258
+2026/04/22 17:37:53 - mmengine - INFO - Epoch(train)  [4][1450/2269]  base_lr: 9.965222e-05 lr: 9.965222e-06  eta: 3:58:46  time: 0.382077  data_time: 0.026114  memory: 8619  loss: 4.297979  loss/joints/train: 0.088488  loss/depth/train: 0.523552  loss/uv/train: 0.032560  loss/uv_heatmap/train: 3.653378  grad_norm: 29.380222
+2026/04/22 17:38:12 - mmengine - INFO - Epoch(train)  [4][1500/2269]  base_lr: 9.962783e-05 lr: 9.962783e-06  eta: 3:58:27  time: 0.383951  data_time: 0.028696  memory: 8619  loss: 4.194755  loss/joints/train: 0.091613  loss/depth/train: 0.452498  loss/uv/train: 0.034216  loss/uv_heatmap/train: 3.616428  grad_norm: 29.391679
+2026/04/22 17:38:31 - mmengine - INFO - Epoch(train)  [4][1550/2269]  base_lr: 9.960263e-05 lr: 9.960263e-06  eta: 3:58:07  time: 0.385217  data_time: 0.030174  memory: 8619  loss: 4.218099  loss/joints/train: 0.089433  loss/depth/train: 0.461400  loss/uv/train: 0.041220  loss/uv_heatmap/train: 3.626046  grad_norm: 29.588227
+2026/04/22 17:38:50 - mmengine - INFO - Epoch(train)  [4][1600/2269]  base_lr: 9.957660e-05 lr: 9.957660e-06  eta: 3:57:46  time: 0.379177  data_time: 0.024223  memory: 8619  loss: 4.315006  loss/joints/train: 0.100326  loss/depth/train: 0.525300  loss/uv/train: 0.036213  loss/uv_heatmap/train: 3.653167  grad_norm: 27.921434
+2026/04/22 17:39:10 - mmengine - INFO - Epoch(train)  [4][1650/2269]  base_lr: 9.954974e-05 lr: 9.954974e-06  eta: 3:57:28  time: 0.391077  data_time: 0.035536  memory: 8619  loss: 4.181362  loss/joints/train: 0.086081  loss/depth/train: 0.515964  loss/uv/train: 0.031786  loss/uv_heatmap/train: 3.547531  grad_norm: 26.033357
+2026/04/22 17:39:30 - mmengine - INFO - Epoch(train)  [4][1700/2269]  base_lr: 9.952207e-05 lr: 9.952207e-06  eta: 3:57:12  time: 0.401391  data_time: 0.046030  memory: 8619  loss: 4.260780  loss/joints/train: 0.096840  loss/depth/train: 0.476777  loss/uv/train: 0.040639  loss/uv_heatmap/train: 3.646523  grad_norm: 25.071478
+2026/04/22 17:39:49 - mmengine - INFO - Epoch(train)  [4][1750/2269]  base_lr: 9.949357e-05 lr: 9.949357e-06  eta: 3:56:54  time: 0.390565  data_time: 0.035114  memory: 8619  loss: 4.277444  loss/joints/train: 0.095829  loss/depth/train: 0.500850  loss/uv/train: 0.033969  loss/uv_heatmap/train: 3.646797  grad_norm: 24.989553
+2026/04/22 17:40:09 - mmengine - INFO - Epoch(train)  [4][1800/2269]  base_lr: 9.946425e-05 lr: 9.946425e-06  eta: 3:56:37  time: 0.397495  data_time: 0.041475  memory: 8619  loss: 4.251732  loss/joints/train: 0.093092  loss/depth/train: 0.470443  loss/uv/train: 0.035654  loss/uv_heatmap/train: 3.652543  grad_norm: 23.784771
+2026/04/22 17:40:29 - mmengine - INFO - Epoch(train)  [4][1850/2269]  base_lr: 9.943412e-05 lr: 9.943412e-06  eta: 3:56:20  time: 0.395589  data_time: 0.039472  memory: 8619  loss: 4.220402  loss/joints/train: 0.093096  loss/depth/train: 0.477643  loss/uv/train: 0.035933  loss/uv_heatmap/train: 3.613730  grad_norm: 23.067568
+2026/04/22 17:40:48 - mmengine - INFO - Epoch(train)  [4][1900/2269]  base_lr: 9.940316e-05 lr: 9.940316e-06  eta: 3:55:59  time: 0.379541  data_time: 0.024702  memory: 8619  loss: 4.150770  loss/joints/train: 0.093570  loss/depth/train: 0.474999  loss/uv/train: 0.030362  loss/uv_heatmap/train: 3.551839  grad_norm: 23.374656
+2026/04/22 17:41:08 - mmengine - INFO - Epoch(train)  [4][1950/2269]  base_lr: 9.937139e-05 lr: 9.937139e-06  eta: 3:55:44  time: 0.404890  data_time: 0.051329  memory: 8619  loss: 4.173334  loss/joints/train: 0.087846  loss/depth/train: 0.489627  loss/uv/train: 0.030681  loss/uv_heatmap/train: 3.565181  grad_norm: 24.167088
+2026/04/22 17:41:27 - mmengine - INFO - Epoch(train)  [4][2000/2269]  base_lr: 9.933879e-05 lr: 9.933879e-06  eta: 3:55:24  time: 0.384901  data_time: 0.029405  memory: 8619  loss: 4.295409  loss/joints/train: 0.102810  loss/depth/train: 0.454493  loss/uv/train: 0.037870  loss/uv_heatmap/train: 3.700236  grad_norm: 24.463554
+2026/04/22 17:41:47 - mmengine - INFO - Epoch(train)  [4][2050/2269]  base_lr: 9.930538e-05 lr: 9.930538e-06  eta: 3:55:05  time: 0.387715  data_time: 0.031582  memory: 8619  loss: 4.140011  loss/joints/train: 0.100317  loss/depth/train: 0.534675  loss/uv/train: 0.026471  loss/uv_heatmap/train: 3.478548  grad_norm: 25.470106
+2026/04/22 17:42:06 - mmengine - INFO - Epoch(train)  [4][2100/2269]  base_lr: 9.927115e-05 lr: 9.927115e-06  eta: 3:54:45  time: 0.383476  data_time: 0.028315  memory: 8619  loss: 4.248691  loss/joints/train: 0.091948  loss/depth/train: 0.530618  loss/uv/train: 0.031266  loss/uv_heatmap/train: 3.594860  grad_norm: 26.158006
+2026/04/22 17:42:25 - mmengine - INFO - Epoch(train)  [4][2150/2269]  base_lr: 9.923610e-05 lr: 9.923610e-06  eta: 3:54:26  time: 0.387264  data_time: 0.032446  memory: 8619  loss: 4.227682  loss/joints/train: 0.097431  loss/depth/train: 0.512670  loss/uv/train: 0.028853  loss/uv_heatmap/train: 3.588727  grad_norm: 26.740264
+2026/04/22 17:42:42 - mmengine - INFO - Exp name: config_20260422_164352
+2026/04/22 17:42:45 - mmengine - INFO - Epoch(train)  [4][2200/2269]  base_lr: 9.920024e-05 lr: 9.920024e-06  eta: 3:54:06  time: 0.384327  data_time: 0.030055  memory: 8619  loss: 4.258684  loss/joints/train: 0.099852  loss/depth/train: 0.511772  loss/uv/train: 0.036416  loss/uv_heatmap/train: 3.610644  grad_norm: 27.141446
+2026/04/22 17:43:04 - mmengine - INFO - Epoch(train)  [4][2250/2269]  base_lr: 9.916356e-05 lr: 9.916356e-06  eta: 3:53:46  time: 0.381516  data_time: 0.025671  memory: 8619  loss: 4.278989  loss/joints/train: 0.094221  loss/depth/train: 0.543191  loss/uv/train: 0.033430  loss/uv_heatmap/train: 3.608147  grad_norm: 28.065113
+2026/04/22 17:43:11 - mmengine - INFO - Exp name: config_20260422_164352
+2026/04/22 17:43:11 - mmengine - INFO - Saving checkpoint at 4 epochs
+2026/04/22 17:43:44 - mmengine - INFO - Epoch(train)  [5][  50/2269]  base_lr: 9.911160e-05 lr: 9.911160e-06  eta: 3:53:21  time: 0.396713  data_time: 0.046573  memory: 8619  loss: 4.368119  loss/joints/train: 0.094120  loss/depth/train: 0.576176  loss/uv/train: 0.041979  loss/uv_heatmap/train: 3.655844  grad_norm: 28.748721
+2026/04/22 17:44:02 - mmengine - INFO - Epoch(train)  [5][ 100/2269]  base_lr: 9.907298e-05 lr: 9.907298e-06  eta: 3:52:59  time: 0.376273  data_time: 0.024538  memory: 8619  loss: 4.111003  loss/joints/train: 0.097322  loss/depth/train: 0.488667  loss/uv/train: 0.028542  loss/uv_heatmap/train: 3.496472  grad_norm: 28.807309
+2026/04/22 17:44:22 - mmengine - INFO - Epoch(train)  [5][ 150/2269]  base_lr: 9.903355e-05 lr: 9.903355e-06  eta: 3:52:41  time: 0.390821  data_time: 0.037160  memory: 8619  loss: 4.309578  loss/joints/train: 0.092987  loss/depth/train: 0.568184  loss/uv/train: 0.035346  loss/uv_heatmap/train: 3.613061  grad_norm: 29.551323
+2026/04/22 17:44:41 - mmengine - INFO - Epoch(train)  [5][ 200/2269]  base_lr: 9.899330e-05 lr: 9.899330e-06  eta: 3:52:20  time: 0.377347  data_time: 0.025114  memory: 8619  loss: 4.136667  loss/joints/train: 0.092815  loss/depth/train: 0.523898  loss/uv/train: 0.025822  loss/uv_heatmap/train: 3.494132  grad_norm: 28.832807
+2026/04/22 17:45:00 - mmengine - INFO - Epoch(train)  [5][ 250/2269]  base_lr: 9.895224e-05 lr: 9.895224e-06  eta: 3:51:59  time: 0.378391  data_time: 0.026112  memory: 8619  loss: 4.069194  loss/joints/train: 0.090497  loss/depth/train: 0.433995  loss/uv/train: 0.027422  loss/uv_heatmap/train: 3.517281  grad_norm: 27.818490
+2026/04/22 17:45:23 - mmengine - INFO - Epoch(train)  [5][ 300/2269]  base_lr: 9.891037e-05 lr: 9.891037e-06  eta: 3:51:53  time: 0.455710  data_time: 0.100467  memory: 8619  loss: 4.163622  loss/joints/train: 0.093389  loss/depth/train: 0.435567  loss/uv/train: 0.034522  loss/uv_heatmap/train: 3.600144  grad_norm: 26.713725
+2026/04/22 17:45:42 - mmengine - INFO - Epoch(train)  [5][ 350/2269]  base_lr: 9.886769e-05 lr: 9.886769e-06  eta: 3:51:36  time: 0.396602  data_time: 0.043113  memory: 8619  loss: 4.223891  loss/joints/train: 0.088865  loss/depth/train: 0.452845  loss/uv/train: 0.033915  loss/uv_heatmap/train: 3.648266  grad_norm: 27.611903
+2026/04/22 17:46:02 - mmengine - INFO - Epoch(train)  [5][ 400/2269]  base_lr: 9.882420e-05 lr: 9.882420e-06  eta: 3:51:18  time: 0.392218  data_time: 0.037864  memory: 8619  loss: 4.171834  loss/joints/train: 0.097161  loss/depth/train: 0.491762  loss/uv/train: 0.027876  loss/uv_heatmap/train: 3.555035  grad_norm: 27.713418
+2026/04/22 17:46:21 - mmengine - INFO - Epoch(train)  [5][ 450/2269]  base_lr: 9.877989e-05 lr: 9.877989e-06  eta: 3:50:57  time: 0.380216  data_time: 0.025308  memory: 8619  loss: 4.124742  loss/joints/train: 0.088539  loss/depth/train: 0.521489  loss/uv/train: 0.031653  loss/uv_heatmap/train: 3.483061  grad_norm: 26.720389
+2026/04/22 17:46:40 - mmengine - INFO - Epoch(train)  [5][ 500/2269]  base_lr: 9.873478e-05 lr: 9.873478e-06  eta: 3:50:38  time: 0.387267  data_time: 0.030883  memory: 8619  loss: 4.340019  loss/joints/train: 0.100383  loss/depth/train: 0.588109  loss/uv/train: 0.035491  loss/uv_heatmap/train: 3.616035  grad_norm: 28.016235
+2026/04/22 17:46:59 - mmengine - INFO - Epoch(train)  [5][ 550/2269]  base_lr: 9.868886e-05 lr: 9.868886e-06  eta: 3:50:17  time: 0.379949  data_time: 0.026213  memory: 8619  loss: 4.343792  loss/joints/train: 0.085352  loss/depth/train: 0.644800  loss/uv/train: 0.034190  loss/uv_heatmap/train: 3.579450  grad_norm: 28.398731
+2026/04/22 17:47:19 - mmengine - INFO - Epoch(train)  [5][ 600/2269]  base_lr: 9.864214e-05 lr: 9.864214e-06  eta: 3:49:58  time: 0.388557  data_time: 0.033830  memory: 8619  loss: 4.199438  loss/joints/train: 0.092552  loss/depth/train: 0.601107  loss/uv/train: 0.028987  loss/uv_heatmap/train: 3.476792  grad_norm: 30.150851
+2026/04/22 17:47:38 - mmengine - INFO - Epoch(train)  [5][ 650/2269]  base_lr: 9.859460e-05 lr: 9.859460e-06  eta: 3:49:40  time: 0.390818  data_time: 0.035798  memory: 8619  loss: 4.310957  loss/joints/train: 0.094798  loss/depth/train: 0.629095  loss/uv/train: 0.034088  loss/uv_heatmap/train: 3.552975  grad_norm: 31.889723
+2026/04/22 17:47:58 - mmengine - INFO - Epoch(train)  [5][ 700/2269]  base_lr: 9.854627e-05 lr: 9.854627e-06  eta: 3:49:21  time: 0.390562  data_time: 0.034292  memory: 8619  loss: 4.236327  loss/joints/train: 0.085149  loss/depth/train: 0.605194  loss/uv/train: 0.032515  loss/uv_heatmap/train: 3.513469  grad_norm: 33.264057
+2026/04/22 17:48:18 - mmengine - INFO - Epoch(train)  [5][ 750/2269]  base_lr: 9.849712e-05 lr: 9.849712e-06  eta: 3:49:05  time: 0.401260  data_time: 0.046030  memory: 8619  loss: 4.261806  loss/joints/train: 0.086516  loss/depth/train: 0.591865  loss/uv/train: 0.029484  loss/uv_heatmap/train: 3.553940  grad_norm: 34.095291
+2026/04/22 17:48:38 - mmengine - INFO - Epoch(train)  [5][ 800/2269]  base_lr: 9.844717e-05 lr: 9.844717e-06  eta: 3:48:49  time: 0.404331  data_time: 0.049240  memory: 8619  loss: 4.227624  loss/joints/train: 0.091201  loss/depth/train: 0.519041  loss/uv/train: 0.029535  loss/uv_heatmap/train: 3.587847  grad_norm: 34.257711
+2026/04/22 17:48:58 - mmengine - INFO - Epoch(train)  [5][ 850/2269]  base_lr: 9.839642e-05 lr: 9.839642e-06  eta: 3:48:30  time: 0.391718  data_time: 0.036928  memory: 8619  loss: 4.132126  loss/joints/train: 0.092851  loss/depth/train: 0.459774  loss/uv/train: 0.030936  loss/uv_heatmap/train: 3.548566  grad_norm: 34.352401
+2026/04/22 17:49:18 - mmengine - INFO - Epoch(train)  [5][ 900/2269]  base_lr: 9.834487e-05 lr: 9.834487e-06  eta: 3:48:13  time: 0.397414  data_time: 0.040243  memory: 8619  loss: 4.117797  loss/joints/train: 0.085903  loss/depth/train: 0.441270  loss/uv/train: 0.028232  loss/uv_heatmap/train: 3.562392  grad_norm: 33.292882
+2026/04/22 17:49:27 - mmengine - INFO - Exp name: config_20260422_164352
+2026/04/22 17:49:37 - mmengine - INFO - Epoch(train)  [5][ 950/2269]  base_lr: 9.829251e-05 lr: 9.829251e-06  eta: 3:47:53  time: 0.383270  data_time: 0.029183  memory: 8619  loss: 4.142646  loss/joints/train: 0.098119  loss/depth/train: 0.484653  loss/uv/train: 0.029398  loss/uv_heatmap/train: 3.530477  grad_norm: 31.750934
+2026/04/22 17:49:56 - mmengine - INFO - Epoch(train)  [5][1000/2269]  base_lr: 9.823936e-05 lr: 9.823936e-06  eta: 3:47:32  time: 0.378517  data_time: 0.024505  memory: 8619  loss: 4.053810  loss/joints/train: 0.087110  loss/depth/train: 0.447513  loss/uv/train: 0.025198  loss/uv_heatmap/train: 3.493990  grad_norm: 30.736328
+2026/04/22 17:50:15 - mmengine - INFO - Epoch(train)  [5][1050/2269]  base_lr: 9.818540e-05 lr: 9.818540e-06  eta: 3:47:12  time: 0.380807  data_time: 0.026300  memory: 8619  loss: 4.175278  loss/joints/train: 0.093079  loss/depth/train: 0.508359  loss/uv/train: 0.026973  loss/uv_heatmap/train: 3.546867  grad_norm: 29.604516
+2026/04/22 17:50:35 - mmengine - INFO - Epoch(train)  [5][1100/2269]  base_lr: 9.813064e-05 lr: 9.813064e-06  eta: 3:46:56  time: 0.409811  data_time: 0.053015  memory: 8619  loss: 4.097186  loss/joints/train: 0.086184  loss/depth/train: 0.478127  loss/uv/train: 0.026856  loss/uv_heatmap/train: 3.506019  grad_norm: 28.105773
+2026/04/22 17:50:54 - mmengine - INFO - Epoch(train)  [5][1150/2269]  base_lr: 9.807509e-05 lr: 9.807509e-06  eta: 3:46:36  time: 0.382867  data_time: 0.028637  memory: 8619  loss: 3.987387  loss/joints/train: 0.092074  loss/depth/train: 0.397792  loss/uv/train: 0.026418  loss/uv_heatmap/train: 3.471103  grad_norm: 27.664169
+2026/04/22 17:51:14 - mmengine - INFO - Epoch(train)  [5][1200/2269]  base_lr: 9.801874e-05 lr: 9.801874e-06  eta: 3:46:17  time: 0.386148  data_time: 0.030348  memory: 8619  loss: 4.150530  loss/joints/train: 0.093303  loss/depth/train: 0.467132  loss/uv/train: 0.028685  loss/uv_heatmap/train: 3.561410  grad_norm: 27.624743
+2026/04/22 17:51:34 - mmengine - INFO - Epoch(train)  [5][1250/2269]  base_lr: 9.796159e-05 lr: 9.796159e-06  eta: 3:46:01  time: 0.406979  data_time: 0.051091  memory: 8619  loss: 4.105209  loss/joints/train: 0.100848  loss/depth/train: 0.493544  loss/uv/train: 0.025364  loss/uv_heatmap/train: 3.485453  grad_norm: 27.998501
+2026/04/22 17:51:54 - mmengine - INFO - Epoch(train)  [5][1300/2269]  base_lr: 9.790365e-05 lr: 9.790365e-06  eta: 3:45:42  time: 0.391740  data_time: 0.031964  memory: 8619  loss: 4.049405  loss/joints/train: 0.090072  loss/depth/train: 0.409483  loss/uv/train: 0.031256  loss/uv_heatmap/train: 3.518594  grad_norm: 27.424788
+2026/04/22 17:52:13 - mmengine - INFO - Epoch(train)  [5][1350/2269]  base_lr: 9.784491e-05 lr: 9.784491e-06  eta: 3:45:22  time: 0.379159  data_time: 0.025419  memory: 8619  loss: 4.041737  loss/joints/train: 0.089891  loss/depth/train: 0.399863  loss/uv/train: 0.028104  loss/uv_heatmap/train: 3.523879  grad_norm: 29.511636
+2026/04/22 17:52:32 - mmengine - INFO - Epoch(train)  [5][1400/2269]  base_lr: 9.778538e-05 lr: 9.778538e-06  eta: 3:45:02  time: 0.386616  data_time: 0.031506  memory: 8619  loss: 4.067764  loss/joints/train: 0.087099  loss/depth/train: 0.455389  loss/uv/train: 0.030892  loss/uv_heatmap/train: 3.494385  grad_norm: 29.233396
+2026/04/22 17:52:51 - mmengine - INFO - Epoch(train)  [5][1450/2269]  base_lr: 9.772506e-05 lr: 9.772506e-06  eta: 3:44:41  time: 0.376734  data_time: 0.023047  memory: 8619  loss: 3.932904  loss/joints/train: 0.090326  loss/depth/train: 0.405684  loss/uv/train: 0.021339  loss/uv_heatmap/train: 3.415554  grad_norm: 28.718756
+2026/04/22 17:53:10 - mmengine - INFO - Epoch(train)  [5][1500/2269]  base_lr: 9.766394e-05 lr: 9.766394e-06  eta: 3:44:21  time: 0.381953  data_time: 0.026485  memory: 8619  loss: 4.195889  loss/joints/train: 0.089084  loss/depth/train: 0.559338  loss/uv/train: 0.030006  loss/uv_heatmap/train: 3.517461  grad_norm: 30.763780
+2026/04/22 17:53:29 - mmengine - INFO - Epoch(train)  [5][1550/2269]  base_lr: 9.760204e-05 lr: 9.760204e-06  eta: 3:44:01  time: 0.381639  data_time: 0.028058  memory: 8619  loss: 4.018398  loss/joints/train: 0.088403  loss/depth/train: 0.484826  loss/uv/train: 0.023456  loss/uv_heatmap/train: 3.421713  grad_norm: 30.125411
+2026/04/22 17:53:48 - mmengine - INFO - Epoch(train)  [5][1600/2269]  base_lr: 9.753934e-05 lr: 9.753934e-06  eta: 3:43:40  time: 0.378003  data_time: 0.024095  memory: 8619  loss: 4.109373  loss/joints/train: 0.088693  loss/depth/train: 0.454466  loss/uv/train: 0.030449  loss/uv_heatmap/train: 3.535765  grad_norm: 30.097268
+2026/04/22 17:54:07 - mmengine - INFO - Epoch(train)  [5][1650/2269]  base_lr: 9.747586e-05 lr: 9.747586e-06  eta: 3:43:19  time: 0.377610  data_time: 0.024232  memory: 8619  loss: 3.962936  loss/joints/train: 0.091871  loss/depth/train: 0.426166  loss/uv/train: 0.032364  loss/uv_heatmap/train: 3.412536  grad_norm: 29.099713
+2026/04/22 17:54:26 - mmengine - INFO - Epoch(train)  [5][1700/2269]  base_lr: 9.741159e-05 lr: 9.741159e-06  eta: 3:42:59  time: 0.381042  data_time: 0.024713  memory: 8619  loss: 4.156674  loss/joints/train: 0.093770  loss/depth/train: 0.488296  loss/uv/train: 0.031763  loss/uv_heatmap/train: 3.542846  grad_norm: 28.472989
+2026/04/22 17:54:46 - mmengine - INFO - Epoch(train)  [5][1750/2269]  base_lr: 9.734653e-05 lr: 9.734653e-06  eta: 3:42:42  time: 0.397185  data_time: 0.043085  memory: 8619  loss: 3.941296  loss/joints/train: 0.088120  loss/depth/train: 0.393760  loss/uv/train: 0.023428  loss/uv_heatmap/train: 3.435987  grad_norm: 26.344459
+2026/04/22 17:55:05 - mmengine - INFO - Epoch(train)  [5][1800/2269]  base_lr: 9.728069e-05 lr: 9.728069e-06  eta: 3:42:21  time: 0.378730  data_time: 0.024781  memory: 8619  loss: 4.070123  loss/joints/train: 0.088070  loss/depth/train: 0.407962  loss/uv/train: 0.039911  loss/uv_heatmap/train: 3.534181  grad_norm: 26.252199
+2026/04/22 17:55:24 - mmengine - INFO - Epoch(train)  [5][1850/2269]  base_lr: 9.721407e-05 lr: 9.721407e-06  eta: 3:42:02  time: 0.388128  data_time: 0.033770  memory: 8619  loss: 4.171876  loss/joints/train: 0.089038  loss/depth/train: 0.466171  loss/uv/train: 0.040188  loss/uv_heatmap/train: 3.576479  grad_norm: 26.743587
+2026/04/22 17:55:44 - mmengine - INFO - Epoch(train)  [5][1900/2269]  base_lr: 9.714666e-05 lr: 9.714666e-06  eta: 3:41:44  time: 0.398954  data_time: 0.042944  memory: 8619  loss: 4.036888  loss/joints/train: 0.090137  loss/depth/train: 0.426677  loss/uv/train: 0.030066  loss/uv_heatmap/train: 3.490009  grad_norm: 25.152149
+2026/04/22 17:55:54 - mmengine - INFO - Exp name: config_20260422_164352
+2026/04/22 17:56:04 - mmengine - INFO - Epoch(train)  [5][1950/2269]  base_lr: 9.707847e-05 lr: 9.707847e-06  eta: 3:41:26  time: 0.392625  data_time: 0.038505  memory: 8619  loss: 4.050907  loss/joints/train: 0.089388  loss/depth/train: 0.422138  loss/uv/train: 0.033028  loss/uv_heatmap/train: 3.506353  grad_norm: 24.532430
+2026/04/22 17:56:23 - mmengine - INFO - Epoch(train)  [5][2000/2269]  base_lr: 9.700950e-05 lr: 9.700950e-06  eta: 3:41:07  time: 0.387034  data_time: 0.031874  memory: 8619  loss: 3.904471  loss/joints/train: 0.093131  loss/depth/train: 0.381733  loss/uv/train: 0.022091  loss/uv_heatmap/train: 3.407516  grad_norm: 23.529217
+2026/04/22 17:56:43 - mmengine - INFO - Epoch(train)  [5][2050/2269]  base_lr: 9.693975e-05 lr: 9.693975e-06  eta: 3:40:50  time: 0.401197  data_time: 0.046768  memory: 8619  loss: 3.992667  loss/joints/train: 0.093437  loss/depth/train: 0.449439  loss/uv/train: 0.022985  loss/uv_heatmap/train: 3.426806  grad_norm: 24.075230
+2026/04/22 17:57:02 - mmengine - INFO - Epoch(train)  [5][2100/2269]  base_lr: 9.686922e-05 lr: 9.686922e-06  eta: 3:40:30  time: 0.383802  data_time: 0.029659  memory: 8619  loss: 4.000798  loss/joints/train: 0.098887  loss/depth/train: 0.492524  loss/uv/train: 0.026448  loss/uv_heatmap/train: 3.382938  grad_norm: 25.151925
+2026/04/22 17:57:21 - mmengine - INFO - Epoch(train)  [5][2150/2269]  base_lr: 9.679791e-05 lr: 9.679791e-06  eta: 3:40:09  time: 0.375201  data_time: 0.022204  memory: 8619  loss: 4.013804  loss/joints/train: 0.086848  loss/depth/train: 0.441446  loss/uv/train: 0.025228  loss/uv_heatmap/train: 3.460282  grad_norm: 24.979215
+2026/04/22 17:57:40 - mmengine - INFO - Epoch(train)  [5][2200/2269]  base_lr: 9.672583e-05 lr: 9.672583e-06  eta: 3:39:48  time: 0.378581  data_time: 0.024010  memory: 8619  loss: 3.950392  loss/joints/train: 0.087911  loss/depth/train: 0.418936  loss/uv/train: 0.031310  loss/uv_heatmap/train: 3.412235  grad_norm: 24.785915
+2026/04/22 17:57:59 - mmengine - INFO - Epoch(train)  [5][2250/2269]  base_lr: 9.665297e-05 lr: 9.665297e-06  eta: 3:39:28  time: 0.381756  data_time: 0.028665  memory: 8619  loss: 3.964904  loss/joints/train: 0.088213  loss/depth/train: 0.403336  loss/uv/train: 0.025309  loss/uv_heatmap/train: 3.448047  grad_norm: 24.675243
+2026/04/22 17:58:06 - mmengine - INFO - Exp name: config_20260422_164352
+2026/04/22 17:58:07 - mmengine - INFO - Saving checkpoint at 5 epochs
+2026/04/22 17:59:23 - mmengine - INFO - Epoch(val)  [5][ 50/899]    eta: 0:17:39  time: 1.248079  data_time: 0.034181  memory: 8619  
+2026/04/22 18:00:24 - mmengine - INFO - Epoch(val)  [5][100/899]    eta: 0:16:28  time: 1.226958  data_time: 0.001098  memory: 5460  
+2026/04/22 18:01:26 - mmengine - INFO - Epoch(val)  [5][150/899]    eta: 0:15:24  time: 1.228889  data_time: 0.001023  memory: 5460  
+2026/04/22 18:02:27 - mmengine - INFO - Epoch(val)  [5][200/899]    eta: 0:14:22  time: 1.229804  data_time: 0.001017  memory: 5460  
+2026/04/22 18:03:29 - mmengine - INFO - Epoch(val)  [5][250/899]    eta: 0:13:20  time: 1.230431  data_time: 0.001029  memory: 5460  
+2026/04/22 18:04:31 - mmengine - INFO - Epoch(val)  [5][300/899]    eta: 0:12:18  time: 1.232041  data_time: 0.001043  memory: 5460  
+2026/04/22 18:05:32 - mmengine - INFO - Epoch(val)  [5][350/899]    eta: 0:11:16  time: 1.231026  data_time: 0.001020  memory: 5460  
+2026/04/22 18:06:34 - mmengine - INFO - Epoch(val)  [5][400/899]    eta: 0:10:15  time: 1.234798  data_time: 0.001098  memory: 5460  
+2026/04/22 18:07:35 - mmengine - INFO - Epoch(val)  [5][450/899]    eta: 0:09:13  time: 1.230355  data_time: 0.001037  memory: 5460  
+2026/04/22 18:08:37 - mmengine - INFO - Epoch(val)  [5][500/899]    eta: 0:08:11  time: 1.230787  data_time: 0.001034  memory: 5460  
+2026/04/22 18:09:39 - mmengine - INFO - Epoch(val)  [5][550/899]    eta: 0:07:10  time: 1.234993  data_time: 0.001058  memory: 5460  
+2026/04/22 18:10:40 - mmengine - INFO - Epoch(val)  [5][600/899]    eta: 0:06:08  time: 1.234551  data_time: 0.001026  memory: 5460  
+2026/04/22 18:11:42 - mmengine - INFO - Epoch(val)  [5][650/899]    eta: 0:05:06  time: 1.233318  data_time: 0.001069  memory: 5460  
+2026/04/22 18:12:44 - mmengine - INFO - Epoch(val)  [5][700/899]    eta: 0:04:05  time: 1.234633  data_time: 0.001045  memory: 5460  
+2026/04/22 18:13:45 - mmengine - INFO - Epoch(val)  [5][750/899]    eta: 0:03:03  time: 1.233355  data_time: 0.001022  memory: 5460  
+2026/04/22 18:14:47 - mmengine - INFO - Epoch(val)  [5][800/899]    eta: 0:02:02  time: 1.232141  data_time: 0.001037  memory: 5460  
+2026/04/22 18:15:49 - mmengine - INFO - Epoch(val)  [5][850/899]    eta: 0:01:00  time: 1.231748  data_time: 0.001022  memory: 5460  
+2026/04/22 18:16:49 - mmengine - INFO - Evaluating BedlamMPJPE...
+2026/04/22 18:16:50 - mmengine - INFO -   mpjpe/rel/val: 432.64 mm
+2026/04/22 18:16:50 - mmengine - INFO -   mpjpe/body/val: 215.50 mm
+2026/04/22 18:16:50 - mmengine - INFO -   mpjpe/hand/val: 479.55 mm
+2026/04/22 18:16:50 - mmengine - INFO -   mpjpe/abs/val: 1107.70 mm
+2026/04/22 18:16:50 - mmengine - INFO -   mpjpe/pelvis/val: 953.09 mm
+2026/04/22 18:16:50 - mmengine - INFO -   composite/val: 458.91 mm
+2026/04/22 18:16:50 - mmengine - INFO - Epoch(val) [5][899/899]    mpjpe/rel/val: 432.640195  mpjpe/body/val: 215.502083  mpjpe/hand/val: 479.545981  mpjpe/abs/val: 1107.697606  mpjpe/pelvis/val: 953.088757  composite/val: 458.905686  data_time: 0.002888  time: 1.232195
+2026/04/22 18:17:09 - mmengine - INFO - Epoch(train)  [6][  50/2269]  base_lr: 9.655116e-05 lr: 9.655116e-06  eta: 3:39:01  time: 0.390227  data_time: 0.035656  memory: 8619  loss: 4.035592  loss/joints/train: 0.092510  loss/depth/train: 0.441292  loss/uv/train: 0.024894  loss/uv_heatmap/train: 3.476896  grad_norm: 25.134064
+2026/04/22 18:17:29 - mmengine - INFO - Epoch(train)  [6][ 100/2269]  base_lr: 9.647646e-05 lr: 9.647646e-06  eta: 3:38:42  time: 0.391845  data_time: 0.036320  memory: 8619  loss: 3.848377  loss/joints/train: 0.089851  loss/depth/train: 0.347348  loss/uv/train: 0.021040  loss/uv_heatmap/train: 3.390138  grad_norm: 25.202002
+2026/04/22 18:17:48 - mmengine - INFO - Epoch(train)  [6][ 150/2269]  base_lr: 9.640099e-05 lr: 9.640099e-06  eta: 3:38:22  time: 0.380094  data_time: 0.023923  memory: 8619  loss: 4.096982  loss/joints/train: 0.091934  loss/depth/train: 0.406776  loss/uv/train: 0.034445  loss/uv_heatmap/train: 3.563827  grad_norm: 25.084868
+2026/04/22 18:18:07 - mmengine - INFO - Epoch(train)  [6][ 200/2269]  base_lr: 9.632476e-05 lr: 9.632476e-06  eta: 3:38:02  time: 0.380130  data_time: 0.024118  memory: 8619  loss: 3.975383  loss/joints/train: 0.089126  loss/depth/train: 0.381207  loss/uv/train: 0.028997  loss/uv_heatmap/train: 3.476053  grad_norm: 24.758128
+2026/04/22 18:18:27 - mmengine - INFO - Epoch(train)  [6][ 250/2269]  base_lr: 9.624775e-05 lr: 9.624775e-06  eta: 3:37:43  time: 0.391967  data_time: 0.035723  memory: 8619  loss: 3.807833  loss/joints/train: 0.091107  loss/depth/train: 0.384938  loss/uv/train: 0.017841  loss/uv_heatmap/train: 3.313947  grad_norm: 23.742349
+2026/04/22 18:18:45 - mmengine - INFO - Epoch(train)  [6][ 300/2269]  base_lr: 9.616998e-05 lr: 9.616998e-06  eta: 3:37:22  time: 0.375467  data_time: 0.020422  memory: 8619  loss: 3.900025  loss/joints/train: 0.094874  loss/depth/train: 0.399788  loss/uv/train: 0.025495  loss/uv_heatmap/train: 3.379868  grad_norm: 24.029365
+2026/04/22 18:19:04 - mmengine - INFO - Epoch(train)  [6][ 350/2269]  base_lr: 9.609144e-05 lr: 9.609144e-06  eta: 3:37:02  time: 0.378686  data_time: 0.022588  memory: 8619  loss: 3.968917  loss/joints/train: 0.087289  loss/depth/train: 0.435682  loss/uv/train: 0.029659  loss/uv_heatmap/train: 3.416287  grad_norm: 23.254865
+2026/04/22 18:19:23 - mmengine - INFO - Epoch(train)  [6][ 400/2269]  base_lr: 9.601214e-05 lr: 9.601214e-06  eta: 3:36:41  time: 0.376682  data_time: 0.019578  memory: 8619  loss: 4.035511  loss/joints/train: 0.088883  loss/depth/train: 0.476412  loss/uv/train: 0.025947  loss/uv_heatmap/train: 3.444270  grad_norm: 24.731780
+2026/04/22 18:19:42 - mmengine - INFO - Epoch(train)  [6][ 450/2269]  base_lr: 9.593208e-05 lr: 9.593208e-06  eta: 3:36:20  time: 0.377271  data_time: 0.021368  memory: 8619  loss: 4.010244  loss/joints/train: 0.092395  loss/depth/train: 0.413929  loss/uv/train: 0.026457  loss/uv_heatmap/train: 3.477463  grad_norm: 23.864625
+2026/04/22 18:20:01 - mmengine - INFO - Epoch(train)  [6][ 500/2269]  base_lr: 9.585125e-05 lr: 9.585125e-06  eta: 3:36:00  time: 0.378295  data_time: 0.023454  memory: 8619  loss: 3.868557  loss/joints/train: 0.096482  loss/depth/train: 0.405624  loss/uv/train: 0.018389  loss/uv_heatmap/train: 3.348062  grad_norm: 23.462510
+2026/04/22 18:20:20 - mmengine - INFO - Epoch(train)  [6][ 550/2269]  base_lr: 9.576966e-05 lr: 9.576966e-06  eta: 3:35:40  time: 0.379081  data_time: 0.023138  memory: 8619  loss: 3.848911  loss/joints/train: 0.084439  loss/depth/train: 0.369167  loss/uv/train: 0.019806  loss/uv_heatmap/train: 3.375499  grad_norm: 24.102108
+2026/04/22 18:20:39 - mmengine - INFO - Epoch(train)  [6][ 600/2269]  base_lr: 9.568732e-05 lr: 9.568732e-06  eta: 3:35:19  time: 0.380425  data_time: 0.024172  memory: 8619  loss: 3.967211  loss/joints/train: 0.090371  loss/depth/train: 0.410421  loss/uv/train: 0.025843  loss/uv_heatmap/train: 3.440577  grad_norm: 24.341923
+2026/04/22 18:20:58 - mmengine - INFO - Epoch(train)  [6][ 650/2269]  base_lr: 9.560421e-05 lr: 9.560421e-06  eta: 3:34:58  time: 0.373673  data_time: 0.018302  memory: 8619  loss: 3.842212  loss/joints/train: 0.086424  loss/depth/train: 0.358870  loss/uv/train: 0.021585  loss/uv_heatmap/train: 3.375333  grad_norm: 24.073763
+2026/04/22 18:21:00 - mmengine - INFO - Exp name: config_20260422_164352
+2026/04/22 18:21:16 - mmengine - INFO - Epoch(train)  [6][ 700/2269]  base_lr: 9.552035e-05 lr: 9.552035e-06  eta: 3:34:38  time: 0.375565  data_time: 0.020466  memory: 8619  loss: 3.831651  loss/joints/train: 0.092479  loss/depth/train: 0.331747  loss/uv/train: 0.024278  loss/uv_heatmap/train: 3.383147  grad_norm: 23.597149
+2026/04/22 18:21:36 - mmengine - INFO - Epoch(train)  [6][ 750/2269]  base_lr: 9.543574e-05 lr: 9.543574e-06  eta: 3:34:18  time: 0.386846  data_time: 0.031943  memory: 8619  loss: 3.906687  loss/joints/train: 0.090107  loss/depth/train: 0.400099  loss/uv/train: 0.020844  loss/uv_heatmap/train: 3.395636  grad_norm: 23.305286
+2026/04/22 18:21:55 - mmengine - INFO - Epoch(train)  [6][ 800/2269]  base_lr: 9.535037e-05 lr: 9.535037e-06  eta: 3:33:59  time: 0.388594  data_time: 0.033559  memory: 8619  loss: 3.812136  loss/joints/train: 0.085967  loss/depth/train: 0.385305  loss/uv/train: 0.017504  loss/uv_heatmap/train: 3.323360  grad_norm: 21.222979
+2026/04/22 18:22:14 - mmengine - INFO - Epoch(train)  [6][ 850/2269]  base_lr: 9.526425e-05 lr: 9.526425e-06  eta: 3:33:39  time: 0.379085  data_time: 0.025427  memory: 8619  loss: 3.896372  loss/joints/train: 0.089664  loss/depth/train: 0.405254  loss/uv/train: 0.025942  loss/uv_heatmap/train: 3.375513  grad_norm: 21.329021
+2026/04/22 18:22:33 - mmengine - INFO - Epoch(train)  [6][ 900/2269]  base_lr: 9.517738e-05 lr: 9.517738e-06  eta: 3:33:19  time: 0.384537  data_time: 0.030228  memory: 8619  loss: 4.039287  loss/joints/train: 0.091254  loss/depth/train: 0.442736  loss/uv/train: 0.029672  loss/uv_heatmap/train: 3.475625  grad_norm: 21.801665
+2026/04/22 18:22:52 - mmengine - INFO - Epoch(train)  [6][ 950/2269]  base_lr: 9.508976e-05 lr: 9.508976e-06  eta: 3:32:59  time: 0.380379  data_time: 0.025384  memory: 8619  loss: 3.991854  loss/joints/train: 0.090218  loss/depth/train: 0.383032  loss/uv/train: 0.029795  loss/uv_heatmap/train: 3.488809  grad_norm: 21.204398
+2026/04/22 18:23:12 - mmengine - INFO - Epoch(train)  [6][1000/2269]  base_lr: 9.500139e-05 lr: 9.500139e-06  eta: 3:32:40  time: 0.386770  data_time: 0.031293  memory: 8619  loss: 4.010981  loss/joints/train: 0.089691  loss/depth/train: 0.427318  loss/uv/train: 0.026361  loss/uv_heatmap/train: 3.467612  grad_norm: 21.408756
+2026/04/22 18:23:31 - mmengine - INFO - Epoch(train)  [6][1050/2269]  base_lr: 9.491227e-05 lr: 9.491227e-06  eta: 3:32:21  time: 0.385448  data_time: 0.030325  memory: 8619  loss: 4.060458  loss/joints/train: 0.084924  loss/depth/train: 0.479180  loss/uv/train: 0.031325  loss/uv_heatmap/train: 3.465030  grad_norm: 23.059139
+2026/04/22 18:23:50 - mmengine - INFO - Epoch(train)  [6][1100/2269]  base_lr: 9.482242e-05 lr: 9.482242e-06  eta: 3:32:02  time: 0.388011  data_time: 0.033143  memory: 8619  loss: 3.848623  loss/joints/train: 0.085713  loss/depth/train: 0.396395  loss/uv/train: 0.019164  loss/uv_heatmap/train: 3.347351  grad_norm: 23.167677
+2026/04/22 18:24:10 - mmengine - INFO - Epoch(train)  [6][1150/2269]  base_lr: 9.473181e-05 lr: 9.473181e-06  eta: 3:31:44  time: 0.396087  data_time: 0.042375  memory: 8619  loss: 3.898858  loss/joints/train: 0.091364  loss/depth/train: 0.352446  loss/uv/train: 0.025588  loss/uv_heatmap/train: 3.429461  grad_norm: 23.010247
+2026/04/22 18:24:30 - mmengine - INFO - Epoch(train)  [6][1200/2269]  base_lr: 9.464047e-05 lr: 9.464047e-06  eta: 3:31:24  time: 0.385250  data_time: 0.029608  memory: 8619  loss: 3.827283  loss/joints/train: 0.087118  loss/depth/train: 0.383113  loss/uv/train: 0.026508  loss/uv_heatmap/train: 3.330543  grad_norm: 24.168392
+2026/04/22 18:24:49 - mmengine - INFO - Epoch(train)  [6][1250/2269]  base_lr: 9.454838e-05 lr: 9.454838e-06  eta: 3:31:04  time: 0.381732  data_time: 0.027230  memory: 8619  loss: 3.812559  loss/joints/train: 0.089217  loss/depth/train: 0.403573  loss/uv/train: 0.023966  loss/uv_heatmap/train: 3.295803  grad_norm: 24.377886
+2026/04/22 18:25:08 - mmengine - INFO - Epoch(train)  [6][1300/2269]  base_lr: 9.445556e-05 lr: 9.445556e-06  eta: 3:30:44  time: 0.382422  data_time: 0.025717  memory: 8619  loss: 3.855833  loss/joints/train: 0.085109  loss/depth/train: 0.376693  loss/uv/train: 0.018634  loss/uv_heatmap/train: 3.375397  grad_norm: 24.225020
+2026/04/22 18:25:27 - mmengine - INFO - Epoch(train)  [6][1350/2269]  base_lr: 9.436200e-05 lr: 9.436200e-06  eta: 3:30:24  time: 0.375555  data_time: 0.018808  memory: 8619  loss: 3.918005  loss/joints/train: 0.089477  loss/depth/train: 0.406527  loss/uv/train: 0.024188  loss/uv_heatmap/train: 3.397813  grad_norm: 24.988775
+2026/04/22 18:25:45 - mmengine - INFO - Epoch(train)  [6][1400/2269]  base_lr: 9.426771e-05 lr: 9.426771e-06  eta: 3:30:03  time: 0.377156  data_time: 0.020124  memory: 8619  loss: 3.946631  loss/joints/train: 0.091426  loss/depth/train: 0.437414  loss/uv/train: 0.020756  loss/uv_heatmap/train: 3.397034  grad_norm: 25.139405
+2026/04/22 18:26:05 - mmengine - INFO - Epoch(train)  [6][1450/2269]  base_lr: 9.417267e-05 lr: 9.417267e-06  eta: 3:29:44  time: 0.387596  data_time: 0.032345  memory: 8619  loss: 3.778495  loss/joints/train: 0.087908  loss/depth/train: 0.326844  loss/uv/train: 0.021026  loss/uv_heatmap/train: 3.342716  grad_norm: 23.413259
+2026/04/22 18:26:24 - mmengine - INFO - Epoch(train)  [6][1500/2269]  base_lr: 9.407691e-05 lr: 9.407691e-06  eta: 3:29:24  time: 0.377026  data_time: 0.021019  memory: 8619  loss: 3.997402  loss/joints/train: 0.087014  loss/depth/train: 0.452041  loss/uv/train: 0.027516  loss/uv_heatmap/train: 3.430832  grad_norm: 24.043105
+2026/04/22 18:26:43 - mmengine - INFO - Epoch(train)  [6][1550/2269]  base_lr: 9.398042e-05 lr: 9.398042e-06  eta: 3:29:04  time: 0.383976  data_time: 0.028190  memory: 8619  loss: 3.922503  loss/joints/train: 0.083157  loss/depth/train: 0.422711  loss/uv/train: 0.024100  loss/uv_heatmap/train: 3.392533  grad_norm: 25.304587
+2026/04/22 18:27:02 - mmengine - INFO - Epoch(train)  [6][1600/2269]  base_lr: 9.388320e-05 lr: 9.388320e-06  eta: 3:28:45  time: 0.389121  data_time: 0.031181  memory: 8619  loss: 4.012971  loss/joints/train: 0.087544  loss/depth/train: 0.432232  loss/uv/train: 0.028833  loss/uv_heatmap/train: 3.464361  grad_norm: 25.808753
+2026/04/22 18:27:22 - mmengine - INFO - Epoch(train)  [6][1650/2269]  base_lr: 9.378524e-05 lr: 9.378524e-06  eta: 3:28:26  time: 0.391752  data_time: 0.035892  memory: 8619  loss: 3.984708  loss/joints/train: 0.084100  loss/depth/train: 0.433961  loss/uv/train: 0.025683  loss/uv_heatmap/train: 3.440965  grad_norm: 26.179466
+2026/04/22 18:27:24 - mmengine - INFO - Exp name: config_20260422_164352
+2026/04/22 18:27:42 - mmengine - INFO - Epoch(train)  [6][1700/2269]  base_lr: 9.368657e-05 lr: 9.368657e-06  eta: 3:28:10  time: 0.405411  data_time: 0.049574  memory: 8619  loss: 4.013653  loss/joints/train: 0.085759  loss/depth/train: 0.524892  loss/uv/train: 0.025704  loss/uv_heatmap/train: 3.377298  grad_norm: 27.681951
+2026/04/22 18:28:01 - mmengine - INFO - Epoch(train)  [6][1750/2269]  base_lr: 9.358717e-05 lr: 9.358717e-06  eta: 3:27:50  time: 0.384576  data_time: 0.029500  memory: 8619  loss: 3.814752  loss/joints/train: 0.086884  loss/depth/train: 0.378256  loss/uv/train: 0.018136  loss/uv_heatmap/train: 3.331476  grad_norm: 27.059410
+2026/04/22 18:28:20 - mmengine - INFO - Epoch(train)  [6][1800/2269]  base_lr: 9.348704e-05 lr: 9.348704e-06  eta: 3:27:30  time: 0.380442  data_time: 0.023149  memory: 8619  loss: 3.967138  loss/joints/train: 0.086366  loss/depth/train: 0.474628  loss/uv/train: 0.023065  loss/uv_heatmap/train: 3.383080  grad_norm: 28.111403
+2026/04/22 18:28:40 - mmengine - INFO - Epoch(train)  [6][1850/2269]  base_lr: 9.338620e-05 lr: 9.338620e-06  eta: 3:27:10  time: 0.382485  data_time: 0.027671  memory: 8619  loss: 3.943330  loss/joints/train: 0.083667  loss/depth/train: 0.485844  loss/uv/train: 0.017760  loss/uv_heatmap/train: 3.356059  grad_norm: 29.706749
+2026/04/22 18:28:59 - mmengine - INFO - Epoch(train)  [6][1900/2269]  base_lr: 9.328463e-05 lr: 9.328463e-06  eta: 3:26:51  time: 0.384464  data_time: 0.028608  memory: 8619  loss: 3.966784  loss/joints/train: 0.086227  loss/depth/train: 0.456371  loss/uv/train: 0.027318  loss/uv_heatmap/train: 3.396868  grad_norm: 29.412127
+2026/04/22 18:29:19 - mmengine - INFO - Epoch(train)  [6][1950/2269]  base_lr: 9.318235e-05 lr: 9.318235e-06  eta: 3:26:33  time: 0.399267  data_time: 0.044133  memory: 8619  loss: 3.986640  loss/joints/train: 0.092622  loss/depth/train: 0.394433  loss/uv/train: 0.029208  loss/uv_heatmap/train: 3.470378  grad_norm: 28.435607
+2026/04/22 18:29:38 - mmengine - INFO - Epoch(train)  [6][2000/2269]  base_lr: 9.307935e-05 lr: 9.307935e-06  eta: 3:26:14  time: 0.388372  data_time: 0.032212  memory: 8619  loss: 3.918511  loss/joints/train: 0.087900  loss/depth/train: 0.414902  loss/uv/train: 0.036717  loss/uv_heatmap/train: 3.378992  grad_norm: 26.988105
+2026/04/22 18:29:57 - mmengine - INFO - Epoch(train)  [6][2050/2269]  base_lr: 9.297564e-05 lr: 9.297564e-06  eta: 3:25:54  time: 0.384218  data_time: 0.029539  memory: 8619  loss: 3.870708  loss/joints/train: 0.087305  loss/depth/train: 0.358068  loss/uv/train: 0.027936  loss/uv_heatmap/train: 3.397399  grad_norm: 26.053580
+2026/04/22 18:30:18 - mmengine - INFO - Epoch(train)  [6][2100/2269]  base_lr: 9.287121e-05 lr: 9.287121e-06  eta: 3:25:38  time: 0.409538  data_time: 0.053103  memory: 8619  loss: 3.753290  loss/joints/train: 0.087049  loss/depth/train: 0.324663  loss/uv/train: 0.017916  loss/uv_heatmap/train: 3.323662  grad_norm: 24.551718
+2026/04/22 18:30:37 - mmengine - INFO - Epoch(train)  [6][2150/2269]  base_lr: 9.276608e-05 lr: 9.276608e-06  eta: 3:25:18  time: 0.383180  data_time: 0.026501  memory: 8619  loss: 3.923244  loss/joints/train: 0.087490  loss/depth/train: 0.379266  loss/uv/train: 0.026257  loss/uv_heatmap/train: 3.430230  grad_norm: 24.628710
+2026/04/22 18:30:57 - mmengine - INFO - Epoch(train)  [6][2200/2269]  base_lr: 9.266023e-05 lr: 9.266023e-06  eta: 3:25:00  time: 0.398978  data_time: 0.042306  memory: 8619  loss: 3.886369  loss/joints/train: 0.089495  loss/depth/train: 0.431865  loss/uv/train: 0.027784  loss/uv_heatmap/train: 3.337226  grad_norm: 23.249679
+2026/04/22 18:31:17 - mmengine - INFO - Epoch(train)  [6][2250/2269]  base_lr: 9.255368e-05 lr: 9.255368e-06  eta: 3:24:42  time: 0.392188  data_time: 0.036494  memory: 8619  loss: 3.977049  loss/joints/train: 0.085025  loss/depth/train: 0.414173  loss/uv/train: 0.024980  loss/uv_heatmap/train: 3.452870  grad_norm: 22.799728
+2026/04/22 18:31:24 - mmengine - INFO - Exp name: config_20260422_164352
+2026/04/22 18:31:24 - mmengine - INFO - Saving checkpoint at 6 epochs
+2026/04/22 18:31:58 - mmengine - INFO - Epoch(train)  [7][  50/2269]  base_lr: 9.240547e-05 lr: 9.240547e-06  eta: 3:24:18  time: 0.419835  data_time: 0.067454  memory: 8619  loss: 3.930407  loss/joints/train: 0.091850  loss/depth/train: 0.398910  loss/uv/train: 0.026310  loss/uv_heatmap/train: 3.413336  grad_norm: 23.170966
+2026/04/22 18:32:18 - mmengine - INFO - Epoch(train)  [7][ 100/2269]  base_lr: 9.229724e-05 lr: 9.229724e-06  eta: 3:23:59  time: 0.388751  data_time: 0.037451  memory: 8619  loss: 3.805674  loss/joints/train: 0.085313  loss/depth/train: 0.346567  loss/uv/train: 0.025962  loss/uv_heatmap/train: 3.347832  grad_norm: 23.629557
+2026/04/22 18:32:37 - mmengine - INFO - Epoch(train)  [7][ 150/2269]  base_lr: 9.218831e-05 lr: 9.218831e-06  eta: 3:23:40  time: 0.383621  data_time: 0.029537  memory: 8619  loss: 3.865802  loss/joints/train: 0.084129  loss/depth/train: 0.403335  loss/uv/train: 0.029509  loss/uv_heatmap/train: 3.348828  grad_norm: 24.720394
+2026/04/22 18:32:57 - mmengine - INFO - Epoch(train)  [7][ 200/2269]  base_lr: 9.207868e-05 lr: 9.207868e-06  eta: 3:23:22  time: 0.405470  data_time: 0.050687  memory: 8619  loss: 3.914815  loss/joints/train: 0.090967  loss/depth/train: 0.373883  loss/uv/train: 0.029165  loss/uv_heatmap/train: 3.420800  grad_norm: 24.304407
+2026/04/22 18:33:17 - mmengine - INFO - Epoch(train)  [7][ 250/2269]  base_lr: 9.196835e-05 lr: 9.196835e-06  eta: 3:23:03  time: 0.389371  data_time: 0.032660  memory: 8619  loss: 3.796530  loss/joints/train: 0.090229  loss/depth/train: 0.342221  loss/uv/train: 0.020676  loss/uv_heatmap/train: 3.343403  grad_norm: 24.484951
+2026/04/22 18:33:36 - mmengine - INFO - Epoch(train)  [7][ 300/2269]  base_lr: 9.185733e-05 lr: 9.185733e-06  eta: 3:22:45  time: 0.393738  data_time: 0.039622  memory: 8619  loss: 3.737308  loss/joints/train: 0.083706  loss/depth/train: 0.351223  loss/uv/train: 0.019641  loss/uv_heatmap/train: 3.282739  grad_norm: 24.357363
+2026/04/22 18:33:56 - mmengine - INFO - Epoch(train)  [7][ 350/2269]  base_lr: 9.174561e-05 lr: 9.174561e-06  eta: 3:22:26  time: 0.388027  data_time: 0.032408  memory: 8619  loss: 3.794627  loss/joints/train: 0.085693  loss/depth/train: 0.384303  loss/uv/train: 0.017862  loss/uv_heatmap/train: 3.306769  grad_norm: 23.721752
+2026/04/22 18:34:10 - mmengine - INFO - Exp name: config_20260422_164352
+2026/04/22 18:34:15 - mmengine - INFO - Epoch(train)  [7][ 400/2269]  base_lr: 9.163320e-05 lr: 9.163320e-06  eta: 3:22:06  time: 0.384105  data_time: 0.028298  memory: 8619  loss: 3.852965  loss/joints/train: 0.091408  loss/depth/train: 0.411833  loss/uv/train: 0.020972  loss/uv_heatmap/train: 3.328753  grad_norm: 23.855584
+2026/04/22 18:34:34 - mmengine - INFO - Epoch(train)  [7][ 450/2269]  base_lr: 9.152010e-05 lr: 9.152010e-06  eta: 3:21:46  time: 0.382332  data_time: 0.025980  memory: 8619  loss: 3.978085  loss/joints/train: 0.091706  loss/depth/train: 0.462450  loss/uv/train: 0.025706  loss/uv_heatmap/train: 3.398223  grad_norm: 24.651826
+2026/04/22 18:34:53 - mmengine - INFO - Epoch(train)  [7][ 500/2269]  base_lr: 9.140631e-05 lr: 9.140631e-06  eta: 3:21:27  time: 0.387997  data_time: 0.033077  memory: 8619  loss: 3.792894  loss/joints/train: 0.088240  loss/depth/train: 0.387268  loss/uv/train: 0.020065  loss/uv_heatmap/train: 3.297321  grad_norm: 25.008880
+2026/04/22 18:35:13 - mmengine - INFO - Epoch(train)  [7][ 550/2269]  base_lr: 9.129183e-05 lr: 9.129183e-06  eta: 3:21:08  time: 0.391431  data_time: 0.035885  memory: 8619  loss: 3.943771  loss/joints/train: 0.088710  loss/depth/train: 0.430608  loss/uv/train: 0.024421  loss/uv_heatmap/train: 3.400033  grad_norm: 25.191148
+2026/04/22 18:35:32 - mmengine - INFO - Epoch(train)  [7][ 600/2269]  base_lr: 9.117667e-05 lr: 9.117667e-06  eta: 3:20:49  time: 0.386297  data_time: 0.030569  memory: 8619  loss: 3.762683  loss/joints/train: 0.086297  loss/depth/train: 0.349230  loss/uv/train: 0.020697  loss/uv_heatmap/train: 3.306460  grad_norm: 25.478563
+2026/04/22 18:35:51 - mmengine - INFO - Epoch(train)  [7][ 650/2269]  base_lr: 9.106082e-05 lr: 9.106082e-06  eta: 3:20:29  time: 0.384146  data_time: 0.026892  memory: 8619  loss: 3.787241  loss/joints/train: 0.082604  loss/depth/train: 0.374648  loss/uv/train: 0.020337  loss/uv_heatmap/train: 3.309652  grad_norm: 24.657990
+2026/04/22 18:36:11 - mmengine - INFO - Epoch(train)  [7][ 700/2269]  base_lr: 9.094430e-05 lr: 9.094430e-06  eta: 3:20:10  time: 0.384671  data_time: 0.029688  memory: 8619  loss: 3.835053  loss/joints/train: 0.088636  loss/depth/train: 0.333638  loss/uv/train: 0.026372  loss/uv_heatmap/train: 3.386407  grad_norm: 24.905755
+2026/04/22 18:36:30 - mmengine - INFO - Epoch(train)  [7][ 750/2269]  base_lr: 9.082709e-05 lr: 9.082709e-06  eta: 3:19:50  time: 0.379459  data_time: 0.024953  memory: 8619  loss: 3.758553  loss/joints/train: 0.083951  loss/depth/train: 0.353330  loss/uv/train: 0.020110  loss/uv_heatmap/train: 3.301162  grad_norm: 24.407755
+2026/04/22 18:36:50 - mmengine - INFO - Epoch(train)  [7][ 800/2269]  base_lr: 9.070921e-05 lr: 9.070921e-06  eta: 3:19:33  time: 0.407997  data_time: 0.051477  memory: 8619  loss: 3.758675  loss/joints/train: 0.090135  loss/depth/train: 0.339239  loss/uv/train: 0.018692  loss/uv_heatmap/train: 3.310609  grad_norm: 23.780788
+2026/04/22 18:37:12 - mmengine - INFO - Epoch(train)  [7][ 850/2269]  base_lr: 9.059065e-05 lr: 9.059065e-06  eta: 3:19:18  time: 0.432577  data_time: 0.075572  memory: 8619  loss: 3.812162  loss/joints/train: 0.089116  loss/depth/train: 0.313354  loss/uv/train: 0.022251  loss/uv_heatmap/train: 3.387441  grad_norm: 22.179491
+2026/04/22 18:37:32 - mmengine - INFO - Epoch(train)  [7][ 900/2269]  base_lr: 9.047142e-05 lr: 9.047142e-06  eta: 3:19:01  time: 0.401742  data_time: 0.047838  memory: 8619  loss: 3.853745  loss/joints/train: 0.084791  loss/depth/train: 0.379395  loss/uv/train: 0.020076  loss/uv_heatmap/train: 3.369483  grad_norm: 22.588306
+2026/04/22 18:37:51 - mmengine - INFO - Epoch(train)  [7][ 950/2269]  base_lr: 9.035152e-05 lr: 9.035152e-06  eta: 3:18:41  time: 0.386436  data_time: 0.032529  memory: 8619  loss: 3.715602  loss/joints/train: 0.083706  loss/depth/train: 0.337576  loss/uv/train: 0.017209  loss/uv_heatmap/train: 3.277112  grad_norm: 21.012649
+2026/04/22 18:38:10 - mmengine - INFO - Epoch(train)  [7][1000/2269]  base_lr: 9.023095e-05 lr: 9.023095e-06  eta: 3:18:21  time: 0.377187  data_time: 0.020749  memory: 8619  loss: 3.866534  loss/joints/train: 0.084749  loss/depth/train: 0.396214  loss/uv/train: 0.027659  loss/uv_heatmap/train: 3.357912  grad_norm: 20.804365
+2026/04/22 18:38:29 - mmengine - INFO - Epoch(train)  [7][1050/2269]  base_lr: 9.010972e-05 lr: 9.010972e-06  eta: 3:18:01  time: 0.387012  data_time: 0.029064  memory: 8619  loss: 3.724842  loss/joints/train: 0.089154  loss/depth/train: 0.311097  loss/uv/train: 0.019316  loss/uv_heatmap/train: 3.305275  grad_norm: 20.770393
+2026/04/22 18:38:49 - mmengine - INFO - Epoch(train)  [7][1100/2269]  base_lr: 8.998781e-05 lr: 8.998781e-06  eta: 3:17:42  time: 0.385118  data_time: 0.028856  memory: 8619  loss: 3.715127  loss/joints/train: 0.087728  loss/depth/train: 0.317036  loss/uv/train: 0.020763  loss/uv_heatmap/train: 3.289599  grad_norm: 20.316300
+2026/04/22 18:39:08 - mmengine - INFO - Epoch(train)  [7][1150/2269]  base_lr: 8.986525e-05 lr: 8.986525e-06  eta: 3:17:22  time: 0.379799  data_time: 0.022950  memory: 8619  loss: 3.749654  loss/joints/train: 0.084912  loss/depth/train: 0.361270  loss/uv/train: 0.016933  loss/uv_heatmap/train: 3.286539  grad_norm: 20.625268
+2026/04/22 18:39:27 - mmengine - INFO - Epoch(train)  [7][1200/2269]  base_lr: 8.974202e-05 lr: 8.974202e-06  eta: 3:17:02  time: 0.385932  data_time: 0.029582  memory: 8619  loss: 3.748078  loss/joints/train: 0.080839  loss/depth/train: 0.334886  loss/uv/train: 0.020588  loss/uv_heatmap/train: 3.311765  grad_norm: 20.837780
+2026/04/22 18:39:46 - mmengine - INFO - Epoch(train)  [7][1250/2269]  base_lr: 8.961814e-05 lr: 8.961814e-06  eta: 3:16:43  time: 0.384819  data_time: 0.026074  memory: 8619  loss: 3.743249  loss/joints/train: 0.095555  loss/depth/train: 0.329298  loss/uv/train: 0.017617  loss/uv_heatmap/train: 3.300779  grad_norm: 21.684200
+2026/04/22 18:40:05 - mmengine - INFO - Epoch(train)  [7][1300/2269]  base_lr: 8.949359e-05 lr: 8.949359e-06  eta: 3:16:23  time: 0.384034  data_time: 0.027385  memory: 8619  loss: 3.739418  loss/joints/train: 0.083853  loss/depth/train: 0.344998  loss/uv/train: 0.022319  loss/uv_heatmap/train: 3.288248  grad_norm: 21.005684
+2026/04/22 18:40:25 - mmengine - INFO - Epoch(train)  [7][1350/2269]  base_lr: 8.936840e-05 lr: 8.936840e-06  eta: 3:16:04  time: 0.383910  data_time: 0.027438  memory: 8619  loss: 3.790321  loss/joints/train: 0.081421  loss/depth/train: 0.350603  loss/uv/train: 0.021751  loss/uv_heatmap/train: 3.336546  grad_norm: 22.197540
+2026/04/22 18:40:38 - mmengine - INFO - Exp name: config_20260422_164352
+2026/04/22 18:40:44 - mmengine - INFO - Epoch(train)  [7][1400/2269]  base_lr: 8.924255e-05 lr: 8.924255e-06  eta: 3:15:44  time: 0.384849  data_time: 0.027953  memory: 8619  loss: 3.799408  loss/joints/train: 0.086647  loss/depth/train: 0.373815  loss/uv/train: 0.020191  loss/uv_heatmap/train: 3.318754  grad_norm: 22.150989
+2026/04/22 18:41:03 - mmengine - INFO - Epoch(train)  [7][1450/2269]  base_lr: 8.911605e-05 lr: 8.911605e-06  eta: 3:15:24  time: 0.380637  data_time: 0.022457  memory: 8619  loss: 3.769076  loss/joints/train: 0.081972  loss/depth/train: 0.335199  loss/uv/train: 0.022576  loss/uv_heatmap/train: 3.329329  grad_norm: 22.571060
+2026/04/22 18:41:22 - mmengine - INFO - Epoch(train)  [7][1500/2269]  base_lr: 8.898890e-05 lr: 8.898890e-06  eta: 3:15:05  time: 0.388994  data_time: 0.032241  memory: 8619  loss: 3.760736  loss/joints/train: 0.087081  loss/depth/train: 0.353959  loss/uv/train: 0.018948  loss/uv_heatmap/train: 3.300748  grad_norm: 22.946894
+2026/04/22 18:41:42 - mmengine - INFO - Epoch(train)  [7][1550/2269]  base_lr: 8.886110e-05 lr: 8.886110e-06  eta: 3:14:46  time: 0.393206  data_time: 0.035594  memory: 8619  loss: 3.735496  loss/joints/train: 0.080041  loss/depth/train: 0.344113  loss/uv/train: 0.016621  loss/uv_heatmap/train: 3.294720  grad_norm: 23.056111
+2026/04/22 18:42:01 - mmengine - INFO - Epoch(train)  [7][1600/2269]  base_lr: 8.873266e-05 lr: 8.873266e-06  eta: 3:14:27  time: 0.385069  data_time: 0.028768  memory: 8619  loss: 3.781945  loss/joints/train: 0.087949  loss/depth/train: 0.370218  loss/uv/train: 0.018250  loss/uv_heatmap/train: 3.305527  grad_norm: 23.972781
+2026/04/22 18:42:21 - mmengine - INFO - Epoch(train)  [7][1650/2269]  base_lr: 8.860358e-05 lr: 8.860358e-06  eta: 3:14:09  time: 0.398871  data_time: 0.041049  memory: 8619  loss: 3.788231  loss/joints/train: 0.090528  loss/depth/train: 0.389429  loss/uv/train: 0.019753  loss/uv_heatmap/train: 3.288521  grad_norm: 23.840971
+2026/04/22 18:42:40 - mmengine - INFO - Epoch(train)  [7][1700/2269]  base_lr: 8.847385e-05 lr: 8.847385e-06  eta: 3:13:49  time: 0.380273  data_time: 0.024258  memory: 8619  loss: 3.811004  loss/joints/train: 0.084059  loss/depth/train: 0.391552  loss/uv/train: 0.021043  loss/uv_heatmap/train: 3.314350  grad_norm: 24.631518
+2026/04/22 18:42:59 - mmengine - INFO - Epoch(train)  [7][1750/2269]  base_lr: 8.834349e-05 lr: 8.834349e-06  eta: 3:13:28  time: 0.375748  data_time: 0.018391  memory: 8619  loss: 3.806126  loss/joints/train: 0.089995  loss/depth/train: 0.315068  loss/uv/train: 0.026514  loss/uv_heatmap/train: 3.374549  grad_norm: 23.998099
+2026/04/22 18:43:18 - mmengine - INFO - Epoch(train)  [7][1800/2269]  base_lr: 8.821249e-05 lr: 8.821249e-06  eta: 3:13:08  time: 0.381087  data_time: 0.023153  memory: 8619  loss: 3.853954  loss/joints/train: 0.091080  loss/depth/train: 0.350265  loss/uv/train: 0.029523  loss/uv_heatmap/train: 3.383085  grad_norm: 24.603726
+2026/04/22 18:43:37 - mmengine - INFO - Epoch(train)  [7][1850/2269]  base_lr: 8.808086e-05 lr: 8.808086e-06  eta: 3:12:48  time: 0.378663  data_time: 0.020063  memory: 8619  loss: 3.742868  loss/joints/train: 0.077560  loss/depth/train: 0.312777  loss/uv/train: 0.021224  loss/uv_heatmap/train: 3.331308  grad_norm: 24.603836
+2026/04/22 18:43:56 - mmengine - INFO - Epoch(train)  [7][1900/2269]  base_lr: 8.794860e-05 lr: 8.794860e-06  eta: 3:12:28  time: 0.372690  data_time: 0.016438  memory: 8619  loss: 3.733280  loss/joints/train: 0.088479  loss/depth/train: 0.350627  loss/uv/train: 0.016130  loss/uv_heatmap/train: 3.278043  grad_norm: 24.640567
+2026/04/22 18:44:14 - mmengine - INFO - Epoch(train)  [7][1950/2269]  base_lr: 8.781571e-05 lr: 8.781571e-06  eta: 3:12:07  time: 0.375974  data_time: 0.019224  memory: 8619  loss: 3.755656  loss/joints/train: 0.091236  loss/depth/train: 0.349259  loss/uv/train: 0.018832  loss/uv_heatmap/train: 3.296329  grad_norm: 25.962605
+2026/04/22 18:44:34 - mmengine - INFO - Epoch(train)  [7][2000/2269]  base_lr: 8.768219e-05 lr: 8.768219e-06  eta: 3:11:48  time: 0.385278  data_time: 0.028590  memory: 8619  loss: 3.722260  loss/joints/train: 0.080966  loss/depth/train: 0.320862  loss/uv/train: 0.020723  loss/uv_heatmap/train: 3.299709  grad_norm: 24.966780
+2026/04/22 18:44:53 - mmengine - INFO - Epoch(train)  [7][2050/2269]  base_lr: 8.754805e-05 lr: 8.754805e-06  eta: 3:11:28  time: 0.386379  data_time: 0.029936  memory: 8619  loss: 3.804107  loss/joints/train: 0.087064  loss/depth/train: 0.354674  loss/uv/train: 0.024334  loss/uv_heatmap/train: 3.338035  grad_norm: 24.574012

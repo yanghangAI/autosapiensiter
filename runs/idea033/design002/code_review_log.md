@@ -1,0 +1,1 @@
+- 2026-04-22T17:30:19Z — APPROVED (code review). Spatial-FiLM variant selected via config; shared head matches design. Test run clean.
