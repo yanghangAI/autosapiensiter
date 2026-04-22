@@ -1,4 +1,4 @@
 Design_ID,Design_Description,Status,created_at,updated_at
-design001,"Single-layer spatial encoder (8 heads, zero-init) inserted before decoder cross-attention.",Done,2026-04-22T16:12:59,2026-04-22T16:12:59
-design002,"Single-layer spatial encoder (4 heads, zero-init) — memory-efficient variant of design001.",Done,2026-04-22T16:12:59,2026-04-22T16:12:59
-design003,"Two-layer spatial encoder (4 heads, zero-init) — deeper context enrichment variant.",Done,2026-04-22T16:12:59,2026-04-22T16:12:59
+design001,"Single-layer spatial encoder (8 heads, zero-init) inserted before decoder cross-attention.",Done,2026-04-22T16:43:46,2026-04-22T16:43:46
+design002,"Single-layer spatial encoder (4 heads, zero-init) — memory-efficient variant of design001.",Done,2026-04-22T16:43:46,2026-04-22T16:43:46
+design003,"Two-layer spatial encoder (4 heads, zero-init) — deeper context enrichment variant.",Done,2026-04-22T16:43:46,2026-04-22T16:43:46
