@@ -1,4 +1,4 @@
 Design_ID,Design_Description,Status,created_at,updated_at
-design001,"Add 15% uniform spatial token dropout to cross-attention during training by masking random spatial tokens via `key_padding_mask`, leaving inference unchanged.",Done,2026-04-23T04:50:03,2026-04-23T04:50:03
-design002,"Add 30% uniform spatial token dropout to cross-attention during training via `key_padding_mask`, leaving inference unchanged; tests whether higher drop rate yields stronger regularisation than design001's p=0.15.",Done,2026-04-23T04:50:03,2026-04-23T04:50:03
-design003,"Apply spatial token dropout starting at p=0.30 for epochs 1–10 and annealing linearly to p=0.10 for epochs 11–20, via a custom MMEngine hook (`SpatialDropAnnealHook`) registered in `pose3d_transformer_head.py`.",Done,2026-04-23T04:50:03,2026-04-23T04:50:03
+design001,"Add 15% uniform spatial token dropout to cross-attention during training by masking random spatial tokens via `key_padding_mask`, leaving inference unchanged.",Done,2026-04-23T06:50:52,2026-04-23T06:50:52
+design002,"Add 30% uniform spatial token dropout to cross-attention during training via `key_padding_mask`, leaving inference unchanged; tests whether higher drop rate yields stronger regularisation than design001's p=0.15.",Done,2026-04-23T06:50:52,2026-04-23T06:50:52
+design003,"Apply spatial token dropout starting at p=0.30 for epochs 1–10 and annealing linearly to p=0.10 for epochs 11–20, via a custom MMEngine hook (`SpatialDropAnnealHook`) registered in `pose3d_transformer_head.py`.",Done,2026-04-23T06:50:52,2026-04-23T06:50:52
