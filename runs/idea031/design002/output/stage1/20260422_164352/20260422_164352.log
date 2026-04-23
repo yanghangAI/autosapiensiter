@@ -4123,3 +4123,17 @@ The value is the same before and after calling `init_weights` of RGBDPose3dEstim
 2026/04/22 22:44:54 - mmengine - INFO - Epoch(val) [20][500/899]    eta: 0:08:13  time: 1.234709  data_time: 0.001007  memory: 4294  
 2026/04/22 22:45:55 - mmengine - INFO - Epoch(val) [20][550/899]    eta: 0:07:11  time: 1.233177  data_time: 0.001003  memory: 4294  
 2026/04/22 22:46:57 - mmengine - INFO - Epoch(val) [20][600/899]    eta: 0:06:09  time: 1.232588  data_time: 0.001024  memory: 4294  
+2026/04/22 22:47:59 - mmengine - INFO - Epoch(val) [20][650/899]    eta: 0:05:07  time: 1.233587  data_time: 0.001028  memory: 4294  
+2026/04/22 22:49:00 - mmengine - INFO - Epoch(val) [20][700/899]    eta: 0:04:05  time: 1.232005  data_time: 0.001017  memory: 4294  
+2026/04/22 22:50:02 - mmengine - INFO - Epoch(val) [20][750/899]    eta: 0:03:04  time: 1.233171  data_time: 0.001006  memory: 4294  
+2026/04/22 22:51:04 - mmengine - INFO - Epoch(val) [20][800/899]    eta: 0:02:02  time: 1.236980  data_time: 0.001035  memory: 4294  
+2026/04/22 22:52:05 - mmengine - INFO - Epoch(val) [20][850/899]    eta: 0:01:00  time: 1.235109  data_time: 0.001014  memory: 4294  
+2026/04/22 22:53:06 - mmengine - INFO - Evaluating BedlamMPJPE...
+2026/04/22 22:53:07 - mmengine - INFO -   mpjpe/rel/val: 423.44 mm
+2026/04/22 22:53:07 - mmengine - INFO -   mpjpe/body/val: 192.58 mm
+2026/04/22 22:53:07 - mmengine - INFO -   mpjpe/hand/val: 477.41 mm
+2026/04/22 22:53:07 - mmengine - INFO -   mpjpe/abs/val: 833.21 mm
+2026/04/22 22:53:07 - mmengine - INFO -   mpjpe/pelvis/val: 649.97 mm
+2026/04/22 22:53:07 - mmengine - INFO -   composite/val: 343.52 mm
+2026/04/22 22:53:07 - mmengine - INFO - Epoch(val) [20][899/899]    mpjpe/rel/val: 423.440576  mpjpe/body/val: 192.583203  mpjpe/hand/val: 477.412403  mpjpe/abs/val: 833.209455  mpjpe/pelvis/val: 649.973341  composite/val: 343.521949  data_time: 0.002717  time: 1.233980
+2026/04/22 22:53:07 - mmengine - INFO - [96mDone training![0m

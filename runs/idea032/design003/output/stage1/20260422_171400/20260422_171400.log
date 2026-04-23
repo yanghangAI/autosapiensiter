@@ -4128,3 +4128,20 @@ The value is the same before and after calling `init_weights` of RGBDPose3dEstim
 2026/04/22 22:45:35 - mmengine - INFO - Epoch(val) [20][350/899]    eta: 0:10:31  time: 1.147686  data_time: 0.001305  memory: 4294  
 2026/04/22 22:46:33 - mmengine - INFO - Epoch(val) [20][400/899]    eta: 0:09:33  time: 1.148741  data_time: 0.001528  memory: 4294  
 2026/04/22 22:47:30 - mmengine - INFO - Epoch(val) [20][450/899]    eta: 0:08:36  time: 1.147338  data_time: 0.001313  memory: 4294  
+2026/04/22 22:48:27 - mmengine - INFO - Epoch(val) [20][500/899]    eta: 0:07:38  time: 1.146497  data_time: 0.001134  memory: 4294  
+2026/04/22 22:49:25 - mmengine - INFO - Epoch(val) [20][550/899]    eta: 0:06:41  time: 1.149293  data_time: 0.001151  memory: 4294  
+2026/04/22 22:50:22 - mmengine - INFO - Epoch(val) [20][600/899]    eta: 0:05:43  time: 1.147392  data_time: 0.001100  memory: 4294  
+2026/04/22 22:51:20 - mmengine - INFO - Epoch(val) [20][650/899]    eta: 0:04:46  time: 1.150101  data_time: 0.001093  memory: 4294  
+2026/04/22 22:52:17 - mmengine - INFO - Epoch(val) [20][700/899]    eta: 0:03:48  time: 1.149110  data_time: 0.001190  memory: 4294  
+2026/04/22 22:53:14 - mmengine - INFO - Epoch(val) [20][750/899]    eta: 0:02:51  time: 1.148621  data_time: 0.001112  memory: 4294  
+2026/04/22 22:54:12 - mmengine - INFO - Epoch(val) [20][800/899]    eta: 0:01:53  time: 1.153306  data_time: 0.001138  memory: 4294  
+2026/04/22 22:55:10 - mmengine - INFO - Epoch(val) [20][850/899]    eta: 0:00:56  time: 1.148705  data_time: 0.001151  memory: 4294  
+2026/04/22 22:56:06 - mmengine - INFO - Evaluating BedlamMPJPE...
+2026/04/22 22:56:07 - mmengine - INFO -   mpjpe/rel/val: 436.83 mm
+2026/04/22 22:56:07 - mmengine - INFO -   mpjpe/body/val: 189.59 mm
+2026/04/22 22:56:07 - mmengine - INFO -   mpjpe/hand/val: 475.58 mm
+2026/04/22 22:56:07 - mmengine - INFO -   mpjpe/abs/val: 815.73 mm
+2026/04/22 22:56:07 - mmengine - INFO -   mpjpe/pelvis/val: 624.16 mm
+2026/04/22 22:56:07 - mmengine - INFO -   composite/val: 333.00 mm
+2026/04/22 22:56:07 - mmengine - INFO - Epoch(val) [20][899/899]    mpjpe/rel/val: 436.832994  mpjpe/body/val: 189.594641  mpjpe/hand/val: 475.575238  mpjpe/abs/val: 815.725088  mpjpe/pelvis/val: 624.156244  composite/val: 332.999970  data_time: 0.002839  time: 1.148518
+2026/04/22 22:56:07 - mmengine - INFO - [96mDone training![0m

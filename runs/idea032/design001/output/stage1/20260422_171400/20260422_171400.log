@@ -4119,3 +4119,29 @@ The value is the same before and after calling `init_weights` of RGBDPose3dEstim
 2026/04/22 22:46:21 - mmengine - INFO - Epoch(train) [20][2250/2269]  base_lr: 6.633349e-11 lr: 6.633349e-12  eta: 0:00:06  time: 0.368692  data_time: 0.022415  memory: 8633  loss: 0.417123  loss/joints/train: 0.076514  loss/depth/train: 0.209228  loss/uv/train: 0.062668  loss/aux_depth/train: 0.068712  grad_norm: 13.724167
 2026/04/22 22:46:28 - mmengine - INFO - Exp name: config_20260422_171400
 2026/04/22 22:46:28 - mmengine - INFO - Saving checkpoint at 20 epochs
+2026/04/22 22:47:43 - mmengine - INFO - Epoch(val) [20][ 50/899]    eta: 0:17:18  time: 1.223514  data_time: 0.031686  memory: 8633  
+2026/04/22 22:48:44 - mmengine - INFO - Epoch(val) [20][100/899]    eta: 0:16:10  time: 1.206049  data_time: 0.001014  memory: 4294  
+2026/04/22 22:49:44 - mmengine - INFO - Epoch(val) [20][150/899]    eta: 0:15:08  time: 1.208727  data_time: 0.001010  memory: 4294  
+2026/04/22 22:50:45 - mmengine - INFO - Epoch(val) [20][200/899]    eta: 0:14:07  time: 1.209279  data_time: 0.001049  memory: 4294  
+2026/04/22 22:51:45 - mmengine - INFO - Epoch(val) [20][250/899]    eta: 0:13:06  time: 1.211014  data_time: 0.001048  memory: 4294  
+2026/04/22 22:52:46 - mmengine - INFO - Epoch(val) [20][300/899]    eta: 0:12:05  time: 1.211993  data_time: 0.001039  memory: 4294  
+2026/04/22 22:53:46 - mmengine - INFO - Epoch(val) [20][350/899]    eta: 0:11:05  time: 1.215704  data_time: 0.001052  memory: 4294  
+2026/04/22 22:54:47 - mmengine - INFO - Epoch(val) [20][400/899]    eta: 0:10:04  time: 1.210156  data_time: 0.001081  memory: 4294  
+2026/04/22 22:55:47 - mmengine - INFO - Epoch(val) [20][450/899]    eta: 0:09:04  time: 1.210336  data_time: 0.001126  memory: 4294  
+2026/04/22 22:56:48 - mmengine - INFO - Epoch(val) [20][500/899]    eta: 0:08:03  time: 1.212269  data_time: 0.001170  memory: 4294  
+2026/04/22 22:57:49 - mmengine - INFO - Epoch(val) [20][550/899]    eta: 0:07:02  time: 1.211611  data_time: 0.001015  memory: 4294  
+2026/04/22 22:58:49 - mmengine - INFO - Epoch(val) [20][600/899]    eta: 0:06:02  time: 1.208377  data_time: 0.001012  memory: 4294  
+2026/04/22 22:59:49 - mmengine - INFO - Epoch(val) [20][650/899]    eta: 0:05:01  time: 1.206670  data_time: 0.001015  memory: 4294  
+2026/04/22 23:00:50 - mmengine - INFO - Epoch(val) [20][700/899]    eta: 0:04:00  time: 1.205615  data_time: 0.000970  memory: 4294  
+2026/04/22 23:01:50 - mmengine - INFO - Epoch(val) [20][750/899]    eta: 0:03:00  time: 1.207864  data_time: 0.001133  memory: 4294  
+2026/04/22 23:02:50 - mmengine - INFO - Epoch(val) [20][800/899]    eta: 0:01:59  time: 1.206813  data_time: 0.001058  memory: 4294  
+2026/04/22 23:03:51 - mmengine - INFO - Epoch(val) [20][850/899]    eta: 0:00:59  time: 1.205338  data_time: 0.001059  memory: 4294  
+2026/04/22 23:04:50 - mmengine - INFO - Evaluating BedlamMPJPE...
+2026/04/22 23:04:51 - mmengine - INFO -   mpjpe/rel/val: 436.03 mm
+2026/04/22 23:04:51 - mmengine - INFO -   mpjpe/body/val: 189.33 mm
+2026/04/22 23:04:51 - mmengine - INFO -   mpjpe/hand/val: 474.91 mm
+2026/04/22 23:04:51 - mmengine - INFO -   mpjpe/abs/val: 780.90 mm
+2026/04/22 23:04:51 - mmengine - INFO -   mpjpe/pelvis/val: 579.44 mm
+2026/04/22 23:04:51 - mmengine - INFO -   composite/val: 318.07 mm
+2026/04/22 23:04:51 - mmengine - INFO - Epoch(val) [20][899/899]    mpjpe/rel/val: 436.026216  mpjpe/body/val: 189.328179  mpjpe/hand/val: 474.910319  mpjpe/abs/val: 780.895591  mpjpe/pelvis/val: 579.444481  composite/val: 318.066559  data_time: 0.002768  time: 1.208973
+2026/04/22 23:04:51 - mmengine - INFO - [96mDone training![0m
