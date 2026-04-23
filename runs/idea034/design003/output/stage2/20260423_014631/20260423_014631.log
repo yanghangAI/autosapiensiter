@@ -5346,3 +5346,27 @@ The value is the same before and after calling `init_weights` of RGBDPose3dEstim
 2026/04/23 13:18:15 - mmengine - INFO - Saving checkpoint at 10 epochs
 2026/04/23 13:19:31 - mmengine - INFO - Epoch(val) [10][ 50/899]    eta: 0:18:21  time: 1.297451  data_time: 0.029492  memory: 8634  
 2026/04/23 13:20:35 - mmengine - INFO - Epoch(val) [10][100/899]    eta: 0:17:06  time: 1.273207  data_time: 0.001058  memory: 4295  
+2026/04/23 13:21:38 - mmengine - INFO - Epoch(val) [10][150/899]    eta: 0:15:59  time: 1.272635  data_time: 0.000992  memory: 4295  
+2026/04/23 13:22:38 - mmengine - INFO - Epoch(val) [10][200/899]    eta: 0:14:41  time: 1.198370  data_time: 0.000976  memory: 4295  
+2026/04/23 13:23:40 - mmengine - INFO - Epoch(val) [10][250/899]    eta: 0:13:34  time: 1.234846  data_time: 0.000975  memory: 4295  
+2026/04/23 13:24:45 - mmengine - INFO - Epoch(val) [10][300/899]    eta: 0:12:36  time: 1.296858  data_time: 0.000963  memory: 4295  
+2026/04/23 13:25:47 - mmengine - INFO - Epoch(val) [10][350/899]    eta: 0:11:32  time: 1.251335  data_time: 0.001028  memory: 4295  
+2026/04/23 13:26:52 - mmengine - INFO - Epoch(val) [10][400/899]    eta: 0:10:31  time: 1.299041  data_time: 0.000993  memory: 4295  
+2026/04/23 13:27:55 - mmengine - INFO - Epoch(val) [10][450/899]    eta: 0:09:27  time: 1.255004  data_time: 0.000973  memory: 4295  
+2026/04/23 13:28:58 - mmengine - INFO - Epoch(val) [10][500/899]    eta: 0:08:24  time: 1.267834  data_time: 0.001031  memory: 4295  
+2026/04/23 13:30:00 - mmengine - INFO - Epoch(val) [10][550/899]    eta: 0:07:20  time: 1.238404  data_time: 0.000992  memory: 4295  
+2026/04/23 13:31:05 - mmengine - INFO - Epoch(val) [10][600/899]    eta: 0:06:18  time: 1.300091  data_time: 0.001003  memory: 4295  
+2026/04/23 13:32:05 - mmengine - INFO - Epoch(val) [10][650/899]    eta: 0:05:13  time: 1.201926  data_time: 0.000978  memory: 4295  
+2026/04/23 13:33:06 - mmengine - INFO - Epoch(val) [10][700/899]    eta: 0:04:10  time: 1.206469  data_time: 0.000989  memory: 4295  
+2026/04/23 13:34:08 - mmengine - INFO - Epoch(val) [10][750/899]    eta: 0:03:07  time: 1.245945  data_time: 0.000976  memory: 4295  
+2026/04/23 13:35:12 - mmengine - INFO - Epoch(val) [10][800/899]    eta: 0:02:04  time: 1.279566  data_time: 0.000988  memory: 4295  
+2026/04/23 13:36:12 - mmengine - INFO - Epoch(val) [10][850/899]    eta: 0:01:01  time: 1.203841  data_time: 0.001001  memory: 4295  
+2026/04/23 13:37:14 - mmengine - INFO - Evaluating BedlamMPJPE...
+2026/04/23 13:37:14 - mmengine - INFO -   mpjpe/rel/val: 425.16 mm
+2026/04/23 13:37:14 - mmengine - INFO -   mpjpe/body/val: 178.59 mm
+2026/04/23 13:37:14 - mmengine - INFO -   mpjpe/hand/val: 476.18 mm
+2026/04/23 13:37:14 - mmengine - INFO -   mpjpe/abs/val: 591.92 mm
+2026/04/23 13:37:14 - mmengine - INFO -   mpjpe/pelvis/val: 331.69 mm
+2026/04/23 13:37:14 - mmengine - INFO -   composite/val: 229.11 mm
+2026/04/23 13:37:14 - mmengine - INFO - Epoch(val) [10][899/899]    mpjpe/rel/val: 425.163329  mpjpe/body/val: 178.591311  mpjpe/hand/val: 476.182580  mpjpe/abs/val: 591.917038  mpjpe/pelvis/val: 331.685245  composite/val: 229.112309  data_time: 0.002577  time: 1.252928
+2026/04/23 13:37:15 - mmengine - INFO - [96mDone training![0m
