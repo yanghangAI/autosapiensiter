@@ -1,4 +1,4 @@
 Design_ID,Design_Description,Status,created_at,updated_at
-design001,Add a uniform-weight bilateral symmetry loss (λ=0.3) over 8 verified symmetric body joint pairs to couple L/R gradient flow.,Done,2026-04-23T20:54:44,2026-04-23T20:54:44
-design002,"Bilateral symmetry loss (λ=0.5) with per-pair weights upweighting distal joints (wrists, ankles, feet) 4× over proximal joints (hips, collars).",Done,2026-04-23T20:54:44,2026-04-23T20:54:44
-design003,"Bilateral symmetry loss (λ=0.5) with per-sample GT-asymmetry-magnitude adaptive weights: near-symmetric poses get full weight, highly asymmetric poses get reduced weight via `w = 1 / (1 + |asym_gt| / tau)`, tau=0.1 m.",Done,2026-04-23T20:54:44,2026-04-23T20:54:44
+design001,Add a uniform-weight bilateral symmetry loss (λ=0.3) over 8 verified symmetric body joint pairs to couple L/R gradient flow.,Done,2026-04-23T22:56:41,2026-04-23T22:56:41
+design002,"Bilateral symmetry loss (λ=0.5) with per-pair weights upweighting distal joints (wrists, ankles, feet) 4× over proximal joints (hips, collars).",Done,2026-04-23T22:56:41,2026-04-23T22:56:41
+design003,"Bilateral symmetry loss (λ=0.5) with per-sample GT-asymmetry-magnitude adaptive weights: near-symmetric poses get full weight, highly asymmetric poses get reduced weight via `w = 1 / (1 + |asym_gt| / tau)`, tau=0.1 m.",Done,2026-04-23T22:56:41,2026-04-23T22:56:41
