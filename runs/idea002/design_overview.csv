@@ -1,4 +1,4 @@
 Design_ID,Design_Description,Status,created_at,updated_at
-design001,"Decoupled pelvis query using shared decoder layer weights, cross-attention only (no self-attention mixing with joint queries).",Done,2026-04-24T11:05:22,2026-04-24T11:05:22
-design002,"Decoupled pelvis query with its own independent `_DecoderLayer` (separate weights, cross-attention only — self-attention skipped for single-token case).",Done,2026-04-24T11:05:22,2026-04-24T11:05:22
-design003,"Decoupled pelvis query with independent decoder + global depth-context token (mean-pooled spatial features projected to hidden_dim, prepended to spatial sequence before pelvis cross-attention).",Done,2026-04-24T11:05:22,2026-04-24T11:05:22
+design001,"Decoupled pelvis query using shared decoder layer weights, cross-attention only (no self-attention mixing with joint queries).",Done,2026-04-24T13:05:54,2026-04-24T13:05:54
+design002,"Decoupled pelvis query with its own independent `_DecoderLayer` (separate weights, cross-attention only — self-attention skipped for single-token case).",Done,2026-04-24T13:05:54,2026-04-24T13:05:54
+design003,"Decoupled pelvis query with independent decoder + global depth-context token (mean-pooled spatial features projected to hidden_dim, prepended to spatial sequence before pelvis cross-attention).",Done,2026-04-24T13:05:54,2026-04-24T13:05:54
