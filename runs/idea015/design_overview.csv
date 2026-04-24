@@ -1,4 +1,4 @@
 Design_ID,Design_Description,Status,created_at,updated_at
-design001,K=32 super-tokens via single slot-attention layer replacing full 960-token cross-attention.,Done,2026-04-24T05:01:54,2026-04-24T05:01:54
-design002,K=64 super-tokens with positional slot initialization grounding each slot to a spatial block.,Done,2026-04-24T05:01:54,2026-04-24T05:01:54
-design003,K=32 super-tokens + 2 decoder layers with auxiliary loss weight 0.4 on intermediate layer output.,Done,2026-04-24T05:01:54,2026-04-24T05:01:54
+design001,K=32 super-tokens via single slot-attention layer replacing full 960-token cross-attention.,Done,2026-04-24T07:03:49,2026-04-24T07:03:49
+design002,K=64 super-tokens with positional slot initialization grounding each slot to a spatial block.,Done,2026-04-24T07:03:49,2026-04-24T07:03:49
+design003,K=32 super-tokens + 2 decoder layers with auxiliary loss weight 0.4 on intermediate layer output.,Done,2026-04-24T07:03:49,2026-04-24T07:03:49
