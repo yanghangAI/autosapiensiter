@@ -1,4 +1,4 @@
 Design_ID,Design_Description,Status,created_at,updated_at
-design001,"Replace single 70-query decoder with 2-layer `nn.ModuleList` over 22 body-only queries; recover hands via `Linear(22*256, 48*3)`; auxiliary hand loss weight 0.1; no intermediate body supervision.",Done,2026-04-24T07:03:49,2026-04-24T07:03:49
-design002,22-query 2-layer body decoder with auxiliary body joint loss at layer-1 output (weight 0.4); linear hand recovery weight 0.1; forces intermediate pose quality.,Done,2026-04-24T07:03:49,2026-04-24T07:03:49
-design003,22-query 3-layer body decoder; auxiliary body joint losses at layer-1 (weight 0.4) and layer-2 (weight 0.6) outputs; final body loss at layer-3 (weight 1.0); linear hand recovery weight 0.1.,Done,2026-04-24T07:03:49,2026-04-24T07:03:49
+design001,"Replace single 70-query decoder with 2-layer `nn.ModuleList` over 22 body-only queries; recover hands via `Linear(22*256, 48*3)`; auxiliary hand loss weight 0.1; no intermediate body supervision.",Done,2026-04-24T09:04:43,2026-04-24T09:04:43
+design002,22-query 2-layer body decoder with auxiliary body joint loss at layer-1 output (weight 0.4); linear hand recovery weight 0.1; forces intermediate pose quality.,Done,2026-04-24T09:04:43,2026-04-24T09:04:43
+design003,22-query 3-layer body decoder; auxiliary body joint losses at layer-1 (weight 0.4) and layer-2 (weight 0.6) outputs; final body loss at layer-3 (weight 1.0); linear hand recovery weight 0.1.,Done,2026-04-24T09:04:43,2026-04-24T09:04:43

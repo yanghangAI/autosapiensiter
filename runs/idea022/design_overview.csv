@@ -1,4 +1,4 @@
 Design_ID,Design_Description,Status,created_at,updated_at
-design001,"2-layer cascaded decoder with dynamic Gaussian reprojection bias (fixed σ=4, γ=2), no auxiliary loss.",Done,2026-04-24T07:03:49,2026-04-24T07:03:49
-design002,"2-layer cascaded decoder with dynamic Gaussian reprojection bias (fixed σ=4, γ=2) and auxiliary body-joint loss (weight=0.4) on layer-1 output.",Done,2026-04-24T07:03:49,2026-04-24T07:03:49
-design003,"2-layer cascaded decoder with dynamic Gaussian reprojection bias, auxiliary loss (weight=0.4), and learnable per-joint σ and γ initialized to (4.0, 2.0).",Done,2026-04-24T07:03:49,2026-04-24T07:03:49
+design001,"2-layer cascaded decoder with dynamic Gaussian reprojection bias (fixed σ=4, γ=2), no auxiliary loss.",Done,2026-04-24T09:04:43,2026-04-24T09:04:43
+design002,"2-layer cascaded decoder with dynamic Gaussian reprojection bias (fixed σ=4, γ=2) and auxiliary body-joint loss (weight=0.4) on layer-1 output.",Done,2026-04-24T09:04:43,2026-04-24T09:04:43
+design003,"2-layer cascaded decoder with dynamic Gaussian reprojection bias, auxiliary loss (weight=0.4), and learnable per-joint σ and γ initialized to (4.0, 2.0).",Done,2026-04-24T09:04:43,2026-04-24T09:04:43
