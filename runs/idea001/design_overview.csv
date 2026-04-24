@@ -1,4 +1,4 @@
 Design_ID,Design_Description,Status,created_at,updated_at
-design001,Stack 2 decoder layers (no auxiliary loss) — capacity ablation.,Done,2026-04-24T03:00:02,2026-04-24T03:00:02
-design002,Stack 3 decoder layers with auxiliary joint loss (weight 0.4) at each intermediate layer; pelvis losses on final layer only.,Done,2026-04-24T03:00:02,2026-04-24T03:00:02
-design003,Stack 4 decoder layers with auxiliary joint loss (weight 0.4) and a shared output projection across all layers; pelvis losses on final layer only.,Done,2026-04-24T03:00:02,2026-04-24T03:00:02
+design001,Stack 2 decoder layers (no auxiliary loss) — capacity ablation.,Done,2026-04-24T05:01:54,2026-04-24T05:01:54
+design002,Stack 3 decoder layers with auxiliary joint loss (weight 0.4) at each intermediate layer; pelvis losses on final layer only.,Done,2026-04-24T05:01:54,2026-04-24T05:01:54
+design003,Stack 4 decoder layers with auxiliary joint loss (weight 0.4) and a shared output projection across all layers; pelvis losses on final layer only.,Done,2026-04-24T05:01:54,2026-04-24T05:01:54

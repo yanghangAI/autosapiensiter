@@ -1,4 +1,4 @@
 Design_ID,Design_Description,Status,created_at,updated_at
-design001,"Global average-pool FiLM conditioning on spatial tokens (γ·h + β) before cross-attention, identity-initialised.",Done,2026-04-24T03:00:02,2026-04-24T03:00:02
-design002,"Dual-pool FiLM conditioning (avg + max concatenated) on spatial tokens before cross-attention, identity-initialised.",Done,2026-04-24T03:00:02,2026-04-24T03:00:02
-design003,"Hierarchical spatial-block FiLM conditioning (4×4=16 blocks, shared MLP) on spatial tokens before cross-attention, identity-initialised.",Done,2026-04-24T03:00:02,2026-04-24T03:00:02
+design001,"Global average-pool FiLM conditioning on spatial tokens (γ·h + β) before cross-attention, identity-initialised.",Done,2026-04-24T05:01:54,2026-04-24T05:01:54
+design002,"Dual-pool FiLM conditioning (avg + max concatenated) on spatial tokens before cross-attention, identity-initialised.",Done,2026-04-24T05:01:54,2026-04-24T05:01:54
+design003,"Hierarchical spatial-block FiLM conditioning (4×4=16 blocks, shared MLP) on spatial tokens before cross-attention, identity-initialised.",Done,2026-04-24T05:01:54,2026-04-24T05:01:54
