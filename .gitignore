@@ -2,17 +2,51 @@
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
+
+# Editor / OS
+*.swp
+*.swo
+.DS_Store
+.nfs*
+*.nfs*
+
+# SLURM / log outputs
+*.out
+slurm_*.out
 
 # Model checkpoints
 *.pth
 *.ckpt
-
-# Large outputs
-*.out
-slurm_*.out
 
 # Conda
 *.conda
 
 # Secrets
 .env
+
+# Claude Code / agent-local state
+.claude/
+memory/
+
+# Per-run runtime artifacts (not meaningful in git)
+runs/**/training_failed.txt
+
+# Training outputs (per-run logs, vis_data, iter_metrics) — keep aggregated
+# CSVs at repo root and the design/idea overview CSVs under runs/ instead.
+# Keep metrics.csv (small per-epoch summary) but drop iter_metrics.csv and
+# mmengine vis_data / log subdirs.
+runs/*/output/**/vis_data/
+runs/*/*/output/**/vis_data/
+runs/*/output/**/*.log
+runs/*/*/output/**/*.log
+runs/*/output/**/iter_metrics.csv
+runs/*/*/output/**/iter_metrics.csv
+runs/*/output/stage2_train*/
+runs/*/*/output/stage2_train*/
+runs/*/output_prev_*/
+runs/*/*/output_prev_*/
+runs/*/output_timeout_*/
+runs/*/*/output_timeout_*/
+runs/*/test_output/
+runs/*/*/test_output/

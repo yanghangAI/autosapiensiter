@@ -7,7 +7,7 @@ _base_ = []
 
 # ── Two-stage training controlled by STAGE env var ───────────────────────────
 # STAGE=1 → train100.txt, 20 epochs    (default)
-# STAGE=2 → train400.txt, 10 epochs    (only run when stage-1 beats baseline)
+# STAGE=2 → train400.txt (disjoint from train100; 100 moved out of val), 10 epochs
 _stage = int(__import__('os').environ.get('STAGE', '1'))
 
 _repo_root = '/work/pi_nwycoff_umass_edu/hang/autosapiens_iter'
@@ -16,9 +16,10 @@ _read_lines = lambda p: [
     for l in open(p).read().splitlines() if l.strip()
 ]
 _train_file = 'train100.txt' if _stage == 1 else 'train400.txt'
+_val_file = 'val200.txt' if _stage == 1 else 'val200_stage2.txt'
 _splits = dict(
     train=_read_lines(_repo_root + '/' + _train_file),
-    val=_read_lines(_repo_root + '/val200.txt'),
+    val=_read_lines(_repo_root + '/' + _val_file),
 )
 
 # ── Custom imports (register modules with MMEngine) ──────────────────────────

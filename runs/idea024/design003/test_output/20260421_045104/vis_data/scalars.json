@@ -1,3 +1,0 @@
-{"base_lr": 4.8501395348837207e-05, "lr": 4.8501395348837205e-06, "data_time": 0.015555830001831054, "loss": 3.085664834976196, "loss/joints/train": 0.20534610718488694, "loss/depth/train": 2.73648069858551, "loss/uv/train": 0.14383801862597465, "time": 0.38129053115844724, "grad_norm": Infinity, "epoch": 1, "iter": 50, "memory": 8619, "step": 50}
-{"mpjpe/rel/train": 477.083502875434, "step": 0}
-{"mpjpe/abs/train": 2732.983632405599, "step": 0}

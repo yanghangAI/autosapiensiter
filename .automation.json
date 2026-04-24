@@ -13,7 +13,9 @@
     "exclude_path_parts": [
       "test_output",
       "output_prev_",
-      "output_timeout_"
+      "output_timeout_",
+      "stage2_train400",
+      "stage2_train300"
     ]
   },
   "status": {

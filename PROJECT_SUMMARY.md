@@ -13,7 +13,7 @@ The model takes 4-channel RGBD input, passes it through a Sapiens ViT backbone, 
 - **Optimizer:** AdamW (lr=1e-4, backbone lr_mult=0.1, weight_decay=0.03), AMP via `FixedAmpOptimWrapper`, grad_accum=8
 - **LR Schedule (per stage):** linear warmup + cosine annealing, iteration-based
 - **Loss:** SoftWeightSmoothL1 on body joints (0-21) + pelvis depth + pelvis UV
-- **Data:** BEDLAM2 `data600/` subset; splits read from `train100.txt`, `train400.txt`, `val200.txt` at the repo root. `Bedlam2Dataset.load_data_list()` drops frames whose pelvis forward-distance X lies outside `[0.5 m, 12 m]` (≈9% of train, ≈6% of val) — `X ≤ 0` breaks the projection formula and `X > ~12 m` is outside the depth-normalisation clip.
+- **Data:** BEDLAM2 `data600/` subset; splits read from `train100.txt` / `val200.txt` (stage 1) and `train400.txt` / `val200_stage2.txt` (stage 2; train400 = train300 + 100 seqs moved out of val; val200_stage2 = remaining 100 val + train100, so stage 2's val is disjoint from its train) at the repo root. `Bedlam2Dataset.load_data_list()` drops frames whose pelvis forward-distance X lies outside `[0.5 m, 12 m]` (≈9% of train, ≈6% of val) — `X ≤ 0` breaks the projection formula and `X > ~12 m` is outside the depth-normalisation clip.
 - **Train batch:** 4, **val batch:** 16 (val has no backward pass, so fits larger batches on the same GPU). `num_workers=2`, `pin_memory=True`, `persistent_workers=False`.
 - **Validation cadence:** `val_interval=5` — validate at epochs 5/10/15/20 in stage 1 and 5/10 in stage 2, so val cost (`val200` is large) doesn't dominate wall time.
 
@@ -64,7 +64,8 @@ autosapiens_iter/
 │   ├── pelvis_utils.py             # Pelvis utilities
 │   └── train.py                    # Training wrapper (reads STAGE env var)
 ├── train100.txt       # Stage-1 training sequences (100)
-├── train400.txt       # Stage-2 training sequences (400)
+├── train400.txt       # Stage-2 training sequences (400, disjoint from train100 and val200_stage2)
+├── val200_stage2.txt  # Stage-2 validation sequences (200, disjoint from train400)
 ├── val200.txt         # Validation sequences (200, used in both stages)
 ├── infra/             # Shared stable code (never modified)
 │   ├── constants.py   # Paths, joint indices, invariants

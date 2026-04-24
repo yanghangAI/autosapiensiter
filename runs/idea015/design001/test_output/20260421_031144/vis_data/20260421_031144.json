@@ -1,1 +1,0 @@
-{"base_lr": 4.8501395348837207e-05, "lr": 4.8501395348837205e-06, "data_time": 0.01782231330871582, "loss": 2.847102982997894, "loss/joints/train": 0.20100462377071382, "loss/depth/train": 2.498407006263733, "loss/uv/train": 0.1476913433521986, "time": 0.3770423889160156, "grad_norm": Infinity, "epoch": 1, "iter": 50, "memory": 8622, "step": 50}
