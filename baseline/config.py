@@ -176,7 +176,12 @@ train_pipeline = [
 ]
 
 val_pipeline = [
-    dict(type='LoadBedlamLabels', depth_required=True, filter_invalid=False),
+    # Stage-2 val includes train100 sequences, some of which have invalid bbox
+    # frames that break CropPersonRGBD (empty slice → cv2.resize assertion).
+    # Drop them in stage 2; keep stage-1 behaviour (no filtering) for metric
+    # comparability with earlier stage-1 runs.
+    dict(type='LoadBedlamLabels', depth_required=True,
+         filter_invalid=(_stage != 1)),
     dict(type='CropPersonRGBD', out_h=img_h, out_w=img_w),
     dict(type='SubtractRootJoint'),
     dict(type='PackBedlamInputs',

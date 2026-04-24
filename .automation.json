@@ -15,7 +15,8 @@
       "output_prev_",
       "output_timeout_",
       "stage2_train400",
-      "stage2_train300"
+      "stage2_train300",
+      "stage2_bad_valfilter"
     ]
   },
   "status": {

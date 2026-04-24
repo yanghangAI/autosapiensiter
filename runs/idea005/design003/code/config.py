@@ -178,7 +178,7 @@ train_pipeline = [
 ]
 
 val_pipeline = [
-    dict(type='LoadBedlamLabels', depth_required=True, filter_invalid=False),
+    dict(type='LoadBedlamLabels', depth_required=True, filter_invalid=(_stage != 1)),
     dict(type='CropPersonRGBD', out_h=img_h, out_w=img_w),
     dict(type='SubtractRootJoint'),
     dict(type='PackBedlamInputs',
