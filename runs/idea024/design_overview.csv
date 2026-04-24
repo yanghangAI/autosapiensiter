@@ -1,4 +1,4 @@
 Design_ID,Design_Description,Status,created_at,updated_at
-design001,"EMA per-joint difficulty weighting (alpha=0.5, linear normalisation) — mild focusing that redistributes body-joint gradient toward harder joints while preserving total gradient scale.",Done,2026-04-24T00:58:13,2026-04-24T00:58:13
-design002,"EMA per-joint difficulty weighting (alpha=1.0, softmax temperature normalisation T=1.0) — full-proportional focusing with stable softmax normalisation, the primary bet.",Done,2026-04-24T00:58:13,2026-04-24T00:58:13
-design003,"EMA per-joint difficulty weighting (alpha=1.0, linear, group-normalised upper/lower body + 5-epoch warmup ramp) — most controlled variant preventing any body region from dominating the gradient budget.",Done,2026-04-24T00:58:13,2026-04-24T00:58:13
+design001,"EMA per-joint difficulty weighting (alpha=0.5, linear normalisation) — mild focusing that redistributes body-joint gradient toward harder joints while preserving total gradient scale.",Done,2026-04-24T03:00:02,2026-04-24T03:00:02
+design002,"EMA per-joint difficulty weighting (alpha=1.0, softmax temperature normalisation T=1.0) — full-proportional focusing with stable softmax normalisation, the primary bet.",Done,2026-04-24T03:00:02,2026-04-24T03:00:02
+design003,"EMA per-joint difficulty weighting (alpha=1.0, linear, group-normalised upper/lower body + 5-epoch warmup ramp) — most controlled variant preventing any body region from dominating the gradient budget.",Done,2026-04-24T03:00:02,2026-04-24T03:00:02
