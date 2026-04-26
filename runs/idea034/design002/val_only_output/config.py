@@ -346,7 +346,7 @@ env_cfg = dict(
 img_h = 640
 img_w = 384
 launcher = 'none'
-load_from = '/work/pi_nwycoff_umass_edu/hang/autosapiens_iter/runs/idea034/design001/output/stage1/epoch_20.pth'
+load_from = '/work/pi_nwycoff_umass_edu/hang/autosapiens_iter/runs/idea034/design002/output/stage1/epoch_20.pth'
 log_level = 'INFO'
 log_processor = dict(
     by_epoch=True, num_digits=6, type='LogProcessor', window_size=50)
@@ -376,8 +376,13 @@ model = dict(
         loss_weight_uv=1.0,
         metric_pe_depth_clamp_max=50.0,
         metric_pe_depth_clamp_min=0.1,
-        metric_pe_mlp_hidden=256,
-        metric_pe_variant='mlp_additive',
+        metric_pe_sigmas=(
+            0.25,
+            1.0,
+            4.0,
+            16.0,
+        ),
+        metric_pe_variant='sinusoidal',
         num_heads=8,
         num_joints=70,
         type='Pose3dTransformerHead',
@@ -398,7 +403,7 @@ optim_wrapper = dict(
         ), lr=0.0001, type='AdamW', weight_decay=0.03),
     paramwise_cfg=dict(custom_keys=dict(backbone=dict(lr_mult=0.1))),
     type='FixedAmpOptimWrapper')
-output_dir = '/work/pi_nwycoff_umass_edu/hang/autosapiens_iter/runs/idea034/design001'
+output_dir = '/work/pi_nwycoff_umass_edu/hang/autosapiens_iter/runs/idea034/design002'
 param_scheduler = [
     dict(
         begin=0,
@@ -1067,4 +1072,4 @@ visualizer = dict(
         dict(type='LocalVisBackend'),
     ])
 warmup_epochs = 3
-work_dir = '/work/pi_nwycoff_umass_edu/hang/autosapiens_iter/runs/idea034/design001/val_only_output'
+work_dir = '/work/pi_nwycoff_umass_edu/hang/autosapiens_iter/runs/idea034/design002/val_only_output'
