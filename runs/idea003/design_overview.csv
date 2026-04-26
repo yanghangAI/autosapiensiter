@@ -1,4 +1,4 @@
 Design_ID,Design_Description,Status,created_at,updated_at
-design001,Single-linear global conditioning on joint queries (minimal additive offset from mean-pooled spatial tokens).,Done,2026-04-26T21:30:06,2026-04-26T21:30:06
-design002,"Two-layer bottleneck MLP global conditioning on joint queries (hidden_dim → 128 → num_joints*hidden_dim, no LayerNorm on offsets).",Done,2026-04-26T21:30:06,2026-04-26T21:30:06
-design003,Two-layer bottleneck MLP global conditioning on joint queries with LayerNorm applied to per-joint offsets before addition.,Done,2026-04-26T21:30:06,2026-04-26T21:30:06
+design001,Single-linear global conditioning on joint queries (minimal additive offset from mean-pooled spatial tokens).,Done,2026-04-26T23:30:23,2026-04-26T23:30:23
+design002,"Two-layer bottleneck MLP global conditioning on joint queries (hidden_dim → 128 → num_joints*hidden_dim, no LayerNorm on offsets).",Done,2026-04-26T23:30:23,2026-04-26T23:30:23
+design003,Two-layer bottleneck MLP global conditioning on joint queries with LayerNorm applied to per-joint offsets before addition.,Done,2026-04-26T23:30:23,2026-04-26T23:30:23
