@@ -1,4 +1,4 @@
 Design_ID,Design_Description,Status,created_at,updated_at
-design001,"Scalar depth per spatial token — single `nn.Linear(1, hidden_dim)` projects downsampled depth value at each token location, added to spatial tokens alongside 2D sinusoidal positional encoding.",Done,2026-04-26T13:28:20,2026-04-26T13:28:20
-design002,"Depth sinusoidal encoding per spatial token — 1D sin/cos encoding of scalar depth value concatenated with 2D sinusoidal pos enc, projected back to `hidden_dim` via a small linear.",Done,2026-04-26T13:28:20,2026-04-26T13:28:20
-design003,"Depth+2D MLP positional encoding — learned 2-layer MLP takes normalised (x, y, depth) per token as input, replacing the fixed 2D sinusoidal positional encoding entirely.",Done,2026-04-26T13:28:20,2026-04-26T13:28:20
+design001,"Scalar depth per spatial token — single `nn.Linear(1, hidden_dim)` projects downsampled depth value at each token location, added to spatial tokens alongside 2D sinusoidal positional encoding.",Done,2026-04-26T15:28:41,2026-04-26T15:28:41
+design002,"Depth sinusoidal encoding per spatial token — 1D sin/cos encoding of scalar depth value concatenated with 2D sinusoidal pos enc, projected back to `hidden_dim` via a small linear.",Done,2026-04-26T15:28:41,2026-04-26T15:28:41
+design003,"Depth+2D MLP positional encoding — learned 2-layer MLP takes normalised (x, y, depth) per token as input, replacing the fixed 2D sinusoidal positional encoding entirely.",Done,2026-04-26T15:28:41,2026-04-26T15:28:41
