@@ -1,4 +1,4 @@
 Design_ID,Design_Description,Status,created_at,updated_at
-design001,"Replace standard dense cross-attention (Q×K: 70×960) with per-query deformable sampling (K_s=8 bilinear-interpolated spatial features) via a shared offset MLP; single decoder layer, all 70 joint queries.",Done,2026-04-26T19:29:43,2026-04-26T19:29:43
-design002,"Deformable sparse cross-attention (K_s=8) on 22-query body-only decoder; hand joints (22–69) recovered via `Linear(22*hidden_dim, 48*3)`; auxiliary hand loss weight 0.1.",Done,2026-04-26T19:29:43,2026-04-26T19:29:43
-design003,"Two-layer deformable decoder (K_s=8, 22 body queries); intermediate body joint supervision after layer 1 (weight 0.4); hand recovery via `Linear(22*hidden_dim, 48*3)`; auxiliary hand loss 0.1.",Done,2026-04-26T19:29:43,2026-04-26T19:29:43
+design001,"Replace standard dense cross-attention (Q×K: 70×960) with per-query deformable sampling (K_s=8 bilinear-interpolated spatial features) via a shared offset MLP; single decoder layer, all 70 joint queries.",Done,2026-04-26T21:30:06,2026-04-26T21:30:06
+design002,"Deformable sparse cross-attention (K_s=8) on 22-query body-only decoder; hand joints (22–69) recovered via `Linear(22*hidden_dim, 48*3)`; auxiliary hand loss weight 0.1.",Done,2026-04-26T21:30:06,2026-04-26T21:30:06
+design003,"Two-layer deformable decoder (K_s=8, 22 body queries); intermediate body joint supervision after layer 1 (weight 0.4); hand recovery via `Linear(22*hidden_dim, 48*3)`; auxiliary hand loss 0.1.",Done,2026-04-26T21:30:06,2026-04-26T21:30:06
