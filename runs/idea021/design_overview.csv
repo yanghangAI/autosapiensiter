@@ -1,4 +1,4 @@
 Design_ID,Design_Description,Status,created_at,updated_at
-design001,"Add a learnable `(70, 960)` additive bias to cross-attention logits (zero-initialized), passed via `attn_mask` to `nn.MultiheadAttention`.",Done,2026-04-26T23:30:23,2026-04-26T23:30:23
-design002,"Add a factored additive cross-attention bias `u_i[h] + v_i[w]` (zero-initialized) where row-bias `(70,40)` and col-bias `(70,24)` are separate learnable parameters.",Done,2026-04-26T23:30:23,2026-04-26T23:30:23
-design003,"Same factored cross-attention bias as design002 but row-biases for body joints 0–21 are warm-started with Gaussians centered at anatomical row positions (σ=4, α=1.0); hand joints 22–69 remain zero-initialized.",Done,2026-04-26T23:30:23,2026-04-26T23:30:23
+design001,"Add a learnable `(70, 960)` additive bias to cross-attention logits (zero-initialized), passed via `attn_mask` to `nn.MultiheadAttention`.",Done,2026-04-27T01:30:40,2026-04-27T01:30:40
+design002,"Add a factored additive cross-attention bias `u_i[h] + v_i[w]` (zero-initialized) where row-bias `(70,40)` and col-bias `(70,24)` are separate learnable parameters.",Done,2026-04-27T01:30:40,2026-04-27T01:30:40
+design003,"Same factored cross-attention bias as design002 but row-biases for body joints 0–21 are warm-started with Gaussians centered at anatomical row positions (σ=4, α=1.0); hand joints 22–69 remain zero-initialized.",Done,2026-04-27T01:30:40,2026-04-27T01:30:40
