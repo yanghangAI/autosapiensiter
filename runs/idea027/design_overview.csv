@@ -1,4 +1,4 @@
 Design_ID,Design_Description,Status,created_at,updated_at
-design001,"Add single-layer depthwise-separable spatial context conv (no norm) to spatial tokens before cross-attention, with zero-init residual for baseline-equivalent start.",Done,2026-05-06T16:07:04,2026-05-06T16:07:04
-design002,"Add single-layer depthwise-separable spatial context conv with GroupNorm(32) to spatial tokens before cross-attention, with zero-init residual for baseline-equivalent start.",Done,2026-05-06T16:07:04,2026-05-06T16:07:04
-design003,"Add two-layer stacked depthwise-separable spatial context conv with GroupNorm(32), zero-init on final pointwise only, giving 5×5 effective receptive field over the spatial token grid.",Done,2026-05-06T16:07:04,2026-05-06T16:07:04
+design001,"Add single-layer depthwise-separable spatial context conv (no norm) to spatial tokens before cross-attention, with zero-init residual for baseline-equivalent start.",Done,2026-05-06T16:44:16,2026-05-06T16:44:16
+design002,"Add single-layer depthwise-separable spatial context conv with GroupNorm(32) to spatial tokens before cross-attention, with zero-init residual for baseline-equivalent start.",Done,2026-05-06T16:44:16,2026-05-06T16:44:16
+design003,"Add two-layer stacked depthwise-separable spatial context conv with GroupNorm(32), zero-init on final pointwise only, giving 5×5 effective receptive field over the spatial token grid.",Done,2026-05-06T16:44:16,2026-05-06T16:44:16

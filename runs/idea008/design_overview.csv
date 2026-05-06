@@ -1,4 +1,4 @@
 Design_ID,Design_Description,Status,created_at,updated_at
-design001,"Replace 70-query decoder with 22-query body-only decoder; zero-pad output to (B, 70, 3) with no-gradient padding.",Done,2026-05-06T16:07:04,2026-05-06T16:07:04
-design002,"22-query body decoder; recover hand predictions (B,48,3) via `Linear(22*hidden_dim, 48*3)`; auxiliary hand loss weight 0.1.",Done,2026-05-06T16:07:04,2026-05-06T16:07:04
-design003,"22-query body decoder; recover hand predictions via 2-layer MLP `Linear(22*hidden_dim, hidden_dim) → GELU → Linear(hidden_dim, 48*3)`; auxiliary hand loss weight 0.3.",Done,2026-05-06T16:07:04,2026-05-06T16:07:04
+design001,"Replace 70-query decoder with 22-query body-only decoder; zero-pad output to (B, 70, 3) with no-gradient padding.",Done,2026-05-06T16:44:16,2026-05-06T16:44:16
+design002,"22-query body decoder; recover hand predictions (B,48,3) via `Linear(22*hidden_dim, 48*3)`; auxiliary hand loss weight 0.1.",Done,2026-05-06T16:44:16,2026-05-06T16:44:16
+design003,"22-query body decoder; recover hand predictions via 2-layer MLP `Linear(22*hidden_dim, hidden_dim) → GELU → Linear(hidden_dim, 48*3)`; auxiliary hand loss weight 0.3.",Done,2026-05-06T16:44:16,2026-05-06T16:44:16
